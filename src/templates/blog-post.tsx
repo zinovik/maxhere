@@ -1,15 +1,43 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+import Img from 'gatsby-image';
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Bio from '../components/bio';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import TagsList from '../components/tags-list';
+import { rhythm, scale } from '../utils/typography';
+import { BlogPostTemplateQuery } from '../../gatsby-graphql';
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
+type Context = {
+  frontmatter: {
+    title: string;
+  };
+  fields: {
+    slug: string;
+  };
+};
+
+interface BlogPostTemplateProps {
+  data: BlogPostTemplateQuery;
+  pageContext: {
+    previous: Context;
+    next: Context;
+  };
+  location: {
+    pathname: string;
+  };
+}
+
+const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
+  data,
+  pageContext,
+  location,
+}) => {
+  const post = data.mdx;
+  const siteTitle = data.site.siteMetadata.title;
+  const { previous, next } = pageContext;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -19,6 +47,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
+          {post.frontmatter.featuredImage && (
+            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+          )}
           <h1
             style={{
               marginTop: rhythm(1),
@@ -36,14 +67,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.date}
           </p>
+          <TagsList tags={post.frontmatter.tags} />
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
         <footer>
+          <TagsList tags={post?.frontmatter?.tags || []} />
           <Bio />
         </footer>
       </article>
@@ -75,27 +108,35 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostTemplate($slug: String!) {
     site {
       siteMetadata {
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      body
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
-`
+`;
