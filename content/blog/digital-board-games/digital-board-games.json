@@ -23,11 +23,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/brass-birmingham" },
-    {
-      "text": "📱",
-      "link": "https://play.google.com/store/apps/details?id=com.cublo.brass"
-    },
+    { "text": "✔️", "link": "https://tabletopia.com/games/brass-birmingham" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -102,7 +99,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/scythe" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/scythe" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -146,7 +143,7 @@
     },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/terra-mystica" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/terra-mystica" },
     {
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.digidiced.txmrelease"
@@ -190,6 +187,25 @@
     { "text": "" }
   ],
   [
+    { "text": "18" },
+    { "text": "2007" },
+    {
+      "text": "Brass: Lancashire",
+      "link": "https://boardgamegeek.com/boardgame/28720/brass-lancashire"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://play.google.com/store/apps/details?id=com.cublo.brass"
+    },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
     { "text": "19" },
     { "text": "2016" },
     {
@@ -216,7 +232,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/wingspan" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/wingspan" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -233,7 +249,7 @@
     { "text": "❌" },
     { "text": "❌" },
     {
-      "text": "🗸",
+      "text": "✔️",
       "link": "https://tabletopia.com/games/viticulture-essential-edition"
     },
     { "text": "❌" },
@@ -308,7 +324,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/everdell" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/everdell" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -327,7 +343,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/clans-of-caledonia" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/clans-of-caledonia" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -378,7 +394,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/anachrony" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/anachrony" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -444,7 +460,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/keyflower" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/keyflower" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -486,7 +502,7 @@
     { "text": "❌" },
     { "text": "❌" },
     {
-      "text": "🗸",
+      "text": "✔️",
       "link": "https://tabletopia.com/games/teotihuacan-city-of-gods"
     },
     { "text": "❌" },
@@ -619,7 +635,7 @@
     { "text": "❌" },
     { "text": "❌" },
     {
-      "text": "🗸",
+      "text": "✔️",
       "link": "https://tabletopia.com/games/raiders-of-the-north-sea"
     },
     {
@@ -801,7 +817,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/santorini" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/santorini" },
     {
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.Roxley.SantoriniGame"
@@ -839,7 +855,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "🗸", "link": "https://tabletopia.com/games/barrage_ks" },
+    { "text": "✔️", "link": "https://tabletopia.com/games/barrage_ks" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
