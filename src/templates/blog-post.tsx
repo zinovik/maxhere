@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Img from 'gatsby-image';
+import { DiscussionEmbed } from 'disqus-react';
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
@@ -35,9 +36,17 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   pageContext,
   location,
 }) => {
+  const siteTitle = data?.site?.siteMetadata?.title ?? '';
   const post = data.mdx;
-  const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
+
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME || 'maxhere',
+    config: {
+      identifier: post.frontmatter.slug,
+      title: post.frontmatter.title,
+    },
+  };
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -77,6 +86,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
         />
         <footer>
           <TagsList tags={post?.frontmatter?.tags || []} />
+          <DiscussionEmbed {...disqusConfig} />
           <Bio />
         </footer>
       </article>

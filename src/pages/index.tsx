@@ -10,11 +10,7 @@ import { rhythm } from '../utils/typography';
 import { BlogIndexQuery } from '../../gatsby-graphql';
 
 const PostImg = styled(Img)`
-  margin: 20px 0px;
-`;
-
-const PostLink = styled(Link)`
-  box-shadow: none;
+  margin: 10px 0px;
 `;
 
 interface BlogIndexProps {
@@ -25,7 +21,7 @@ interface BlogIndexProps {
 }
 
 const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title;
+  const siteTitle = data?.site?.siteMetadata?.title ?? '';
   const posts = data.allMdx.edges;
 
   return (
@@ -43,7 +39,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <PostLink to={node.fields.slug}>
+                <Link to={node.fields.slug}>
                   {node.frontmatter.featuredImage && (
                     <PostImg
                       fluid={
@@ -52,7 +48,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                     />
                   )}
                   {title}
-                </PostLink>
+                </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
             </header>

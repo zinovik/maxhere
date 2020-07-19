@@ -1,3 +1,5 @@
+declare const __PATH_PREFIX__: string;
+
 import React from 'react';
 import { Link } from 'gatsby';
 
@@ -68,9 +70,9 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Built with 💚 and
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
   );

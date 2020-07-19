@@ -1,18 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
-type TableProps = {
+interface TableProps {
   rows: {
     text: string;
     link?: string;
   }[][];
-};
+}
 
 const Td = styled.td`
-  padding: 0;
+  padding: 3px;
 `;
 
-const Table = ({ rows }: TableProps) => {
+const Table: React.FC<TableProps> = ({ rows }) => {
   return (
     <table>
       {rows.map(cells => (
