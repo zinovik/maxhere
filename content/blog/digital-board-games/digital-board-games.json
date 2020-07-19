@@ -9,6 +9,8 @@
     { "text": "M", "link": "https://mattle.online" },
     { "text": "T", "link": "https://tabletopia.com" },
     { "text": "A", "link": "https://play.google.com/store/apps" },
+    { "text": "i", "link": "https://play.google.com/store/apps" },
+    { "text": "S", "link": "https://play.google.com/store/apps" },
     { "text": "..." },
     { "text": "" }
   ],
@@ -24,6 +26,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "✔️", "link": "https://tabletopia.com/games/brass-birmingham" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -43,6 +47,14 @@
     {
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.asmodeedigital.terraformingmars"
+    },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/terraforming-mars/id1353471030"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/800270/Terraforming_Mars"
     },
     { "text": "❌" },
     { "text": "" }
@@ -66,6 +78,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.czechgames.tta"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/through-the-ages/id966245474"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/758370/Through_the_Ages"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -85,6 +105,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.playdekgames.twilightstruggle"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/twilight-struggle/id942766453"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/406290/Twilight_Struggle"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -101,6 +129,11 @@
     { "text": "❌" },
     { "text": "✔️", "link": "https://tabletopia.com/games/scythe" },
     { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/718560/Scythe_Digital_Edition"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -122,6 +155,14 @@
     {
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.digidiced.bvbrelease"
+    },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/the-castles-of-burgundy/id1410742242"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/903040/The_Castles_of_Burgundy"
     },
     { "text": "❌" },
     { "text": "" }
@@ -148,6 +189,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.digidiced.txmrelease"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/terra-mystica/id1162168455"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/628900/Terra_Mystica"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -167,6 +216,11 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.rprod.duel"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/7-wonders-duel/id1441651711"
+    },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -180,6 +234,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "✅", "link": "http://boiteajeux.net" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -202,6 +258,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.cublo.brass"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/brass/id933026434"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/677650/Brass"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -212,6 +276,8 @@
       "text": "Arkham Horror: The Card Game",
       "link": "https://boardgamegeek.com/boardgame/205637/arkham-horror-card-game"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -235,6 +301,8 @@
     { "text": "✔️", "link": "https://tabletopia.com/games/wingspan" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -254,6 +322,11 @@
     },
     { "text": "❌" },
     { "text": "❌" },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/1325800/Viticulture_Essential_Edition"
+    },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -271,6 +344,11 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/puerto-rico-hd/id438437326"
+    },
     { "text": "❌" },
     {
       "text": "✅",
@@ -292,6 +370,29 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
+    { "text": "32" },
+    { "text": "2015" },
+    {
+      "text": "Blood Rage",
+      "link": "https://boardgamegeek.com/boardgame/170216/blood-rage"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/1015930/Blood_Rage_Digital_Edition"
+    },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -305,6 +406,8 @@
       "text": "✅",
       "link": "https://boardgamearena.com/gamepanel?game=tzolkin"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -327,6 +430,8 @@
     { "text": "✔️", "link": "https://tabletopia.com/games/everdell" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -346,6 +451,8 @@
     { "text": "✔️", "link": "https://tabletopia.com/games/clans-of-caledonia" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -359,6 +466,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "✅", "link": "https://azee.mattle.online" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -381,6 +490,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -395,6 +506,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "✔️", "link": "https://tabletopia.com/games/anachrony" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -418,6 +531,11 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.rprod.sevenwonders"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/7-wonders/id530090434"
+    },
+    { "text": "❌" },
     {
       "text": "✅",
       "link": "http://brettspielwelt.de/Spiele/7Wonders"
@@ -443,6 +561,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.templegatesgames.RaceAndroid"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/race-for-the-galaxy/id1190675052"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/579940/Race_for_the_Galaxy"
+    },
     { "text": "🖥️", "link": "http://keldon.net/rftg" },
     { "text": "" }
   ],
@@ -463,6 +589,8 @@
     { "text": "✔️", "link": "https://tabletopia.com/games/keyflower" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -476,6 +604,8 @@
       "text": "✅",
       "link": "https://boardgamearena.com/gamepanel?game=caylus"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -507,6 +637,8 @@
     },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -525,6 +657,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.playdekgames.agricola_rev"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/agricola-revised-edition/id1478250785"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/1005580/Agricola_Revised_Edition"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -535,6 +675,8 @@
       "text": "Dominion: Intrigue",
       "link": "https://boardgamegeek.com/boardgame/40834/dominion-intrigue"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -560,6 +702,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.digidiced.pxwrelease"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/patchwork-the-game/id1075851197"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/528250/Patchwork"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -570,6 +720,8 @@
       "text": "Codenames",
       "link": "https://boardgamegeek.com/boardgame/178900/codenames"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -602,6 +754,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -615,6 +769,8 @@
       "text": "✅",
       "link": "https://boardgamearena.com/gamepanel?game=rollforthegalaxy"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -642,6 +798,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.direwolfdigital.raiders"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/raiders-of-the-north-sea/id1439244088"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/965600/Raiders_of_the_North_Sea"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -652,6 +816,8 @@
       "text": "Dominion",
       "link": "https://boardgamegeek.com/boardgame/36218/dominion"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -677,6 +843,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.f2zentertainment.pandemic"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/pandemic-the-board-game/id700793523"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/622440/Pandemic_The_Board_Game"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -692,6 +866,8 @@
       "link": "https://boardgamearena.com/gamepanel?game=stoneage"
     },
     { "text": "✅", "link": "https://yucata.de/en/Invite/StoneAge" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -718,6 +894,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.starrealms.starrealmsapp"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/star-realms/id893447125"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/438140/Star_Realms"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -728,6 +912,8 @@
       "text": "Decrypto",
       "link": "https://boardgamegeek.com/boardgame/225694/decrypto"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -747,6 +933,8 @@
       "text": "A Game of Thrones: The Board Game (Second Edition)",
       "link": "https://boardgamegeek.com/boardgame/103343/game-thrones-board-game-second-edition"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -781,6 +969,11 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
+    },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -800,6 +993,11 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.suburbiagame.suburbia"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/suburbia-city-building-game/id681966300"
+    },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -823,6 +1021,8 @@
       "link": "https://play.google.com/store/apps/details?id=com.Roxley.SantoriniGame"
     },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -832,6 +1032,8 @@
       "text": "Codenames: Duet",
       "link": "https://boardgamegeek.com/boardgame/224037/codenames-duet"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -858,6 +1060,8 @@
     { "text": "✔️", "link": "https://tabletopia.com/games/barrage_ks" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -876,6 +1080,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.direwolfdigital.sagrada"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/sagrada/id1439244077"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/965590/Sagrada"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -891,6 +1103,8 @@
       "link": "https://boardgamearena.com/gamepanel?game=lagranja"
     },
     { "text": "✅", "link": "https://yucata.de/en/Invite/LaGranja" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -914,6 +1128,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.daysofwonder.Splendor.gp"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/splendor-the-board-game/id971215921"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/376680/Splendor"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -932,6 +1154,14 @@
     {
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.daysofwonder.tt.android"
+    },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/ticket-to-ride-train-game/id432504470"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/108200/Ticket_to_Ride"
     },
     { "text": "❌" },
     { "text": "" }
@@ -956,6 +1186,14 @@
       "link": "https://play.google.com/store/apps/details?id=com.asmodeedigital.carcassonne"
     },
     {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/carcassonne-tiles-tactics/id1199912736"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/598810/Carcassonne__Tiles__Tactics"
+    },
+    {
       "text": "✅",
       "link": "https://yourturnmyturn.com/game.php?gametype=carcassonne"
     },
@@ -978,6 +1216,8 @@
       "link": "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease"
     },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -997,6 +1237,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -1006,6 +1248,8 @@
       "text": "Hanamikoji",
       "link": "https://boardgamegeek.com/boardgame/158600/hanamikoji"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -1038,6 +1282,11 @@
       "link": "https://play.google.com/store/apps/details?id=com.jb.hive.android"
     },
     { "text": "❌" },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/251210/Hive"
+    },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -1056,6 +1305,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.daysofwonder.smallworld2"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/small-world-the-board-game/id364165557"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/235620/Small_World"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -1070,6 +1327,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "✅", "link": "https://spicee.mattle.online" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -1094,6 +1353,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.asmodeedigital.takenoko"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/takenoko-the-board-game/id1384376377"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/865160/Takenoko"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -1116,6 +1383,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.nomadgames.loveletterdev"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/love-letter-card-game/id1412772177"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/926520/Love_Letter"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -1136,6 +1411,11 @@
       "link": "https://play.google.com/store/apps/details?id=com.ravensburgerdigital.sanjuan"
     },
     {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/san-juan/id513228980"
+    },
+    { "text": "❌" },
+    {
       "text": "✅",
       "link": "http://brettspielwelt.de/Spiele/SanJuan"
     },
@@ -1152,6 +1432,8 @@
       "text": "✅",
       "link": "https://boardgamearena.com/gamepanel?game=lostcities"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
@@ -1182,6 +1464,14 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.exozet.android.catan"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/catan-classic/id335029050"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/544730/Catan_Universe"
+    },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -1205,6 +1495,8 @@
       "link": "https://play.google.com/store/apps/details?id=com.bananaandco.coup"
     },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -1226,6 +1518,8 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=de.application_systems.SixTakes"
     },
+    { "text": "❌" },
+    { "text": "❌" },
     {
       "text": "✅",
       "link": "http://brettspielwelt.de/Spiele/6nimmt"
@@ -1252,6 +1546,8 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "" }
   ],
   [
@@ -1273,6 +1569,11 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.asmodeedigital.perudoofficial"
     },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/perudo-the-pirate-board-game/id1199019940"
+    },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
   ],
@@ -1292,6 +1593,35 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
+    { "text": "1412" },
+    { "text": "2007" },
+    {
+      "text": "Talisman (Revised 4th Edition)",
+      "link": "https://boardgamegeek.com/boardgame/27627/talisman-revised-4th-edition"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://play.google.com/store/apps/details?id=com.nomadgames.talisman"
+    },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/talisman-digital-edition/id1312840735"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/247000/Talisman_Digital_Edition"
+    },
     { "text": "❌" },
     { "text": "" }
   ]
