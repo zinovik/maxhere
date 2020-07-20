@@ -129,10 +129,34 @@
     { "text": "❌" },
     { "text": "✔️", "link": "https://tabletopia.com/games/scythe" },
     { "text": "❌" },
-    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/gb/app/scythe-digital-edition/id1482645966"
+    },
     {
       "text": "🖥️",
       "link": "https://store.steampowered.com/app/718560/Scythe_Digital_Edition"
+    },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
+    { "text": "13" },
+    { "text": "2017" },
+    {
+      "text": "Spirit Island",
+      "link": "https://boardgamegeek.com/boardgame/162886/spirit-island"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/1236720/Spirit_Island"
     },
     { "text": "❌" },
     { "text": "" }
@@ -149,7 +173,7 @@
       "text": "✅",
       "link": "https://yucata.de/en/Invite/CastlesOfBurgundy"
     },
-    { "text": "❌" },
+    { "text": "✅", "link": "http://boiteajeux.net" },
     { "text": "❌" },
     { "text": "❌" },
     {
@@ -687,6 +711,33 @@
     { "text": "" }
   ],
   [
+    { "text": "76" },
+    { "text": "2016" },
+    {
+      "text": "Aeon's End",
+      "link": "https://boardgamegeek.com/boardgame/191189/aeons-end"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://play.google.com/store/apps/details?id=com.handelabra.AeonsEnd"
+    },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/aeons-end/id1476090287"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/1063580/Aeons_End"
+    },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
     { "text": "78" },
     { "text": "2014" },
     {
@@ -730,9 +781,12 @@
     { "text": "❌" },
     {
       "text": "✅",
-      "link": "https://codenames.cards/"
+      "link": "https://codenames.game"
     },
-    { "text": "" }
+    {
+      "text": "✅",
+      "link": "https://codenames.cards"
+    }
   ],
   [
     { "text": "81" },
@@ -775,6 +829,27 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
+    { "text": "84" },
+    { "text": "1997" },
+    {
+      "text": "Tigris & Euphrates",
+      "link": "https://boardgamegeek.com/boardgame/42/tigris-euphrates"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/reiner-knizia-tigris-euphrates/id471458190"
+    },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -1402,7 +1477,10 @@
       "link": "https://boardgamegeek.com/boardgame/8217/san-juan"
     },
     { "text": "❌" },
-    { "text": "❌" },
+    {
+      "text": "✅",
+      "link": "https://yucata.de/en/Invite/PuertoRicoCard"
+    },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
