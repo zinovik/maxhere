@@ -16,7 +16,7 @@ const TagsList = ({ tags }: TagsListProps) => {
     <p>
       Tags:
       {tags.map(tag => (
-        <Tag>
+        <Tag key={tag}>
           <Link to={`/tag/${kebabCase(tag)}`} rel="next">
             {tag}
           </Link>

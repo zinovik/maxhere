@@ -12,20 +12,35 @@ const Td = styled.td`
   padding: 3px;
 `;
 
-const Table: React.FC<TableProps> = ({ rows }) => {
-  return (
-    <table>
-      {rows.map(cells => (
+const Table: React.FC<TableProps> = ({ rows }) => (
+  <table>
+    <thead>
+      {rows.length > 0 && (
         <tr>
-          {cells.map(cell => (
-            <Td>
+          {rows[0].map((cell, columnIndex) => (
+            <Td key={`${0}-${columnIndex}`}>
               {cell.link ? <a href={cell.link}>{cell.text}</a> : cell.text}
             </Td>
           ))}
         </tr>
-      ))}
-    </table>
-  );
-};
+      )}
+    </thead>
+
+    <tbody>
+      {rows.map(
+        (cells, rowIndex) =>
+          rowIndex > 0 && (
+            <tr key={rowIndex}>
+              {cells.map((cell, columnIndex) => (
+                <Td key={`${rowIndex}-${columnIndex}`}>
+                  {cell.link ? <a href={cell.link}>{cell.text}</a> : cell.text}
+                </Td>
+              ))}
+            </tr>
+          ),
+      )}
+    </tbody>
+  </table>
+);
 
 export default Table;
