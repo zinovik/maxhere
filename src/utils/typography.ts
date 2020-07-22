@@ -1,6 +1,8 @@
 import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
+const emojiFontName = 'Noto Color Emoji';
+
 Wordpress2016.overrideThemeStyles = () => {
   return {
     'a.gatsby-resp-image-link': {
@@ -10,8 +12,14 @@ Wordpress2016.overrideThemeStyles = () => {
       color: 'DarkCyan',
       'box-shadow': 'none',
     },
+    h1: {
+      fontFamily: ['Montserrat', 'sans-serif', emojiFontName].join(','),
+    },
   };
 };
+
+Wordpress2016.headerFontFamily.push(emojiFontName);
+Wordpress2016.bodyFontFamily.push(emojiFontName);
 
 delete Wordpress2016.googleFonts;
 

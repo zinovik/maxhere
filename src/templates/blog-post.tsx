@@ -62,7 +62,6 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           <h1
             style={{
               marginTop: rhythm(1),
-              marginBottom: 0,
             }}
           >
             {post.frontmatter.title}

@@ -137,7 +137,7 @@
     { "text": "❌" },
     { "text": "✔️", "link": "https://tabletopia.com/games/scythe" },
     {
-      "text": "🖩",
+      "text": "💻",
       "link": "https://store.steampowered.com/app/446980/Tabletop_Simulator__Scythe"
     },
     { "text": "❌" },
@@ -343,7 +343,7 @@
     { "text": "❌" },
     { "text": "✔️", "link": "https://tabletopia.com/games/wingspan" },
     {
-      "text": "🖩",
+      "text": "💻",
       "link": "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan"
     },
     { "text": "❌" },
@@ -437,7 +437,7 @@
     { "text": "❌" },
     { "text": "❌" },
     {
-      "text": "🖩",
+      "text": "💻",
       "link": "https://store.steampowered.com/app/610700/Tabletop_Simulator__Blood_Rage"
     },
     { "text": "❌" },
@@ -1353,7 +1353,7 @@
     { "text": "❌" },
     { "text": "❌" },
     {
-      "text": "🖩",
+      "text": "💻",
       "link": "https://store.steampowered.com/app/468733/Tabletop_Simulator__Viticulture"
     },
     {
@@ -1706,6 +1706,28 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.bananaandco.coup"
     },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
+    { "text": "494" },
+    { "text": "2012" },
+    {
+      "text": "Las Vegas",
+      "link": "https://boardgamegeek.com/boardgame/117959/las-vegas"
+    },
+    { "text": "❌" },
+    {
+      "text": "✅",
+      "link": "https://yucata.de/en/Invite/LasVegas"
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
