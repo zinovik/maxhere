@@ -15,8 +15,9 @@ const gameYearsXPath = `//div[starts-with(@id,'results_objectname')]//span`;
 const gameLinksXPath = `//div[starts-with(@id,'results_objectname')]//a/@href`;
 
 const getPage = async pageNumber => {
+  console.log(`Getting games from ${URL}${pageNumber}...`);
   const { statusCode, body } = await rp(`${URL}${pageNumber}`);
-  console.log(`${pageNumber}: ${statusCode}`);
+  console.log(`Page ${pageNumber} status code: ${statusCode}`);
 
   return body;
 };
@@ -38,9 +39,8 @@ const parsePage = page => {
   const years = select(gameYearsXPath, dom).map(selectedValue =>
     selectedValue.textContent.trim().replace('(', '').replace(')', ''),
   );
-  const links = select(gameLinksXPath, dom).map(
-    selectedValue =>
-      `https://boardgamegeek.com${selectedValue.textContent.trim()}`,
+  const links = select(gameLinksXPath, dom).map(selectedValue =>
+    selectedValue.textContent.trim(),
   );
 
   return ranks.map((rank, i) => ({
@@ -63,12 +63,20 @@ const getGames = async () => {
     new Array(PAGES).fill().map((_, i) => getPageGames(i + 1)),
   );
 
-  const allGames = gamesByPages.reduce(
+  const games = gamesByPages.reduce(
     (acc, pageGames) => [...acc, ...pageGames],
     [],
   );
 
-  await writeFileAsync('content/games.json', JSON.stringify(allGames));
+  await writeFileAsync(
+    'content/bgg.json',
+    JSON.stringify({
+      date: new Date(),
+      games,
+    }),
+  );
+
+  console.log('Games info updated!');
 };
 
 getGames();

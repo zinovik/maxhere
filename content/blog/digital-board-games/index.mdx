@@ -24,11 +24,12 @@ This is the page where I've tried to create a table with all the places where yo
 And if you don't have anybody to play with, check these Discord servers: [boardgames (discord.gg/U3UDQtu)](https://discord.gg/U3UDQtu) and [Tabletopia (discord.gg/meavpsC)](https://discord.gg/meavpsC).
 
 import boardGamesOnlineData from './digital-board-games.json';
-import Table from '../../../src/components/table';
+import GamesTable from '../../../src/components/games-table';
+import Game from '../../../src/components/game';
 
-<Table rows={boardGamesOnlineData} />
+<GamesTable rows={boardGamesOnlineData} />
 
-\* Rank to the page publish date (I will try to update it).
+Games' ranks update: <Game isDateOnly />
 
 - ✅ - web version
 - ✔️ - web version without automatization
@@ -103,8 +104,6 @@ import Table from '../../../src/components/table';
   - Usually not free
 
 --
-
-import Game from '../../../src/components/game';
 
 Also, I worked on my own game server. It was not a business project - I tried to learn new technologies this way.
 Maybe one day I will write an article about it, but now you can check it here: [z-games.netlify.app](https://z-games.netlify.app)

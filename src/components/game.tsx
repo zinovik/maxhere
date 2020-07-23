@@ -1,16 +1,26 @@
 import React from 'react';
-import games from '../../content/games.json';
-
-console.log(games);
+import bgg from '../../content/bgg.json';
 
 type GameProps = {
-  gameName: string;
+  isDateOnly?: boolean;
+  gameName?: string;
   isRankOnly?: boolean;
   isYearOnly?: boolean;
+  isGameLinkOnly?: boolean;
 };
 
-const Game: React.FC<GameProps> = ({ gameName, isRankOnly, isYearOnly }) => {
-  const game = games.find(({ name }) => name === gameName);
+const Game: React.FC<GameProps> = ({
+  isDateOnly,
+  gameName,
+  isRankOnly,
+  isYearOnly,
+  isGameLinkOnly,
+}) => {
+  if (isDateOnly) {
+    return <>{new Date(bgg.date).toLocaleDateString()}</>;
+  }
+
+  const game = bgg.games.find(({ name }) => name === gameName);
 
   if (!game) {
     return null;
@@ -24,8 +34,12 @@ const Game: React.FC<GameProps> = ({ gameName, isRankOnly, isYearOnly }) => {
     return <>{game.year}</>;
   }
 
+  if (isGameLinkOnly) {
+    return <a href={`https://boardgamegeek.com${game.link}`}>{game.name}</a>;
+  }
+
   return (
-    <a href={game.link}>
+    <a href={`https://boardgamegeek.com${game.link}`}>
       {game.rank}. {game.name} ({game.year})
     </a>
   );
