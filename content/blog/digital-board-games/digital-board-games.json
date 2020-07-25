@@ -62,7 +62,10 @@
       "text": "🖥️",
       "link": "https://store.steampowered.com/app/800270/Terraforming_Mars"
     },
-    { "text": "❌" },
+    {
+      "text": "✅",
+      "link": "https://terraforming-mars.herokuapp.com"
+    },
     { "text": "" }
   ],
   [
@@ -236,7 +239,10 @@
       "text": "🖥️",
       "link": "https://store.steampowered.com/app/628900/Terra_Mystica"
     },
-    { "text": "❌" },
+    {
+      "text": "✅",
+      "link": "https://terra.snellman.net"
+    },
     { "text": "" }
   ],
   [
@@ -421,7 +427,7 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "❌" },
+    { "text": "✅", "link": "http://play-agricola.com" },
     { "text": "" }
   ],
   [
@@ -1372,6 +1378,28 @@
     { "text": "" }
   ],
   [
+    { "isRank": true, "game": "Secret Hitler" },
+    { "isYear": true, "game": "Secret Hitler" },
+    {
+      "game": "Secret Hitler",
+      "isGameLink": true
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "✅",
+      "link": "https://secrethitler.io"
+    },
+    { "text": "" }
+  ],
+  [
     { "isRank": true, "game": "Seasons" },
     { "isYear": true, "game": "Seasons" },
     {
@@ -1689,7 +1717,7 @@
       "text": "🖥️",
       "link": "https://store.steampowered.com/app/544730/Catan_Universe"
     },
-    { "text": "❌" },
+    { "text": "✅", "link": "https://colonist.io" },
     { "text": "" }
   ],
   [
