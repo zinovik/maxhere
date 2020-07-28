@@ -7,7 +7,7 @@ const fs = require('fs');
 const rp = promisify(request);
 const writeFileAsync = promisify(fs.writeFile);
 
-const PAGES = 16;
+const PAGES = 17;
 const URL = 'https://boardgamegeek.com/browse/boardgame/page/';
 const gameRanksXPath = `//td[@class='collection_rank']`;
 const gameNamesXPath = `//div[starts-with(@id,'results_objectname')]//a`;

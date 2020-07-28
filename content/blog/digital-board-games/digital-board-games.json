@@ -13,8 +13,8 @@
       "link": "https://store.steampowered.com/app/286160/Tabletop_Simulator"
     },
     { "text": "A", "link": "https://play.google.com/store/apps" },
-    { "text": "i", "link": "https://play.google.com/store/apps" },
-    { "text": "S", "link": "https://play.google.com/store/apps" },
+    { "text": "i", "link": "https://www.apple.com/ios/app-store" },
+    { "text": "S", "link": "https://store.steampowered.com" },
     { "text": "..." },
     { "text": "" }
   ],
@@ -1372,7 +1372,10 @@
       "text": "📱",
       "link": "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease"
     },
-    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/viticulture/id1467248737"
+    },
     { "text": "❌" },
     { "text": "❌" },
     { "text": "" }
@@ -1653,7 +1656,10 @@
     { "text": "❌" },
     { "text": "❌" },
     { "text": "❌" },
-    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/lost-cities/id465062454"
+    },
     { "text": "❌" },
     {
       "text": "✅",
@@ -1978,6 +1984,31 @@
     {
       "text": "🖥️",
       "link": "https://store.steampowered.com/app/705020/Bottom_of_the_9th"
+    },
+    { "text": "❌" },
+    { "text": "" }
+  ],
+  [
+    { "isRank": true, "game": "Gloom" },
+    { "isYear": true, "game": "Gloom" },
+    {
+      "game": "Gloom",
+      "isGameLink": true
+    },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    { "text": "❌" },
+    {
+      "text": "📱",
+      "link": "https://apps.apple.com/us/app/gloom-digital-edition/id1504014719"
+    },
+    {
+      "text": "🖥️",
+      "link": "https://store.steampowered.com/app/766040/Gloom_Digital_Edition"
     },
     { "text": "❌" },
     { "text": "" }

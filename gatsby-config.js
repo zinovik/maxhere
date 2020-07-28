@@ -7,7 +7,7 @@ module.exports = {
       name: `Max`,
       summary: `.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+  description: `A personal blog about 🗺️ travel, 🎲 board games, 👨‍💻 software development, 🎵 extreme music, and other stuff built with Gatsby React.`,
     siteUrl: `https://maxhere.netlify.app/`,
     social: {
       telegram: `zinovik`,
