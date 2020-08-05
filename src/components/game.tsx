@@ -35,11 +35,15 @@ const Game: React.FC<GameProps> = ({
   }
 
   if (isGameLinkOnly) {
-    return <a href={`https://boardgamegeek.com${game.link}`}>{game.name}</a>;
+    return (
+      <a href={`https://boardgamegeek.com${game.link}`} target="_blank">
+        {game.name}
+      </a>
+    );
   }
 
   return (
-    <a href={`https://boardgamegeek.com${game.link}`}>
+    <a href={`https://boardgamegeek.com${game.link}`} target="_blank">
       {game.rank}. {game.name} ({game.year})
     </a>
   );

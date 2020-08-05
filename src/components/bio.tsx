@@ -54,7 +54,9 @@ const Bio = () => {
       <p>
         Written by{' '}
         <strong>
-          <a href={`https://t.me/${social.telegram}`}>{author.name}</a>
+          <a href={`https://t.me/${social.telegram}`} target="_blank">
+            {author.name}
+          </a>
         </strong>
         {author.summary}
       </p>

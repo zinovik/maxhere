@@ -57,7 +57,11 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
       <article>
         <header>
           {post.frontmatter.featuredImage && (
-            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+            <Img
+              fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+              style={{ maxHeight: '500px' }}
+              imgStyle={{ objectFit: 'contain' }}
+            />
           )}
           <h1
             style={{
@@ -85,8 +89,8 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
         />
         <footer>
           <TagsList tags={post?.frontmatter?.tags || []} />
-          <DiscussionEmbed {...disqusConfig} />
           <Bio />
+          <DiscussionEmbed {...disqusConfig} />
         </footer>
       </article>
 

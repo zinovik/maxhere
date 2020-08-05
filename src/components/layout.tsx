@@ -72,7 +72,9 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, Built with 💚 and
         {` `}
-        <a href="https://gatsbyjs.org">Gatsby</a>
+        <a href="https://gatsbyjs.org" target="_blank">
+          Gatsby
+        </a>
       </footer>
     </div>
   );

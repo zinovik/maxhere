@@ -6,8 +6,15 @@ import Img from 'gatsby-image';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { rhythm } from '../utils/typography';
 import { BlogIndexQuery } from '../../gatsby-graphql';
+
+const H3 = styled.h3`
+  margin: 10px;
+`;
+
+const Article = styled.article`
+  margin-bottom: 40px;
+`;
 
 const PostImg = styled(Img)`
   margin: 10px 0px;
@@ -32,24 +39,22 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
         const title = node.frontmatter.title || node.fields.slug;
 
         return (
-          <article key={node.fields.slug}>
+          <Article key={node.fields.slug}>
             <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
+              <H3>
                 <Link to={node.fields.slug}>
                   {node.frontmatter.featuredImage && (
                     <PostImg
                       fluid={
                         node.frontmatter.featuredImage.childImageSharp.fluid
                       }
+                      style={{ maxHeight: '500px' }}
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                   )}
                   {title}
                 </Link>
-              </h3>
+              </H3>
               <small>{node.frontmatter.date}</small>
             </header>
             <section>
@@ -59,7 +64,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                 }}
               />
             </section>
-          </article>
+          </Article>
         );
       })}
     </Layout>

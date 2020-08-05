@@ -19,7 +19,13 @@ const Table: React.FC<TableProps> = ({ rows }) => (
         <tr>
           {rows[0].map((cell, columnIndex) => (
             <Td key={`${0}-${columnIndex}`}>
-              {cell.link ? <a href={cell.link}>{cell.text}</a> : cell.text}
+              {cell.link ? (
+                <a href={cell.link} target="_blank">
+                  {cell.text}
+                </a>
+              ) : (
+                cell.text
+              )}
             </Td>
           ))}
         </tr>
@@ -33,7 +39,13 @@ const Table: React.FC<TableProps> = ({ rows }) => (
             <tr key={rowIndex}>
               {cells.map((cell, columnIndex) => (
                 <Td key={`${rowIndex}-${columnIndex}`}>
-                  {cell.link ? <a href={cell.link}>{cell.text}</a> : cell.text}
+                  {cell.link ? (
+                    <a href={cell.link} target="_blank">
+                      {cell.text}
+                    </a>
+                  ) : (
+                    cell.text
+                  )}
                 </Td>
               ))}
             </tr>
