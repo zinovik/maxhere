@@ -4,16 +4,24 @@ import bgg from '../../content/bgg.json';
 type GameProps = {
   isDateOnly?: boolean;
   gameName?: string;
-  isRankOnly?: boolean;
-  isYearOnly?: boolean;
   isGameLinkOnly?: boolean;
+};
+
+export const getGameRank = gameName => {
+  const game = bgg.games.find(({ name }) => name === gameName);
+
+  return game && game.rank;
+};
+
+export const getGameYear = gameName => {
+  const game = bgg.games.find(({ name }) => name === gameName);
+
+  return game && game.year;
 };
 
 const Game: React.FC<GameProps> = ({
   isDateOnly,
   gameName,
-  isRankOnly,
-  isYearOnly,
   isGameLinkOnly,
 }) => {
   if (isDateOnly) {
@@ -24,14 +32,6 @@ const Game: React.FC<GameProps> = ({
 
   if (!game) {
     return null;
-  }
-
-  if (isRankOnly) {
-    return <>{game.rank}</>;
-  }
-
-  if (isYearOnly) {
-    return <>{game.year}</>;
   }
 
   if (isGameLinkOnly) {
