@@ -16,6 +16,7 @@
     "http://brettspielwelt.de/Spiele/7Wonders"
   ],
   "A Game of Thrones: The Board Game (Second Edition)": [
+    "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition",
     "https://thronemaster.net",
     {
       "url": "http://www.lantsev1981.pro",
@@ -307,6 +308,7 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease",
     "https://apps.apple.com/us/app/viticulture/id1467248737"
   ],
+  "War Chest": ["https://warchestonline.com"],
   "Wingspan": [
     "https://tabletopia.com/games/wingspan",
     "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan"
@@ -315,5 +317,6 @@
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.yellow",
     "https://apps.apple.com/us/app/reiner-knizia-yellow-yangtze/id1439244350",
     "https://store.steampowered.com/app/965610/Reiner_Knizia_Yellow__Yangtze"
-  ]
+  ],
+  "Yokohama": ["https://boardgamearena.com/gamepanel?game=yokohama"]
 }
