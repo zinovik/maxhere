@@ -8,6 +8,7 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import TagsList from '../components/tags-list';
+import BackToTop from '../components/back-to-top';
 import { rhythm, scale } from '../utils/typography';
 import { BlogPostTemplateQuery } from '../../gatsby-graphql';
 
@@ -120,6 +121,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           </li>
         </ul>
       </nav>
+      <BackToTop />
     </Layout>
   );
 };
