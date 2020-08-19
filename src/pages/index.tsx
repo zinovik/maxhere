@@ -6,6 +6,7 @@ import Img from 'gatsby-image';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import BackToTop from '../components/back-to-top';
 import { BlogIndexQuery } from '../../gatsby-graphql';
 
 const H3 = styled.h3`
@@ -67,6 +68,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
           </Article>
         );
       })}
+    <BackToTop />
     </Layout>
   );
 };

@@ -8,9 +8,10 @@ interface SEOProps {
   lang?: any;
   meta?: any;
   title: any;
+  image?: any;
 }
 
-const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
+const SEO: React.FC<SEOProps> = ({ description, lang, meta, title, image }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -54,6 +55,10 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -78,6 +83,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  image: `logo-icon.png`,
 };
 
 SEO.propTypes = {
@@ -85,6 +91,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string,
 };
 
 export default SEO;
