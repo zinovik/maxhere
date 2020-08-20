@@ -2,7 +2,13 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 
-const Tag = ({ pageContext, data, location }) => {
+interface TagProps {
+  pageContext: any;
+  data: any;
+  location: any;
+}
+
+const Tag: React.FC<TagProps> = ({ pageContext, data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
   const { tag } = pageContext;
   const { edges, totalCount } = data.allMdx;
@@ -35,7 +41,7 @@ const Tag = ({ pageContext, data, location }) => {
 export default Tag;
 
 export const pageQuery = graphql`
-  query Tag ($tag: String) {
+  query Tag($tag: String) {
     site {
       siteMetadata {
         title

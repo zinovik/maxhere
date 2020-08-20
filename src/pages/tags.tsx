@@ -13,6 +13,7 @@ interface TagsPageProps {
     pathname: string;
   };
 }
+
 const TagsPage: React.FC<TagsPageProps> = ({
   data,
   data: {

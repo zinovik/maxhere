@@ -3,18 +3,18 @@ import { Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import styled from 'styled-components';
 
-type TagsListProps = {
+interface TagsListProps {
   tags: string[];
-};
+}
 
 const Tag = styled.span`
   padding: 5px;
 `;
 
-const TagsList = ({ tags }: TagsListProps) => {
+const TagsList: React.FC<TagsListProps> = ({ tags }) => {
   return (
     <p>
-      Tags:
+      tags:
       {tags.map(tag => (
         <Tag key={tag}>
           <Link to={`/tag/${kebabCase(tag)}`} rel="next">

@@ -8,6 +8,7 @@ const Button = styled.div`
   cursor: pointer;
   font-size: xxx-large;
   opacity: 0.5;
+  transition: all 1s;
 
   &:hover {
     opacity: 1;
@@ -17,18 +18,23 @@ const Button = styled.div`
 const MIN_HEIGHT = 400;
 
 const BackToTop = () => {
+  const shouldShowButton = (window: { pageYOffset: number }) =>
+    window.pageYOffset > MIN_HEIGHT;
+
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > MIN_HEIGHT) {
+    if (!showScroll && shouldShowButton(window)) {
       setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= MIN_HEIGHT) {
+    } else if (showScroll && !shouldShowButton(window)) {
       setShowScroll(false);
     }
   };
 
   useEffect(() => {
     window.addEventListener('scroll', checkScrollTop);
+
+    checkScrollTop();
 
     return () => {
       window.removeEventListener('scroll', checkScrollTop);

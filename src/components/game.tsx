@@ -5,6 +5,7 @@ type GameProps = {
   isDateOnly?: boolean;
   gameName?: string;
   isGameLinkOnly?: boolean;
+  isText?: boolean;
 };
 
 export const getGameRank = gameName => {
@@ -23,6 +24,7 @@ const Game: React.FC<GameProps> = ({
   isDateOnly,
   gameName,
   isGameLinkOnly,
+  isText,
 }) => {
   if (isDateOnly) {
     return <>{new Date(bgg.date).toLocaleDateString()}</>;
@@ -31,7 +33,7 @@ const Game: React.FC<GameProps> = ({
   const game = bgg.games.find(({ name }) => name === gameName);
 
   if (!game) {
-    return null;
+    return gameName;
   }
 
   if (isGameLinkOnly) {
@@ -42,7 +44,11 @@ const Game: React.FC<GameProps> = ({
     );
   }
 
-  return (
+  return isText ? (
+    <>
+      {game.rank}. {game.name} ({game.year})
+    </>
+  ) : (
     <a href={`https://boardgamegeek.com${game.link}`} target="_blank">
       {game.rank}. {game.name} ({game.year})
     </a>
