@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 const Button = styled.div`
   position: fixed;
-  bottom: 30px;
+  bottom: 40px;
   right: 50px;
   cursor: pointer;
   font-size: xxx-large;
-  opacity: 0.5;
+  opacity: 0.25;
   transition: all 1s;
 
   &:hover {

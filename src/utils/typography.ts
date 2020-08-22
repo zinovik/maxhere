@@ -5,14 +5,11 @@ const emojiFontName = 'Noto Color Emoji';
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
-    'a.gatsby-resp-image-link': {
-      boxShadow: `none`,
-    },
     a: {
       color: 'DarkCyan',
-      'box-shadow': 'none',
+      boxShadow: 'none',
     },
-    h1: {
+    'a,h1,h2,h3,h4,h5,h6,button': {
       fontFamily: ['Montserrat', 'sans-serif', emojiFontName].join(','),
     },
   };
