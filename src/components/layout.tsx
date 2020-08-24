@@ -28,7 +28,6 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
       >
         <Link
           style={{
-            boxShadow: `none`,
             color: `inherit`,
           }}
           to={`/`}
@@ -41,13 +40,11 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
         }}
       >
         <Link
           style={{
-            boxShadow: `none`,
             color: `inherit`,
           }}
           to={`/`}

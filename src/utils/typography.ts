@@ -9,7 +9,7 @@ Wordpress2016.overrideThemeStyles = () => {
       color: 'DarkCyan',
       boxShadow: 'none',
     },
-    'a,h1,h2,h3,h4,h5,h6,button': {
+    'body,a,h1,h2,h3,h4,h5,h6,div,p,span,ul,li': {
       fontFamily: ['Montserrat', 'sans-serif', emojiFontName].join(','),
     },
   };

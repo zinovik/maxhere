@@ -1,4 +1,5 @@
 {
+  "13 Days: The Cuban Missile Crisis": ["https://chantry-games.com"],
   "6 nimmt!": [
     "https://boardgamearena.com/gamepanel?game=sechsnimmt",
     "https://play.google.com/store/apps/details?id=de.application_systems.SixTakes",
@@ -62,6 +63,10 @@
     "https://apps.apple.com/us/app/carcassonne-tiles-tactics/id1199912736",
     "https://store.steampowered.com/app/598810/Carcassonne__Tiles__Tactics",
     "https://yourturnmyturn.com/game.php?gametype=carcassonne"
+  ],
+  "Cartographers: A Roll Player Tale": [
+    "https://play.google.com/store/apps/details?id=de.brettspielwelt.cartographers",
+    "https://apps.apple.com/us/app/cartographers/id1515991485"
   ],
   "Catan": [
     "https://play.google.com/store/apps/details?id=com.exozet.android.catan",
@@ -201,7 +206,8 @@
     "https://yucata.de/en/Invite/Red7"
   ],
   "Roll for the Galaxy": [
-    "https://boardgamearena.com/gamepanel?game=rollforthegalaxy"
+    "https://boardgamearena.com/gamepanel?game=rollforthegalaxy",
+    "https://store.steampowered.com/app/893840/Roll_for_the_Galaxy"
   ],
   "Root": ["https://store.steampowered.com/app/965580/Root"],
   "Russian Railroads": [
@@ -339,8 +345,7 @@
   "Twilight Struggle": [
     "https://play.google.com/store/apps/details?id=com.playdekgames.twilightstruggle",
     "https://apps.apple.com/us/app/twilight-struggle/id942766453",
-    "https://store.steampowered.com/app/406290/Twilight_Struggle",
-    "https://chantry-games.com"
+    "https://store.steampowered.com/app/406290/Twilight_Struggle"
   ],
   "Tzolk'in: The Mayan Calendar": [
     "https://boardgamearena.com/gamepanel?game=tzolkin",
