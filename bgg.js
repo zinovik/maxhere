@@ -10,8 +10,7 @@ const writeFileAsync = promisify(fs.writeFile);
 const PAGES = 20;
 const URL = 'https://boardgamegeek.com/browse/boardgame/page/';
 const gameRanksXPath = `//td[@class='collection_rank']`;
-const gameNamesXPath = `//div[starts-with(@id,'results_objectname')]//a`;
-const gameYearsXPath = `//div[starts-with(@id,'results_objectname')]//span`;
+const gameNamesYearsXPath = `//div[starts-with(@id,'results_objectname')]`;
 const gameLinksXPath = `//div[starts-with(@id,'results_objectname')]//a/@href`;
 
 const getPage = async pageNumber => {
@@ -33,12 +32,31 @@ const parsePage = page => {
   const ranks = select(gameRanksXPath, dom).map(selectedValue =>
     selectedValue.textContent.trim(),
   );
-  const names = select(gameNamesXPath, dom).map(selectedValue =>
+  const namesYears = select(gameNamesYearsXPath, dom).map(selectedValue =>
     selectedValue.textContent.trim(),
   );
-  const years = select(gameYearsXPath, dom).map(selectedValue =>
-    selectedValue.textContent.trim().replace('(', '').replace(')', ''),
-  );
+  const names = [];
+  const years = [];
+  namesYears.forEach(nameYear => {
+    const endOfNameIndex = nameYear.indexOf('\n');
+    const startOfYearIndex = nameYear.indexOf('\t(');
+
+    if (endOfNameIndex === -1 || startOfYearIndex === -1) {
+      names.push(nameYear);
+      years.push('');
+
+      return;
+    }
+
+    const name = nameYear.substring(0, endOfNameIndex);
+    const year = nameYear
+      .substring(startOfYearIndex + 1)
+      .replace('(', '')
+      .replace(')', '');
+
+    names.push(name);
+    years.push(year);
+  });
   const links = select(gameLinksXPath, dom).map(selectedValue =>
     selectedValue.textContent.trim(),
   );
