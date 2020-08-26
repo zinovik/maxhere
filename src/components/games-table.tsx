@@ -19,51 +19,51 @@ const ICONS = {
 
 const SITES_CONFIG = [
   {
-    siteUrl: 'https://boardgamearena.com',
+    siteUrl: '#boardgamearena',
     urlPart: 'boardgamearena.com',
     short: 'A',
   },
   {
-    siteUrl: 'https://yucata.de',
+    siteUrl: '#yucata',
     urlPart: 'yucata.de',
     short: 'Y',
   },
   {
-    siteUrl: 'http://boiteajeux.net',
+    siteUrl: '#boiteajeux',
     urlPart: 'boiteajeux.net',
     short: 'B',
   },
   {
-    siteUrl: 'https://mattle.online',
+    siteUrl: '#mattle',
     urlPart: 'mattle.online',
     short: 'M',
   },
   {
-    siteUrl: 'https://tabletopia.com',
+    siteUrl: '#tabletopia',
     urlPart: 'tabletopia.com',
     short: 'Tt',
     icon: ICONS.YES_WITHOUT_AUTOMATIZATION,
   },
   {
-    siteUrl: 'https://store.steampowered.com/app/286160/Tabletop_Simulator',
+    siteUrl: '#tabletop-simulator',
     urlPart: '/Tabletop_Simulator__',
     short: 'Ts',
     icon: ICONS.YES_DESKTOP_WITHOUT_AUTOMATIZATION,
   },
   {
-    siteUrl: 'https://play.google.com/store/apps',
+    siteUrl: '#android',
     urlPart: 'play.google.com',
     short: 'A',
     icon: ICONS.YES_MOBILE,
   },
   {
-    siteUrl: 'https://www.apple.com/ios/app-store',
+    siteUrl: '#ios',
     urlPart: 'apps.apple.com',
     short: 'i',
     icon: ICONS.YES_MOBILE,
   },
   {
-    siteUrl: 'https://store.steampowered.com',
+    siteUrl: '#steam',
     urlPart: 'store.steampowered.com',
     short: 'S',
     icon: ICONS.YES_DESKTOP,
@@ -73,11 +73,11 @@ const SITES_CONFIG = [
 const GamesTable: React.FC<GamesTableProps> = ({ games }) => {
   const header = [
     { text: 'R*', link: 'https://boardgamegeek.com/browse/boardgame' },
-    { text: 'Year' },
-    { text: 'Game' },
+    { text: 'Game (year)' },
     ...SITES_CONFIG.map(({ short, siteUrl }) => ({
       text: short,
       link: siteUrl,
+      isSamePage: true,
     })),
     { text: '...' },
     { text: '' },
@@ -87,8 +87,9 @@ const GamesTable: React.FC<GamesTableProps> = ({ games }) => {
     .map(gameName => {
       const firstCells = [
         { text: getGameRank(gameName) },
-        { text: getGameYear(gameName) },
-        { text: <Game isGameLinkOnly={true} gameName={gameName} /> },
+        {
+          text: <Game gameName={gameName} isSkipRank />,
+        },
       ];
 
       let gameUrls = [...games[gameName]];

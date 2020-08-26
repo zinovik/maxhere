@@ -4,7 +4,8 @@ import bgg from '../../content/bgg.json';
 type GameProps = {
   isDateOnly?: boolean;
   gameName?: string;
-  isGameLinkOnly?: boolean;
+  isSkipRank?: boolean;
+  isSkipYear?: boolean;
   isText?: boolean;
 };
 
@@ -23,7 +24,8 @@ export const getGameYear = gameName => {
 const Game: React.FC<GameProps> = ({
   isDateOnly,
   gameName,
-  isGameLinkOnly,
+  isSkipRank,
+  isSkipYear,
   isText,
 }) => {
   if (isDateOnly) {
@@ -36,21 +38,15 @@ const Game: React.FC<GameProps> = ({
     return gameName;
   }
 
-  if (isGameLinkOnly) {
-    return (
-      <a href={`https://boardgamegeek.com${game.link}`} target="_blank">
-        {game.name}
-      </a>
-    );
-  }
-
   return isText ? (
     <>
       {game.rank}. {game.name} ({game.year})
     </>
   ) : (
     <a href={`https://boardgamegeek.com${game.link}`} target="_blank">
-      {game.rank}. {game.name} ({game.year})
+      {!isSkipRank && `${game.rank}. `}
+      {game.name}
+      {!isSkipYear && ` (${game.year})`}
     </a>
   );
 };

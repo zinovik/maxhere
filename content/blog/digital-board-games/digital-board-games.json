@@ -16,6 +16,7 @@
     "https://apps.apple.com/us/app/7-wonders/id530090434",
     "http://brettspielwelt.de/Spiele/7Wonders"
   ],
+  "A Feast for Odin": [],
   "A Game of Thrones: The Board Game (Second Edition)": [
     "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition",
     "https://thronemaster.net",
@@ -24,7 +25,6 @@
       "icon": "YES_DESKTOP"
     }
   ],
-  "A Feast for Odin": [],
   "Aeon's End": [
     "https://play.google.com/store/apps/details?id=com.handelabra.AeonsEnd",
     "https://apps.apple.com/us/app/aeons-end/id1476090287",
@@ -38,6 +38,7 @@
   "Agricola": ["http://boiteajeux.net", "http://play-agricola.com"],
   "Alchemists": ["http://boiteajeux.net"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
+  "Antiquity": ["http://play.boardgamecore.net"],
   "Arkham Horror: The Card Game": ["https://playarkham.azurewebsites.net"],
   "Azul": ["https://azee.mattle.online"],
   "Barrage": ["https://tabletopia.com/games/barrage_ks"],
@@ -74,10 +75,12 @@
     "https://store.steampowered.com/app/544730/Catan_Universe",
     "https://colonist.io"
   ],
+  "Caverna: The Cave Farmers": [],
   "Caylus": [
     "https://boardgamearena.com/gamepanel?game=caylus",
     "http://brettspielwelt.de/Spiele/Caylus"
   ],
+  "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Spice Road": ["https://spicee.mattle.online"],
   "Clans of Caledonia": [
     "https://boardgamearena.com/gamepanel?game=clansofcaledonia",
@@ -85,19 +88,26 @@
   ],
   "Codenames": ["https://codenames.game", "https://codenames.cards"],
   "Codenames: Duet": ["https://codenames.cards"],
+  "Colt Express": ["https://boardgamearena.com/gamepanel?game=coltexpress"],
   "Concordia": ["http://boiteajeux.net"],
   "Coup": [
     "https://boardgamearena.com/gamepanel?game=coupcitystate",
     "https://play.google.com/store/apps/details?id=com.bananaandco.coup"
   ],
   "Decrypto": ["https://whoawhoa.github.io/decrypto"],
+  "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
+  "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
   "Dungeon Lords": ["http://boiteajeux.net"],
   "Dungeon Twister": ["http://boiteajeux.net"],
   "Everdell": ["https://tabletopia.com/games/everdell"],
   "Fearsome Floors": ["http://boiteajeux.net"],
+  "Food Chain Magnate": ["http://play.boardgamecore.net"],
   "Forum Trajanum": ["https://yucata.de/en/Invite/Trajanum"],
+  "Fury of Dracula (Third/Fourth Edition)": [
+    "https://store.steampowered.com/app/958530/Fury_of_Dracula_Digital_Edition"
+  ],
   "Gaia Project": [],
   "Ginkgopolis": ["http://boiteajeux.net"],
   "Gloom": [
@@ -114,6 +124,7 @@
     "https://play.google.com/store/apps/details?id=com.jb.hive.android",
     "https://store.steampowered.com/app/251210/Hive"
   ],
+  "Innovation": ["https://boardgamearena.com/gamepanel?game=innovation"],
   "Jaipur": [
     "https://boardgamearena.com/gamepanel?game=jaipur",
     "https://yucata.de/en/Invite/Jaipur",
@@ -127,10 +138,18 @@
     "https://boardgamearena.com/gamepanel?game=keyflower",
     "https://tabletopia.com/games/keyflower"
   ],
+  "Kingdom Builder": [
+    "https://boardgamearena.com/gamepanel?game=kingdombuilder"
+  ],
+  "Kingdom Death: Monster": [],
   "Kingdomino": ["https://boardgamearena.com/gamepanel?game=kingdomino"],
   "La Granja": [
     "https://boardgamearena.com/gamepanel?game=lagranja",
     "https://yucata.de/en/Invite/LaGranja"
+  ],
+  "Lanterns: The Harvest Festival": [
+    "https://play.google.com/store/apps/details?id=com.direwolfdigital.lanterns",
+    "https://apps.apple.com/us/app/lanterns-the-harvest-festival/id1155269699"
   ],
   "Las Vegas": ["https://yucata.de/en/Invite/LasVegas"],
   "Lost Cities": [
@@ -139,6 +158,10 @@
     "https://happymeeple.com/en/board-games/lost-cities/overview",
     "https://yourturnmyturn.com/game.php?gametype=lost+cities"
   ],
+  "Lotus": [
+    "https://play.google.com/store/apps/details?id=com.direwolfdigital.lotus",
+    "https://apps.apple.com/us/app/lotus-digital/id1270821305"
+  ],
   "Love Letter": [
     "https://boardgamearena.com/gamepanel?game=loveletter",
     "https://play.google.com/store/apps/details?id=com.nomadgames.loveletterdev",
@@ -146,8 +169,11 @@
     "https://store.steampowered.com/app/926520/Love_Letter"
   ],
   "Machi Koro": ["https://yucata.de/en/Invite/MachiKoro"],
+  "Mage Knight Board Game": [],
+  "Mansions of Madness: Second Edition": [],
   "Mystic Vale": ["https://yucata.de/en/Invite/MysticVale"],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
+  "Nemesis": [],
   "Neuroshima Hex! 3.0": [
     "https://play.google.com/store/apps/details?id=com.bdc.nh",
     "https://apps.apple.com/us/app/neuroshima-hex/id391297152"
@@ -159,12 +185,14 @@
     "https://store.steampowered.com/app/770100/One_Deck_Dungeon"
   ],
   "Oregon": ["https://www.yucata.de/en/Invite/Oregon"],
+  "Orléans": ["https://tabletopia.com/games/orleans"],
+  "Pandemic Legacy: Season 1": [],
+  "Pandemic Legacy: Season 2": [],
   "Pandemic": [
     "https://play.google.com/store/apps/details?id=com.f2zentertainment.pandemic",
     "https://apps.apple.com/us/app/pandemic-the-board-game/id700793523",
     "https://store.steampowered.com/app/622440/Pandemic_The_Board_Game"
   ],
-  "Pandemic Legacy: Season 1": [],
   "Patchwork": [
     "https://play.google.com/store/apps/details?id=com.digidiced.pxwrelease",
     "https://apps.apple.com/us/app/patchwork-the-game/id1075851197",
@@ -179,6 +207,7 @@
   "Potion Explosion": [
     "https://boardgamearena.com/gamepanel?game=potionexplosion"
   ],
+  "Power Grid": ["http://www.brettspielwelt.de/Spiele/Funkenschlag"],
   "Puerto Rico": [
     "https://boardgamearena.com/gamepanel?game=puertorico",
     "https://apps.apple.com/us/app/puerto-rico-hd/id438437326",
@@ -207,6 +236,8 @@
   ],
   "Roll for the Galaxy": [
     "https://boardgamearena.com/gamepanel?game=rollforthegalaxy",
+    "https://play.google.com/store/apps/details?id=com.templegatesgames.RollAndroid",
+    "https://apps.apple.com/us/app/id1324815218",
     "https://store.steampowered.com/app/893840/Roll_for_the_Galaxy"
   ],
   "Root": ["https://store.steampowered.com/app/965580/Root"],
@@ -286,6 +317,10 @@
     "https://apps.apple.com/us/app/talisman-digital-edition/id1312840735",
     "https://store.steampowered.com/app/247000/Talisman_Digital_Edition"
   ],
+  "Taluva": ["https://boardgamearena.com/gamepanel?game=taluva"],
+  "Tash-Kalar: Arena of Legends": [
+    "https://boardgamearena.com/gamepanel?game=tashkalar"
+  ],
   "Teotihuacan: City of Gods": [
     "https://boardgamearena.com/gamepanel?game=teotihuacan",
     "https://tabletopia.com/games/teotihuacan-city-of-gods"
@@ -319,6 +354,7 @@
     "https://apps.apple.com/us/app/the-castles-of-burgundy/id1410742242",
     "https://store.steampowered.com/app/903040/The_Castles_of_Burgundy"
   ],
+  "The Great Zimbabwe": ["http://play.boardgamecore.net"],
   "The Voyages of Marco Polo": [
     "https://boardgamearena.com/gamepanel?game=marcopolo",
     "https://yucata.de/en/Invite/MarcoPolo"
@@ -338,6 +374,13 @@
   ],
   "Tigris & Euphrates": [
     "https://apps.apple.com/us/app/reiner-knizia-tigris-euphrates/id471458190"
+  ],
+  "Tobago": ["https://boardgamearena.com/gamepanel?game=tobago"],
+  "Tokaido": [
+    "https://boardgamearena.com/gamepanel?game=tokaido",
+    "https://play.google.com/store/apps/details?id=com.funforgedigital.tokaido",
+    "https://apps.apple.com/us/app/tokaido/id1215230801",
+    "https://store.steampowered.com/app/648750/Tokaido"
   ],
   "Transatlantic": ["https://yucata.de/en/Invite/Transatlantic"],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
@@ -371,10 +414,12 @@
     "https://tabletopia.com/games/wingspan",
     "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan"
   ],
+  "Wir sind das Volk!": ["http://play.boardgamecore.net"],
   "Yellow & Yangtze": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.yellow",
     "https://apps.apple.com/us/app/reiner-knizia-yellow-yangtze/id1439244350",
     "https://store.steampowered.com/app/965610/Reiner_Knizia_Yellow__Yangtze"
   ],
-  "Yokohama": ["https://boardgamearena.com/gamepanel?game=yokohama"]
+  "Yokohama": ["https://boardgamearena.com/gamepanel?game=yokohama"],
+  "Yspahan": ["https://boardgamearena.com/gamepanel?game=yspahan"]
 }
