@@ -9,6 +9,13 @@ interface TableProps {
   }[][];
 }
 
+const Th = styled.th`
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+`;
+
 const Td = styled.td`
   padding: 3px;
 `;
@@ -19,7 +26,7 @@ const Table: React.FC<TableProps> = ({ rows }) => (
       {rows.length > 0 && (
         <tr>
           {rows[0].map((cell, columnIndex) => (
-            <Td key={`${0}-${columnIndex}`}>
+            <Th key={`${0}-${columnIndex}`}>
               {cell.link ? (
                 cell.isSamePage ? (
                   <a href={cell.link}>
@@ -33,7 +40,7 @@ const Table: React.FC<TableProps> = ({ rows }) => (
               ) : (
                 cell.text
               )}
-            </Td>
+            </Th>
           ))}
         </tr>
       )}

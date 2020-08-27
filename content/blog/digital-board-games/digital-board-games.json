@@ -38,6 +38,7 @@
   "Agricola": ["http://boiteajeux.net", "http://play-agricola.com"],
   "Alchemists": ["http://boiteajeux.net"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
+  "Android: Netrunner": [],
   "Antiquity": ["http://play.boardgamecore.net"],
   "Arkham Horror: The Card Game": ["https://playarkham.azurewebsites.net"],
   "Azul": ["https://azee.mattle.online"],
@@ -65,7 +66,7 @@
     "https://store.steampowered.com/app/598810/Carcassonne__Tiles__Tactics",
     "https://yourturnmyturn.com/game.php?gametype=carcassonne"
   ],
-  "Cartographers: A Roll Player Tale": [
+  "Cartographers": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.cartographers",
     "https://apps.apple.com/us/app/cartographers/id1515991485"
   ],
@@ -82,12 +83,13 @@
   ],
   "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Spice Road": ["https://spicee.mattle.online"],
+  "Clank!: A Deck-Building Adventure": [],
   "Clans of Caledonia": [
     "https://boardgamearena.com/gamepanel?game=clansofcaledonia",
     "https://tabletopia.com/games/clans-of-caledonia"
   ],
   "Codenames": ["https://codenames.game", "https://codenames.cards"],
-  "Codenames: Duet": ["https://codenames.cards"],
+  "Codenames: Duet": ["https://codenames.game", "https://codenames.cards"],
   "Colt Express": ["https://boardgamearena.com/gamepanel?game=coltexpress"],
   "Concordia": ["http://boiteajeux.net"],
   "Coup": [
@@ -96,6 +98,7 @@
   ],
   "Decrypto": ["https://whoawhoa.github.io/decrypto"],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
+  "Dominant Species": ["https://tabletopia.com/games/dominant-species"],
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
@@ -103,6 +106,8 @@
   "Dungeon Twister": ["http://boiteajeux.net"],
   "Everdell": ["https://tabletopia.com/games/everdell"],
   "Fearsome Floors": ["http://boiteajeux.net"],
+  "Fields of Arle": [],
+  "Five Tribes": [],
   "Food Chain Magnate": ["http://play.boardgamecore.net"],
   "Forum Trajanum": ["https://yucata.de/en/Invite/Trajanum"],
   "Fury of Dracula (Third/Fourth Edition)": [
@@ -152,6 +157,7 @@
     "https://apps.apple.com/us/app/lanterns-the-harvest-festival/id1155269699"
   ],
   "Las Vegas": ["https://yucata.de/en/Invite/LasVegas"],
+  "Lords of Waterdeep": [],
   "Lost Cities": [
     "https://boardgamearena.com/gamepanel?game=lostcities",
     "https://apps.apple.com/us/app/lost-cities/id465062454",
@@ -171,6 +177,7 @@
   "Machi Koro": ["https://yucata.de/en/Invite/MachiKoro"],
   "Mage Knight Board Game": [],
   "Mansions of Madness: Second Edition": [],
+  "Maracaibo": [],
   "Mystic Vale": ["https://yucata.de/en/Invite/MysticVale"],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Nemesis": [],
@@ -234,6 +241,7 @@
     "https://boardgamearena.com/gamepanel?game=redsevengame",
     "https://yucata.de/en/Invite/Red7"
   ],
+  "Robinson Crusoe: Adventures on the Cursed Island": [],
   "Roll for the Galaxy": [
     "https://boardgamearena.com/gamepanel?game=rollforthegalaxy",
     "https://play.google.com/store/apps/details?id=com.templegatesgames.RollAndroid",
@@ -354,6 +362,7 @@
     "https://apps.apple.com/us/app/the-castles-of-burgundy/id1410742242",
     "https://store.steampowered.com/app/903040/The_Castles_of_Burgundy"
   ],
+  "The Gallerist": [],
   "The Great Zimbabwe": ["http://play.boardgamecore.net"],
   "The Voyages of Marco Polo": [
     "https://boardgamearena.com/gamepanel?game=marcopolo",
@@ -382,6 +391,7 @@
     "https://apps.apple.com/us/app/tokaido/id1215230801",
     "https://store.steampowered.com/app/648750/Tokaido"
   ],
+  "Too Many Bones": [],
   "Transatlantic": ["https://yucata.de/en/Invite/Transatlantic"],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
   "Twilight Imperium (Fourth Edition)": [],
@@ -405,6 +415,7 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease",
     "https://apps.apple.com/us/app/viticulture/id1467248737"
   ],
+  "Underwater Cities": [],
   "War Chest": [
     "https://yucata.de/en/Invite/WarChest",
     "https://warchestonline.com"
