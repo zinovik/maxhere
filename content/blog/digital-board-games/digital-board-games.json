@@ -20,10 +20,7 @@
   "A Game of Thrones: The Board Game (Second Edition)": [
     "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition",
     "https://thronemaster.net",
-    {
-      "url": "http://www.lantsev1981.pro",
-      "icon": "YES_DESKTOP"
-    }
+    "http://www.lantsev1981.pro"
   ],
   "Aeon's End": [
     "https://play.google.com/store/apps/details?id=com.handelabra.AeonsEnd",
@@ -226,10 +223,7 @@
     "https://play.google.com/store/apps/details?id=com.templegatesgames.RaceAndroid",
     "https://apps.apple.com/us/app/race-for-the-galaxy/id1190675052",
     "https://store.steampowered.com/app/579940/Race_for_the_Galaxy",
-    {
-      "url": "http://keldon.net/rftg",
-      "icon": "YES_DESKTOP"
-    }
+    "http://keldon.net/rftg"
   ],
   "Raiders of the North Sea": [
     "https://tabletopia.com/games/raiders-of-the-north-sea",
@@ -237,6 +231,7 @@
     "https://apps.apple.com/us/app/raiders-of-the-north-sea/id1439244088",
     "https://store.steampowered.com/app/965600/Raiders_of_the_North_Sea"
   ],
+  "Rajas of the Ganges": ["https://www.yucata.de/en/Invite/Rajas"],
   "Red7": [
     "https://boardgamearena.com/gamepanel?game=redsevengame",
     "https://yucata.de/en/Invite/Red7"
