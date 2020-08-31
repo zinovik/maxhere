@@ -3,13 +3,13 @@ import { Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import styled from 'styled-components';
 
-interface TagsListProps {
-  tags: string[];
-}
-
 const Tag = styled.span`
   padding: 5px;
 `;
+
+interface TagsListProps {
+  tags: string[];
+}
 
 const TagsList: React.FC<TagsListProps> = ({ tags }) => {
   return (
