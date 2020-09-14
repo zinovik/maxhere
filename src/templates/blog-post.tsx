@@ -75,12 +75,12 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           <p
             style={{
               ...scale(-1 / 5),
-              display: `block`,
               marginBottom: rhythm(1),
             }}
           >
             {post.frontmatter.date}
           </p>
+          <p>{post.frontmatter?.description}</p>
           <TagsList tags={post.frontmatter.tags} />
         </header>
         <MDXRenderer>{post.body}</MDXRenderer>

@@ -33,6 +33,9 @@
     "https://store.steampowered.com/app/1005580/Agricola_Revised_Edition"
   ],
   "Agricola": ["http://boiteajeux.net", "http://play-agricola.com"],
+  "Agricola: All Creatures Big and Small": [
+    "https://play.google.com/store/apps/details?id=com.digidiced.abvrelease"
+  ],
   "Alchemists": ["http://boiteajeux.net"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": [],
@@ -67,6 +70,10 @@
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.cartographers",
     "https://apps.apple.com/us/app/cartographers/id1515991485"
   ],
+  "Castles of Mad King Ludwig": [
+    "https://play.google.com/store/apps/details?id=com.mobilecastles.castles",
+    "https://apps.apple.com/us/app/castles-of-mad-king-ludwig/id1100292960"
+  ],
   "Catan": [
     "https://play.google.com/store/apps/details?id=com.exozet.android.catan",
     "https://apps.apple.com/us/app/catan-classic/id335029050",
@@ -87,11 +94,20 @@
   ],
   "Codenames": ["https://codenames.game", "https://codenames.cards"],
   "Codenames: Duet": ["https://codenames.game", "https://codenames.cards"],
-  "Colt Express": ["https://boardgamearena.com/gamepanel?game=coltexpress"],
+  "Colt Express": [
+    "https://boardgamearena.com/gamepanel?game=coltexpress",
+    "https://play.google.com/store/apps/details?id=com.asmodeedigital.coltexpress",
+    "https://apps.apple.com/us/app/colt-express/id1140513212"
+  ],
   "Concordia": ["http://boiteajeux.net"],
   "Coup": [
     "https://boardgamearena.com/gamepanel?game=coupcitystate",
     "https://play.google.com/store/apps/details?id=com.bananaandco.coup"
+  ],
+  "Crokinole": [],
+  "Cthulhu Realms": [
+    "https://play.google.com/store/apps/details?id=com.whitewizardgames.cthulhurealms",
+    "https://apps.apple.com/us/app/cthulhu-realms/id1035256452"
   ],
   "Decrypto": ["https://whoawhoa.github.io/decrypto"],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
@@ -99,14 +115,21 @@
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
+  "Dream Home": ["https://store.steampowered.com/app/951680/Dream_Home"],
   "Dungeon Lords": ["http://boiteajeux.net"],
   "Dungeon Twister": ["http://boiteajeux.net"],
+  "Eclipse": [],
+  "El Grande": ["https://yucata.de/en/Invite/ElGrande"],
   "Everdell": ["https://tabletopia.com/games/everdell"],
   "Fearsome Floors": ["http://boiteajeux.net"],
   "Fields of Arle": [],
   "Five Tribes": [],
   "Food Chain Magnate": ["http://play.boardgamecore.net"],
   "Forum Trajanum": ["https://yucata.de/en/Invite/Trajanum"],
+  "Friday": [
+    "https://play.google.com/store/apps/details?id=de.brettspielwelt.freitag",
+    "https://apps.apple.com/us/app/friday-by-friedemann-friese/id1222916942"
+  ],
   "Fury of Dracula (Third/Fourth Edition)": [
     "https://store.steampowered.com/app/958530/Fury_of_Dracula_Digital_Edition"
   ],
@@ -156,7 +179,15 @@
     "https://apps.apple.com/us/app/lanterns-the-harvest-festival/id1155269699"
   ],
   "Las Vegas": ["https://yucata.de/en/Invite/LasVegas"],
-  "Lords of Waterdeep": [],
+  "Le Havre: The Inland Port": [
+    "https://play.google.com/store/apps/details?id=com.digidiced.lhbrelease",
+    "https://apps.apple.com/us/app/le-havre-the-inland-port/id1044671796"
+  ],
+  "Lisboa": [],
+  "Lords of Waterdeep": [
+    "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
+  ],
+  "Lords of Xidit": ["https://boardgamearena.com/gamepanel?game=lox"],
   "Lost Cities": [
     "https://boardgamearena.com/gamepanel?game=lostcities",
     "https://apps.apple.com/us/app/lost-cities/id465062454",
@@ -177,6 +208,8 @@
   "Mage Knight Board Game": [],
   "Mansions of Madness: Second Edition": [],
   "Maracaibo": [],
+  "Mechs vs. Minions": [],
+  "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
   "Mystic Vale": ["https://yucata.de/en/Invite/MysticVale"],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Nemesis": [],
@@ -238,6 +271,7 @@
     "https://boardgamearena.com/gamepanel?game=redsevengame",
     "https://yucata.de/en/Invite/Red7"
   ],
+  "Rising Sun": [],
   "Robinson Crusoe: Adventures on the Cursed Island": [],
   "Roll for the Galaxy": [
     "https://boardgamearena.com/gamepanel?game=rollforthegalaxy",
@@ -301,6 +335,7 @@
     "https://apps.apple.com/us/app/star-realms/id893447125",
     "https://store.steampowered.com/app/438140/Star_Realms"
   ],
+  "Star Wars: Imperial Assault": [],
   "Star Wars: Rebellion": [],
   "Stone Age": [
     "https://boardgamearena.com/gamepanel?game=stoneage",
@@ -372,6 +407,7 @@
     "https://apps.apple.com/us/app/through-the-ages/id966245474",
     "https://store.steampowered.com/app/758370/Through_the_Ages"
   ],
+  "Through the Ages: A Story of Civilization": [],
   "Thunderstone": ["https://yucata.de/en/Invite/Thunderstone"],
   "Thurn and Taxis": ["https://yucata.de/en/Invite/ThurnTaxis"],
   "Ticket to Ride": [
@@ -402,6 +438,7 @@
     "https://boardgamearena.com/gamepanel?game=tzolkin",
     "http://boiteajeux.net"
   ],
+  "Underwater Cities": [],
   "Vanuatu": ["http://boiteajeux.net"],
   "Vikings": ["https://yucata.de/en/Invite/Vikings"],
   "Viticulture Essential Edition": [
@@ -413,15 +450,20 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease",
     "https://apps.apple.com/us/app/viticulture/id1467248737"
   ],
-  "Underwater Cities": [],
   "War Chest": [
     "https://yucata.de/en/Invite/WarChest",
     "https://warchestonline.com"
   ],
   "War of the Ring: Second Edition": [],
+  "Warhammer Quest: Silver Tower": [
+    "https://play.google.com/store/apps/details?id=com.perchang.silvertower",
+    "https://apps.apple.com/us/app/warhammer-quest-silver-tower/id1517281011"
+  ],
+  "Wavelength": ["https://heretothere.app", "https://longwave.web.app"],
   "Wingspan": [
     "https://tabletopia.com/games/wingspan",
-    "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan"
+    "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan",
+    "https://store.steampowered.com/app/1054490/Wingspan"
   ],
   "Wir sind das Volk!": ["http://play.boardgamecore.net"],
   "Yellow & Yangtze": [
