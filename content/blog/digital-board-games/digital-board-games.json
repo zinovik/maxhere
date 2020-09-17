@@ -40,9 +40,11 @@
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": [],
   "Antiquity": ["http://play.boardgamecore.net"],
+  "Architects of the West Kingdom": [],
   "Arkham Horror: The Card Game": ["https://playarkham.azurewebsites.net"],
   "Azul": ["https://azee.mattle.online"],
   "Barrage": ["https://tabletopia.com/games/barrage_ks"],
+  "Battlestar Galactica: The Board Game": [],
   "Blood Rage": [
     "https://store.steampowered.com/app/610700/Tabletop_Simulator__Blood_Rage",
     "https://store.steampowered.com/app/1015930/Blood_Rage_Digital_Edition"
@@ -87,6 +89,9 @@
   ],
   "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Spice Road": ["https://spicee.mattle.online"],
+  "Champions of Midgard": [],
+  "Clank! In! Space!: A Deck-Building Adventure": [],
+  "Clank! Legacy: Acquisitions Incorporated": [],
   "Clank!: A Deck-Building Adventure": [],
   "Clans of Caledonia": [
     "https://boardgamearena.com/gamepanel?game=clansofcaledonia",
@@ -109,7 +114,9 @@
     "https://play.google.com/store/apps/details?id=com.whitewizardgames.cthulhurealms",
     "https://apps.apple.com/us/app/cthulhu-realms/id1035256452"
   ],
+  "Dead of Winter: A Crossroads Game": [],
   "Decrypto": ["https://whoawhoa.github.io/decrypto"],
+  "Descent: Journeys in the Dark (Second Edition)": [],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
   "Dominant Species": ["https://tabletopia.com/games/dominant-species"],
   "Dominion": ["https://dominion.games"],
@@ -120,11 +127,14 @@
   "Dungeon Twister": ["http://boiteajeux.net"],
   "Eclipse": [],
   "El Grande": ["https://yucata.de/en/Invite/ElGrande"],
+  "Eldritch Horror": [],
+  "Endeavor: Age of Sail": [],
   "Everdell": ["https://tabletopia.com/games/everdell"],
   "Fearsome Floors": ["http://boiteajeux.net"],
   "Fields of Arle": [],
   "Five Tribes": [],
   "Food Chain Magnate": ["http://play.boardgamecore.net"],
+  "Forbidden Stars": [],
   "Forum Trajanum": ["https://yucata.de/en/Invite/Trajanum"],
   "Friday": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.freitag",
@@ -140,6 +150,8 @@
     "https://store.steampowered.com/app/766040/Gloom_Digital_Edition"
   ],
   "Gloomhaven": ["https://store.steampowered.com/app/780290/Gloomhaven"],
+  "Gloomhaven: Jaws of the Lion": [],
+  "Grand Austria Hotel": [],
   "Great Western Trail": [],
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
   "Hanabi": ["https://boardgamegeek.com/boardgame/98778/hanabi"],
@@ -149,6 +161,7 @@
     "https://play.google.com/store/apps/details?id=com.jb.hive.android",
     "https://store.steampowered.com/app/251210/Hive"
   ],
+  "Inis": [],
   "Innovation": ["https://boardgamearena.com/gamepanel?game=innovation"],
   "Jaipur": [
     "https://boardgamearena.com/gamepanel?game=jaipur",
@@ -159,6 +172,7 @@
   "Kashgar: Merchants of the Silk Road": [
     "https://yucata.de/en/Invite/Kashgar"
   ],
+  "Kemet": [],
   "Keyflower": [
     "https://boardgamearena.com/gamepanel?game=keyflower",
     "https://tabletopia.com/games/keyflower"
@@ -179,15 +193,18 @@
     "https://apps.apple.com/us/app/lanterns-the-harvest-festival/id1155269699"
   ],
   "Las Vegas": ["https://yucata.de/en/Invite/LasVegas"],
+  "Le Havre": [],
   "Le Havre: The Inland Port": [
     "https://play.google.com/store/apps/details?id=com.digidiced.lhbrelease",
     "https://apps.apple.com/us/app/le-havre-the-inland-port/id1044671796"
   ],
+  "Legendary Encounters: An Alien Deck Building Game": [],
   "Lisboa": [],
   "Lords of Waterdeep": [
     "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
   ],
   "Lords of Xidit": ["https://boardgamearena.com/gamepanel?game=lox"],
+  "Lorenzo il Magnifico": [],
   "Lost Cities": [
     "https://boardgamearena.com/gamepanel?game=lostcities",
     "https://apps.apple.com/us/app/lost-cities/id465062454",
@@ -208,8 +225,13 @@
   "Mage Knight Board Game": [],
   "Mansions of Madness: Second Edition": [],
   "Maracaibo": [],
+  "Marco Polo II: In the Service of the Khan": [
+    "https://boardgamearena.com/gamepanel?game=marcopolotwo"
+  ],
+  "Marvel Champions: The Card Game": [],
   "Mechs vs. Minions": [],
   "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
+  "Mombasa": [],
   "Mystic Vale": ["https://yucata.de/en/Invite/MysticVale"],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Nemesis": [],
@@ -218,6 +240,7 @@
     "https://apps.apple.com/us/app/neuroshima-hex/id391297152"
   ],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
+  "On Mars": [],
   "One Deck Dungeon": [
     "https://play.google.com/store/apps/details?id=com.handelabra.OneDeckDungeon",
     "https://apps.apple.com/us/app/one-deck-dungeon/id1380151253",
@@ -225,6 +248,7 @@
   ],
   "Oregon": ["https://www.yucata.de/en/Invite/Oregon"],
   "Orléans": ["https://tabletopia.com/games/orleans"],
+  "Paladins of the West Kingdom": [],
   "Pandemic Legacy: Season 1": [],
   "Pandemic Legacy: Season 2": [],
   "Pandemic": [
@@ -232,6 +256,7 @@
     "https://apps.apple.com/us/app/pandemic-the-board-game/id700793523",
     "https://store.steampowered.com/app/622440/Pandemic_The_Board_Game"
   ],
+  "Pandemic: Iberia": [],
   "Patchwork": [
     "https://play.google.com/store/apps/details?id=com.digidiced.pxwrelease",
     "https://apps.apple.com/us/app/patchwork-the-game/id1075851197",
@@ -271,6 +296,7 @@
     "https://boardgamearena.com/gamepanel?game=redsevengame",
     "https://yucata.de/en/Invite/Red7"
   ],
+  "Res Arcana": [],
   "Rising Sun": [],
   "Robinson Crusoe: Adventures on the Cursed Island": [],
   "Roll for the Galaxy": [
@@ -307,6 +333,7 @@
   "Scythe": [
     "https://tabletopia.com/games/scythe",
     "https://store.steampowered.com/app/446980/Tabletop_Simulator__Scythe",
+    "https://play.google.com/store/apps/details?id=com.asmodeedigital.scythe",
     "https://apps.apple.com/gb/app/scythe-digital-edition/id1482645966",
     "https://store.steampowered.com/app/718560/Scythe_Digital_Edition"
   ],
@@ -317,6 +344,7 @@
     "https://apps.apple.com/us/app/sentinels-of-the-multiverse/id923772792",
     "https://store.steampowered.com/app/337150/Sentinels_of_the_Multiverse"
   ],
+  "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases": [],
   "Small World": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.smallworld2",
     "https://apps.apple.com/us/app/small-world-the-board-game/id364165557",
@@ -337,6 +365,7 @@
   ],
   "Star Wars: Imperial Assault": [],
   "Star Wars: Rebellion": [],
+  "Star Wars: X-Wing Miniatures Game": [],
   "Stone Age": [
     "https://boardgamearena.com/gamepanel?game=stoneage",
     "https://yucata.de/en/Invite/StoneAge",
@@ -346,6 +375,8 @@
     "https://play.google.com/store/apps/details?id=com.suburbiagame.suburbia",
     "https://apps.apple.com/us/app/suburbia-city-building-game/id681966300"
   ],
+  "Sushi Go!": ["https://boardgamearena.com/gamepanel?game=sushigo"],
+  "Tainted Grail: The Fall of Avalon": [],
   "Takenoko": [
     "https://boardgamearena.com/gamepanel?game=takenoko",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.takenoko",
@@ -394,8 +425,11 @@
     "https://apps.apple.com/us/app/the-castles-of-burgundy/id1410742242",
     "https://store.steampowered.com/app/903040/The_Castles_of_Burgundy"
   ],
+  "The Crew: The Quest for Planet Nine": [],
   "The Gallerist": [],
   "The Great Zimbabwe": ["http://play.boardgamecore.net"],
+  "The Lord of the Rings: Journeys in Middle-earth": [],
+  "The Quacks of Quedlinburg": [],
   "The Voyages of Marco Polo": [
     "https://boardgamearena.com/gamepanel?game=marcopolo",
     "https://yucata.de/en/Invite/MarcoPolo",
@@ -426,9 +460,12 @@
     "https://store.steampowered.com/app/648750/Tokaido"
   ],
   "Too Many Bones": [],
+  "Trajan": [],
   "Transatlantic": ["https://yucata.de/en/Invite/Transatlantic"],
+  "Troyes": [],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
   "Twilight Imperium (Fourth Edition)": [],
+  "Twilight Imperium (Third Edition)": [],
   "Twilight Struggle": [
     "https://play.google.com/store/apps/details?id=com.playdekgames.twilightstruggle",
     "https://apps.apple.com/us/app/twilight-struggle/id942766453",

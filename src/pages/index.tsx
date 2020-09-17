@@ -8,6 +8,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import BackToTop from '../components/back-to-top';
 import { BlogIndexQuery } from '../../gatsby-graphql';
+import { scale } from '../utils/typography';
 
 const H3 = styled.h3`
   margin: 10px;
@@ -18,7 +19,7 @@ const Article = styled.article`
 `;
 
 const PostImg = styled(Img)`
-  margin: 10px 0px;
+  margin: 0px;
 `;
 
 interface BlogIndexProps {
@@ -42,9 +43,9 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
         return (
           <Article key={node.fields.slug}>
             <header>
-              <H3>
-                <Link to={node.fields.slug}>
-                  {node.frontmatter.featuredImage && (
+              <Link to={node.fields.slug}>
+                {node.frontmatter.featuredImage && (
+                  <>
                     <PostImg
                       fluid={
                         node.frontmatter.featuredImage.childImageSharp.fluid
@@ -52,10 +53,19 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                       style={{ maxHeight: '500px' }}
                       imgStyle={{ objectFit: 'contain' }}
                     />
-                  )}
-                  {title}
-                </Link>
-              </H3>
+                    <p
+                      style={{
+                        ...scale(-1 / 5),
+                        color: 'darkgray',
+                        margin: '0px',
+                      }}
+                    >
+                      {node.frontmatter.imageDescription}
+                    </p>
+                  </>
+                )}
+                <H3>{title}</H3>
+              </Link>
               <small>{node.frontmatter.date}</small>
             </header>
             <section>
@@ -68,7 +78,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
           </Article>
         );
       })}
-    <BackToTop />
+      <BackToTop />
     </Layout>
   );
 };
@@ -93,6 +103,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            imageDescription
             featuredImage {
               childImageSharp {
                 fluid(maxWidth: 800) {

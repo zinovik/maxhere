@@ -59,11 +59,21 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
       <article>
         <header>
           {post.frontmatter.featuredImage && (
-            <Img
-              fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
-              style={{ maxHeight: '500px' }}
-              imgStyle={{ objectFit: 'contain' }}
-            />
+            <>
+              <Img
+                fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+                style={{ maxHeight: '500px' }}
+                imgStyle={{ objectFit: 'contain' }}
+              />
+              <p
+                style={{
+                  ...scale(-1 / 5),
+                  color: "darkgray",
+                }}
+              >
+                {post.frontmatter.imageDescription}
+              </p>
+            </>
           )}
           <h1
             style={{
@@ -83,6 +93,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           <p>{post.frontmatter?.description}</p>
           <TagsList tags={post.frontmatter.tags} />
         </header>
+        <hr />
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
@@ -144,6 +155,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        imageDescription
         tags
         featuredImage {
           childImageSharp {
