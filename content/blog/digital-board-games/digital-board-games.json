@@ -6,6 +6,7 @@
     "https://play.google.com/store/apps/details?id=de.application_systems.SixTakes"
   ],
   "7 Wonders Duel": [
+    "https://boardgamearena.com/gamepanel?game=sevenwondersduel",
     "https://sevenee.mattle.online",
     "https://play.google.com/store/apps/details?id=com.rprod.duel",
     "https://apps.apple.com/us/app/7-wonders-duel/id1441651711"
@@ -17,6 +18,7 @@
     "https://apps.apple.com/us/app/7-wonders/id530090434"
   ],
   "A Feast for Odin": [],
+  "A Few Acres of Snow": ["https://yucata.de/en/Invite/FewAcresOfSnow"],
   "A Game of Thrones: The Board Game (Second Edition)": [
     "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition",
     "https://thronemaster.net",
@@ -37,12 +39,20 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.abvrelease"
   ],
   "Alchemists": ["http://boiteajeux.net"],
+  "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": [],
+  "Antike Duellum": ["https://yucata.de/en/Invite/CasusBelli"],
   "Antiquity": ["http://play.boardgamecore.net"],
   "Architects of the West Kingdom": [],
+  "Arkadia": ["https://yucata.de/en/Invite/Arkadia"],
   "Arkham Horror: The Card Game": ["https://playarkham.azurewebsites.net"],
+  "Assyria": ["https://boardgamearena.com/gamepanel?game=assyria"],
+  "At the Gates of Loyang": ["https://yucata.de/en/Invite/Loyang"],
+  "Attika": ["https://yucata.de/en/Invite/Attika"],
+  "Automobiles": ["https://yucata.de/en/Invite/Automobiles"],
   "Azul": ["https://azee.mattle.online"],
+  "Balloon Cup": ["https://yucata.de/en/Invite/BalloonCup"],
   "Barrage": ["https://tabletopia.com/games/barrage_ks"],
   "Battlestar Galactica: The Board Game": [],
   "Blood Rage": [
@@ -60,8 +70,17 @@
     "https://apps.apple.com/us/app/brass/id933026434",
     "https://store.steampowered.com/app/677650/Brass"
   ],
+  "Bruges": ["https://yucata.de/en/Invite/Bruges"],
   "Bruxelles 1893": ["http://boiteajeux.net"],
-  "Cacao": ["https://boardgamearena.com/gamepanel?game=cacao"],
+  "Cacao": [
+    "https://boardgamearena.com/gamepanel?game=cacao",
+    "https://yucata.de/en/Invite/Cacao"
+  ],
+  "Campaign Manager 2008": ["https://yucata.de/en/Invite/CampaignManager"],
+  "Can't Stop": [
+    "https://boardgamearena.com/gamepanel?game=cantstop",
+    "https://yucata.de/en/Invite/CantStop"
+  ],
   "Carcassonne": [
     "https://boardgamearena.com/gamepanel?game=carcassonne",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.carcassonne",
@@ -69,6 +88,11 @@
     "https://store.steampowered.com/app/598810/Carcassonne__Tiles__Tactics",
     "https://yourturnmyturn.com/game.php?gametype=carcassonne"
   ],
+  "Carcassonne: Hunters and Gatherers": ["https://yucata.de/en/Invite/CarcHaG"],
+  "Carcassonne: South Seas": ["https://yucata.de/en/Invite/CarcSouthSeas"],
+  "Carolus Magnus": ["https://yucata.de/en/Invite/CarolusMagnus"],
+  "Carpe Diem": ["https://yucata.de/en/Invite/CarpeDiem"],
+  "Carson City": ["https://yucata.de/en/Invite/CarsonCity"],
   "Cartographers": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.cartographers",
     "https://apps.apple.com/us/app/cartographers/id1515991485"
@@ -91,6 +115,9 @@
   "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Spice Road": ["https://spicee.mattle.online"],
   "Champions of Midgard": [],
+  "City of the Big Shoulders": [
+    "https://boardgamearena.com/gamepanel?game=cityofthebigshoulders"
+  ],
   "Clank! In! Space!: A Deck-Building Adventure": [],
   "Clank! Legacy: Acquisitions Incorporated": [],
   "Clank!: A Deck-Building Adventure": [],
@@ -123,20 +150,33 @@
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
+  "Dragonheart": ["https://yucata.de/en/Invite/Dragonheart"],
+  "Drako: Dragon & Dwarves": ["https://yucata.de/en/Invite/Drako"],
   "Dream Home": ["https://store.steampowered.com/app/951680/Dream_Home"],
   "Dungeon Lords": ["http://boiteajeux.net"],
   "Dungeon Twister": ["http://boiteajeux.net"],
   "Eclipse": [],
+  "Egizia": ["https://yucata.de/en/Invite/Egizia"],
   "El Grande": ["https://yucata.de/en/Invite/ElGrande"],
   "Eldritch Horror": [],
   "Endeavor: Age of Sail": [],
   "Everdell": ["https://tabletopia.com/games/everdell"],
-  "Fearsome Floors": ["http://boiteajeux.net"],
+  "Famiglia": ["https://yucata.de/en/Invite/Famiglia"],
+  "Fearsome Floors": [
+    "https://yucata.de/en/Invite/Floors",
+    "http://boiteajeux.net"
+  ],
   "Fields of Arle": [],
+  "Finca": ["https://yucata.de/en/Invite/Finca"],
+  "Firenze": ["https://yucata.de/en/Invite/Firenze"],
+  "First Class: All Aboard the Orient Express!": [
+    "https://yucata.de/en/Invite/FirstClass"
+  ],
   "Five Tribes": [],
   "Food Chain Magnate": ["http://play.boardgamecore.net"],
   "Forbidden Stars": [],
   "Forum Trajanum": ["https://yucata.de/en/Invite/Trajanum"],
+  "Founding Fathers": ["https://yucata.de/en/Invite/FoundingFathers"],
   "Friday": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.freitag",
     "https://apps.apple.com/us/app/friday-by-friedemann-friese/id1222916942"
@@ -146,6 +186,7 @@
   ],
   "Gaia Project": [],
   "Ginkgopolis": ["http://boiteajeux.net"],
+  "Glen More": ["https://yucata.de/en/Invite/GlenMore"],
   "Gloom": [
     "https://apps.apple.com/us/app/gloom-digital-edition/id1504014719",
     "https://store.steampowered.com/app/766040/Gloom_Digital_Edition"
@@ -154,13 +195,23 @@
   "Gloomhaven: Jaws of the Lion": [],
   "Grand Austria Hotel": [],
   "Great Western Trail": [],
+  "Guildhall": ["https://yucata.de/en/Invite/Guildhall"],
+  "Hacienda": ["https://yucata.de/en/Invite/Hazienda"],
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
   "Hanabi": ["https://boardgamegeek.com/boardgame/98778/hanabi"],
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
+  "Hawaii": ["https://yucata.de/en/Invite/Hawaii"],
+  "Helios": ["https://yucata.de/en/Invite/Fish"],
+  "Hey, That's My Fish!": ["https://yucata.de/en/Invite/Helios"],
   "Hive": [
     "https://boardgamearena.com/gamepanel?game=hive",
     "https://play.google.com/store/apps/details?id=com.jb.hive.android",
     "https://store.steampowered.com/app/251210/Hive"
+  ],
+  "Imhotep": ["https://yucata.de/en/Invite/Imhotep"],
+  "Imhotep: The Duel": ["https://yucata.de/en/Invite/ImhotepDuell"],
+  "In the Year of the Dragon": [
+    "https://boardgamearena.com/gamepanel?game=intheyearofthedragon"
   ],
   "Inis": [],
   "Innovation": ["https://boardgamearena.com/gamepanel?game=innovation"],
@@ -170,6 +221,8 @@
     "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur",
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
   ],
+  "Kahuna": ["https://yucata.de/en/Invite/Kahuna"],
+  "Kamisado": ["https://yucata.de/en/Invite/Kamisado"],
   "Kashgar: Merchants of the Silk Road": [
     "https://yucata.de/en/Invite/Kashgar"
   ],
@@ -185,10 +238,12 @@
   ],
   "Kingdom Death: Monster": [],
   "Kingdomino": ["https://boardgamearena.com/gamepanel?game=kingdomino"],
+  "König von Siam": ["https://yucata.de/en/Invite/KingOfSiam"],
   "La Granja": [
     "https://boardgamearena.com/gamepanel?game=lagranja",
     "https://yucata.de/en/Invite/LaGranja"
   ],
+  "La Isla": ["https://yucata.de/en/Invite/LaIsla"],
   "Lanterns: The Harvest Festival": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.lanterns",
     "https://apps.apple.com/us/app/lanterns-the-harvest-festival/id1155269699"
@@ -200,6 +255,9 @@
     "https://apps.apple.com/us/app/le-havre-the-inland-port/id1044671796"
   ],
   "Legendary Encounters: An Alien Deck Building Game": [],
+  "Lewis & Clark: The Expedition": [
+    "https://boardgamearena.com/gamepanel?game=lewisclark"
+  ],
   "Lisboa": [],
   "Lords of Waterdeep": [
     "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
@@ -222,6 +280,8 @@
     "https://apps.apple.com/us/app/love-letter-card-game/id1412772177",
     "https://store.steampowered.com/app/926520/Love_Letter"
   ],
+  "Luna": ["https://yucata.de/en/Invite/Luna"],
+  "Macao": ["https://yucata.de/en/Invite/Macao"],
   "Machi Koro": ["https://yucata.de/en/Invite/MachiKoro"],
   "Mage Knight Board Game": [],
   "Mansions of Madness: Second Edition": [],
@@ -229,10 +289,12 @@
   "Marco Polo II: In the Service of the Khan": [
     "https://boardgamearena.com/gamepanel?game=marcopolotwo"
   ],
+  "Marrakech": ["https://boardgamearena.com/gamepanel?game=marrakech"],
   "Marvel Champions: The Card Game": [],
   "Mechs vs. Minions": [],
   "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
   "Mombasa": [],
+  "Mr. Jack": ["https://boardgamearena.com/gamepanel?game=mrjack"],
   "Mystic Vale": ["https://yucata.de/en/Invite/MysticVale"],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Nemesis": [],
@@ -240,6 +302,7 @@
     "https://play.google.com/store/apps/details?id=com.bdc.nh",
     "https://apps.apple.com/us/app/neuroshima-hex/id391297152"
   ],
+  "Nippon": ["https://boardgamearena.com/gamepanel?game=nippon"],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
   "On Mars": [],
   "One Deck Dungeon": [
@@ -346,6 +409,7 @@
     "https://store.steampowered.com/app/337150/Sentinels_of_the_Multiverse"
   ],
   "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases": [],
+  "Signorie": ["https://boardgamearena.com/gamepanel?game=signorie"],
   "Small World": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.smallworld2",
     "https://apps.apple.com/us/app/small-world-the-board-game/id364165557",
@@ -426,7 +490,9 @@
     "https://apps.apple.com/us/app/the-castles-of-burgundy/id1410742242",
     "https://store.steampowered.com/app/903040/The_Castles_of_Burgundy"
   ],
-  "The Crew: The Quest for Planet Nine": [],
+  "The Crew: The Quest for Planet Nine": [
+    "https://boardgamearena.com/gamepanel?game=thecrew"
+  ],
   "The Gallerist": [],
   "The Great Zimbabwe": ["http://play.boardgamecore.net"],
   "The Lord of the Rings: Journeys in Middle-earth": [],
