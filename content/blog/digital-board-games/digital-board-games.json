@@ -40,6 +40,7 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.abvrelease"
   ],
   "Alchemists": ["http://boiteajeux.net"],
+  "Alhambra": ["http://boiteajeux.net"],
   "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": [],
@@ -84,10 +85,12 @@
   ],
   "Carcassonne": [
     "https://boardgamearena.com/gamepanel?game=carcassonne",
+    "http://brettspielwelt.de/Spiele/Carcassonne",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.carcassonne",
     "https://apps.apple.com/us/app/carcassonne-tiles-tactics/id1199912736",
     "https://store.steampowered.com/app/598810/Carcassonne__Tiles__Tactics",
-    "https://yourturnmyturn.com/game.php?gametype=carcassonne"
+    "https://yourturnmyturn.com/game.php?gametype=carcassonne",
+    "https://king-of-the-jungle.herokuapp.com"
   ],
   "Carcassonne: Hunters and Gatherers": ["https://yucata.de/en/Invite/CarcHaG"],
   "Carcassonne: South Seas": ["https://yucata.de/en/Invite/CarcSouthSeas"],
@@ -103,10 +106,12 @@
     "https://apps.apple.com/us/app/castles-of-mad-king-ludwig/id1100292960"
   ],
   "Catan": [
+    "http://brettspielwelt.de/Spiele/Siedler",
     "https://play.google.com/store/apps/details?id=com.exozet.android.catan",
     "https://apps.apple.com/us/app/catan-classic/id335029050",
     "https://store.steampowered.com/app/544730/Catan_Universe",
-    "https://colonist.io"
+    "https://colonist.io",
+    "https://catanuniverse.com"
   ],
   "Caverna: The Cave Farmers": [],
   "Caylus": [
@@ -118,6 +123,7 @@
   "Champions of Midgard": [],
   "Chaos in the Old World": [],
   "Chronicles of Crime": [],
+  "Citadels": ["https://citadelsgame.herokuapp.com"],
   "City of the Big Shoulders": [
     "https://boardgamearena.com/gamepanel?game=cityofthebigshoulders"
   ],
@@ -128,8 +134,18 @@
     "https://boardgamearena.com/gamepanel?game=clansofcaledonia",
     "https://tabletopia.com/games/clans-of-caledonia"
   ],
-  "Codenames": ["https://codenames.game", "https://codenames.cards"],
-  "Codenames: Duet": ["https://codenames.game", "https://codenames.cards"],
+  "Codenames": [
+    "https://codenames.game",
+    "https://codenames.cards",
+    "https://horsepaste.com",
+    "https://netgames.io/games/codewords"
+  ],
+  "Codenames: Duet": [
+    "https://codenames.game",
+    "https://codenames.cards",
+    "https://horsepaste.com",
+    "https://netgames.io/games/codewords"
+  ],
   "Colt Express": [
     "https://boardgamearena.com/gamepanel?game=coltexpress",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.coltexpress",
@@ -139,7 +155,8 @@
   "Concordia": ["http://boiteajeux.net"],
   "Coup": [
     "https://boardgamearena.com/gamepanel?game=coupcitystate",
-    "https://play.google.com/store/apps/details?id=com.bananaandco.coup"
+    "https://play.google.com/store/apps/details?id=com.bananaandco.coup",
+    "http://coup.thebrown.net"
   ],
   "Crokinole": [],
   "Cthulhu Realms": [
@@ -147,10 +164,14 @@
     "https://apps.apple.com/us/app/cthulhu-realms/id1035256452"
   ],
   "Dead of Winter: A Crossroads Game": [],
-  "Decrypto": ["https://whoawhoa.github.io/decrypto"],
+  "Decrypto": [
+    "https://whoawhoa.github.io/decrypto",
+    "https://netgames.io/games/enigma"
+  ],
   "Descent: Journeys in the Dark (Second Edition)": [],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
   "Dinosaur Island": [],
+  "Dixit": ["http://boiteajeux.net"],
   "Dominant Species": ["https://tabletopia.com/games/dominant-species"],
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
@@ -210,7 +231,10 @@
   "Guildhall": ["https://yucata.de/en/Invite/Guildhall"],
   "Hacienda": ["https://yucata.de/en/Invite/Hazienda"],
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
-  "Hanabi": ["https://boardgamegeek.com/boardgame/98778/hanabi"],
+  "Hanabi": [
+    "https://boardgamearena.com/gamepanel?game=hanabi",
+    "https://hanab.live"
+  ],
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
   "Hansa Teutonica": [],
   "Hawaii": ["https://yucata.de/en/Invite/Hawaii"],
@@ -250,6 +274,7 @@
   ],
   "Kingdom Builder": [
     "https://boardgamearena.com/gamepanel?game=kingdombuilder",
+    "http://brettspielwelt.de/Spiele/KingdomBuilder",
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.kingdombuilder",
     "https://apps.apple.com/us/app/kingdom-builder/id581197776"
   ],
@@ -334,6 +359,7 @@
     "https://apps.apple.com/us/app/one-deck-dungeon/id1380151253",
     "https://store.steampowered.com/app/770100/One_Deck_Dungeon"
   ],
+  "One Night Ultimate Werewolf": ["https://netgames.io/games/onu-werewolf"],
   "Ora et Labora": [],
   "Oregon": ["https://yucata.de/en/Invite/Oregon"],
   "Orléans": ["https://tabletopia.com/games/orleans"],
@@ -410,6 +436,7 @@
     "https://apps.apple.com/us/app/id1324815218",
     "https://store.steampowered.com/app/893840/Roll_for_the_Galaxy"
   ],
+  "Room 25": ["https://boardgamearena.com/gamepanel?game=roomtwentyfive"],
   "Root": ["https://store.steampowered.com/app/965580/Root"],
   "Russian Railroads": [
     "https://boardgamearena.com/gamepanel?game=russianrailroads",
@@ -444,7 +471,11 @@
     "https://store.steampowered.com/app/718560/Scythe_Digital_Edition"
   ],
   "Seasons": ["https://boardgamearena.com/gamepanel?game=seasons"],
-  "Secret Hitler": ["https://secrethitler.io"],
+  "Secret Hitler": [
+    "https://tabletopia.com/games/secret-hitler",
+    "https://secrethitler.io",
+    "https://netgames.io/games/secret-hitler"
+  ],
   "Sentinels of the Multiverse": [
     "https://play.google.com/store/apps/details?id=com.handelabra.Sentinels",
     "https://apps.apple.com/us/app/sentinels-of-the-multiverse/id923772792",
@@ -455,7 +486,8 @@
   "Small World": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.smallworld2",
     "https://apps.apple.com/us/app/small-world-the-board-game/id364165557",
-    "https://store.steampowered.com/app/235620/Small_World"
+    "https://store.steampowered.com/app/235620/Small_World",
+    "https://daysofwonder.com/online/en/play"
   ],
   "Snowdonia": ["https://yucata.de/en/Invite/Snowdonia"],
   "Sobek": ["https://yucata.de/en/Invite/Sobek"],
@@ -465,6 +497,10 @@
     "https://play.google.com/store/apps/details?id=com.daysofwonder.Splendor.gp",
     "https://apps.apple.com/us/app/splendor-the-board-game/id971215921",
     "https://store.steampowered.com/app/376680/Splendor"
+  ],
+  "Spyfall": [
+    "https://spyfall.adrianocola.com",
+    "https://netgames.io/games/spyfall"
   ],
   "Star Realms": [
     "https://play.google.com/store/apps/details?id=com.starrealms.starrealmsapp",
@@ -570,7 +606,8 @@
   "Ticket to Ride": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.tt.android",
     "https://apps.apple.com/us/app/ticket-to-ride-train-game/id432504470",
-    "https://store.steampowered.com/app/108200/Ticket_to_Ride"
+    "https://store.steampowered.com/app/108200/Ticket_to_Ride",
+    "https://www.daysofwonder.com/online/en/play"
   ],
   "Ticket to Ride: Europe": [],
   "Tigris & Euphrates": [
