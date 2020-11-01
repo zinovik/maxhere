@@ -53,7 +53,10 @@
   "At the Gates of Loyang": ["https://yucata.de/en/Invite/Loyang"],
   "Attika": ["https://yucata.de/en/Invite/Attika"],
   "Automobiles": ["https://yucata.de/en/Invite/Automobiles"],
-  "Azul": ["https://azee.mattle.online"],
+  "Azul": [
+    "https://azee.mattle.online",
+    "https://play.google.com/store/apps/details?id=es.pozoesteban.alberto.mvcrystals"
+  ],
   "Balloon Cup": ["https://yucata.de/en/Invite/BalloonCup"],
   "Barrage": ["https://tabletopia.com/games/barrage_ks"],
   "Battlestar Galactica: The Board Game": [],
@@ -122,6 +125,12 @@
   "Century: Spice Road": ["https://spicee.mattle.online"],
   "Champions of Midgard": [],
   "Chaos in the Old World": [],
+  "Charterstone": [
+    "https://gog.com/game/charterstone_digital_edition",
+    "https://play.google.com/store/apps/details?id=com.acram.Charterstone",
+    "https://apps.apple.com/us/app/charterstone-digital-edition/id1457338857",
+    "https://store.steampowered.com/app/1046660/Charterstone_Digital_Edition"
+  ],
   "Chronicles of Crime": [],
   "Citadels": ["https://citadelsgame.herokuapp.com"],
   "City of the Big Shoulders": [
@@ -309,7 +318,9 @@
     "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
   ],
   "Lords of Xidit": ["https://boardgamearena.com/gamepanel?game=lox"],
-  "Lorenzo il Magnifico": [],
+  "Lorenzo il Magnifico": [
+    "https://store.steampowered.com/app/1034540/Lorenzo_il_Magnifico"
+  ],
   "Lost Cities": [
     "https://boardgamearena.com/gamepanel?game=lostcities",
     "https://apps.apple.com/us/app/lost-cities/id465062454",
@@ -341,6 +352,9 @@
   "Masons": ["https://yucata.de/en/Invite/Mauerbauer"],
   "Mechs vs. Minions": [],
   "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
+  "Mint Works": [
+    "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks"
+  ],
   "Mombasa": [],
   "Mr. Jack": ["https://boardgamearena.com/gamepanel?game=mrjack"],
   "Mykerinos": ["http://boiteajeux.net"],
@@ -400,12 +414,12 @@
     "https://boardgamearena.com/gamepanel?game=potionexplosion"
   ],
   "Power Grid": [
-    "http://www.brettspielwelt.de/Spiele/Funkenschlag",
+    "http://brettspielwelt.de/Spiele/Funkenschlag",
     "https://sparkcities.io"
   ],
   "Puerto Rico": [
     "https://boardgamearena.com/gamepanel?game=puertorico",
-    "http://www.brettspielwelt.de/Spiele/PuertoRico",
+    "http://brettspielwelt.de/Spiele/PuertoRico",
     "https://apps.apple.com/us/app/puerto-rico-hd/id438437326"
   ],
   "R-Eco": ["https://yucata.de/en/Invite/REco"],
@@ -442,10 +456,18 @@
     "https://store.steampowered.com/app/893840/Roll_for_the_Galaxy"
   ],
   "Room 25": ["https://boardgamearena.com/gamepanel?game=roomtwentyfive"],
-  "Root": ["https://store.steampowered.com/app/965580/Root"],
+  "Root": [
+    "https://play.google.com/store/apps/details?id=com.direwolfdigital.root",
+    "https://apps.apple.com/us/app/root-board-game/id1439262206",
+    "https://store.steampowered.com/app/965580/Root"
+  ],
   "Russian Railroads": [
     "https://boardgamearena.com/gamepanel?game=russianrailroads",
     "https://yucata.de/en/Invite/RRR2"
+  ],
+  "Saboteur": [
+    "https://boardgamearena.com/gamepanel?game=saboteur",
+    "http://brettspielwelt.de/Spiele/Saboteur"
   ],
   "Sagrada": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.sagrada",
@@ -472,7 +494,7 @@
     "https://tabletopia.com/games/scythe",
     "https://store.steampowered.com/app/446980/Tabletop_Simulator__Scythe",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.scythe",
-    "https://apps.apple.com/gb/app/scythe-digital-edition/id1482645966",
+    "https://apps.apple.com/us/app/scythe-digital-edition/id1482645966",
     "https://store.steampowered.com/app/718560/Scythe_Digital_Edition"
   ],
   "Seasons": ["https://boardgamearena.com/gamepanel?game=seasons"],
