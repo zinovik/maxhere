@@ -676,13 +676,12 @@
   "Vinhos Deluxe Edition": [],
   "Viticulture Essential Edition": [
     "https://tabletopia.com/games/viticulture-essential-edition",
-    "https://store.steampowered.com/app/1325800/Viticulture_Essential_Edition"
-  ],
-  "Viticulture": [
     "https://store.steampowered.com/app/468733/Tabletop_Simulator__Viticulture",
     "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease",
-    "https://apps.apple.com/us/app/viticulture/id1467248737"
+    "https://apps.apple.com/us/app/viticulture/id1467248737",
+    "https://store.steampowered.com/app/1325800/Viticulture_Essential_Edition"
   ],
+  "Viticulture": [],
   "War Chest": [
     "https://yucata.de/en/Invite/WarChest",
     "https://warchestonline.com"
