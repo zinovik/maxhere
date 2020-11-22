@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { SiteConfigInterface } from '../interfaces/site-config-interface';
 
 const ALL = 'All';
-const WITHOUT_IMPLEMENTATION = 'Without Implementation';
+export const WITHOUT_IMPLEMENTATION = 'Without Implementation';
 
 const Label = styled.label`
   margin-left: 2px;

@@ -46,7 +46,9 @@
   "Android: Netrunner": [],
   "Antike Duellum": ["https://yucata.de/en/Invite/CasusBelli"],
   "Antiquity": ["http://play.boardgamecore.net"],
-  "Architects of the West Kingdom": [],
+  "Architects of the West Kingdom": [
+    "https://tabletopia.com/games/architects-of-the-west-kingdom"
+  ],
   "Arkadia": ["https://yucata.de/en/Invite/Arkadia"],
   "Arkham Horror: The Card Game": ["https://playarkham.azurewebsites.net"],
   "Assyria": ["https://boardgamearena.com/gamepanel?game=assyria"],
@@ -101,6 +103,7 @@
   "Carpe Diem": ["https://yucata.de/en/Invite/CarpeDiem"],
   "Carson City": ["https://yucata.de/en/Invite/CarsonCity"],
   "Cartographers": [
+    "https://tabletopia.com/games/cartographers-a-roll-player-tale",
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.cartographers",
     "https://apps.apple.com/us/app/cartographers/id1515991485"
   ],
@@ -123,7 +126,7 @@
   ],
   "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Spice Road": ["https://spicee.mattle.online"],
-  "Champions of Midgard": [],
+  "Champions of Midgard": ["https://tabletopia.com/games/champions-of-midgard"],
   "Chaos in the Old World": [],
   "Charterstone": [
     "https://gog.com/game/charterstone_digital_edition",
@@ -237,6 +240,7 @@
   "Gloomhaven: Jaws of the Lion": [],
   "Go": [
     "https://boardgamearena.com/gamepanel?game=classicgo",
+    "https://tabletopia.com/games/go",
     "https://online-go.com"
   ],
   "Grand Austria Hotel": [],
@@ -249,7 +253,7 @@
     "https://hanab.live"
   ],
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
-  "Hansa Teutonica": [],
+  "Hansa Teutonica": ["https://tabletopia.com/games/hansa-teutonica"],
   "Hawaii": ["https://yucata.de/en/Invite/Hawaii"],
   "Helios": ["https://yucata.de/en/Invite/Fish"],
   "Hey, That's My Fish!": ["https://yucata.de/en/Invite/Helios"],
@@ -271,6 +275,10 @@
     "https://yucata.de/en/Invite/Jaipur",
     "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur",
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
+  ],
+  "K2": [
+    "https://boardgamearena.com/gamepanel?game=k2",
+    "https://tabletopia.com/games/k2"
   ],
   "Kahuna": [
     "https://boardgamearena.com/gamepanel?game=kahuna",
@@ -313,7 +321,7 @@
   "Lewis & Clark: The Expedition": [
     "https://boardgamearena.com/gamepanel?game=lewisclark"
   ],
-  "Lisboa": [],
+  "Lisboa": ["https://tabletopia.com/games/lisboa"],
   "Lords of Waterdeep": [
     "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
   ],
@@ -382,7 +390,9 @@
   "Ora et Labora": [],
   "Oregon": ["https://yucata.de/en/Invite/Oregon"],
   "Orléans": ["https://tabletopia.com/games/orleans"],
-  "Paladins of the West Kingdom": [],
+  "Paladins of the West Kingdom": [
+    "https://tabletopia.com/games/paladins-of-the-west-kingdom"
+  ],
   "Pandemic Legacy: Season 1": [],
   "Pandemic Legacy: Season 2": [],
   "Pandemic": [
@@ -445,7 +455,9 @@
   ],
   "Res Arcana": [],
   "Rising Sun": [],
-  "Robinson Crusoe: Adventures on the Cursed Island": [],
+  "Robinson Crusoe: Adventures on the Cursed Island": [
+    "https://tabletopia.com/games/robinson-crusoe"
+  ],
   "Roll Through the Ages: The Bronze Age": [
     "https://yucata.de/en/Invite/RollAges"
   ],
@@ -606,14 +618,19 @@
   "The Crew: The Quest for Planet Nine": [
     "https://boardgamearena.com/gamepanel?game=thecrew"
   ],
-  "The Gallerist": [],
+  "The Gallerist": ["https://tabletopia.com/games/the-gallerist"],
   "The Great Zimbabwe": ["http://play.boardgamecore.net"],
   "The Hanging Gardens": ["https://yucata.de/en/Invite/HangingGardens"],
+  "The King's Dilemma": [
+    "https://tabletopia.com/games/the-king-s-dilemma-demo"
+  ],
   "The Lord of the Rings: Journeys in Middle-earth": [],
   "The Lord of the Rings: The Card Game": [],
   "The Oracle of Delphi": ["https://yucata.de/en/Invite/Delphi"],
   "The Palaces of Carrara": ["https://yucata.de/en/Invite/Carrara"],
-  "The Quacks of Quedlinburg": [],
+  "The Quacks of Quedlinburg": [
+    "https://tabletopia.com/games/the-quacks-of-quedlinburg"
+  ],
   "The Resistance: Avalon": [],
   "The Rose King": ["https://yucata.de/en/Invite/Rosenkoenig2"],
   "The Speicherstadt": ["https://yucata.de/en/Invite/Speicherstadt"],
@@ -700,6 +717,9 @@
     "https://store.steampowered.com/app/1054490/Wingspan"
   ],
   "Wir sind das Volk!": ["http://play.boardgamecore.net"],
+  "Xia: Legends of a Drift System": [
+    "https://store.steampowered.com/app/468737/Tabletop_Simulator__Xia_Legends_of_a_Drift_System"
+  ],
   "Yellow & Yangtze": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.yellow",
     "https://apps.apple.com/us/app/reiner-knizia-yellow-yangtze/id1439244350",

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Game, { getGameRank } from '../game';
 import { sitesConfig } from './sites-config';
 import { Header } from './components/header';
-import { Filter } from './components/filter';
+import { Filter, WITHOUT_IMPLEMENTATION } from './components/filter';
 import {
   Row,
   CellRank,
@@ -15,6 +15,35 @@ import { gamesByRankSortFunction } from './games-list-helpers/games-by-rank-sort
 import { GameIconLink } from './components/game-icon-link';
 import { GameInterface } from './interfaces/game-interface';
 
+const STORAGE_NAME = 'digital-board-games:sites-filter';
+const WITHOUT_IMPLEMENTATION_DEFAULT_VALUE = false;
+
+const getFilterFromLocationSearch = (search: string) => {
+  const params = new URLSearchParams(search);
+  const sites = params.get('sites');
+
+  if (!sites) {
+    return null;
+  }
+
+  const sitesFilter = sitesConfig.reduce((acc, site) => {
+    return {
+      ...acc,
+      [site.title]:
+        sites.indexOf(site.title.toLowerCase().replace(/ /gm, '-')) >= 0,
+    };
+  }, {});
+
+  const isWithoutImplementation =
+    sites.indexOf(WITHOUT_IMPLEMENTATION.toLowerCase().replace(/ /gm, '-')) >=
+    0;
+
+  return {
+    sitesFilter,
+    isWithoutImplementation,
+  };
+};
+
 interface GamesListProps {
   games: {
     [key: string]: string[];
@@ -26,24 +55,60 @@ const GamesList: React.FC<GamesListProps> = ({ games }) => {
   const [isWithoutImplementation, setIsWithoutImplementation] = useState(false);
 
   useEffect(() => {
-    const savedSitesFilterJSON = localStorage.getItem('sitesFilter');
-    const savedIsWithoutImplementation = localStorage.getItem(
-      'isWithoutImplementation',
-    );
+    const searchFilter = getFilterFromLocationSearch(window.location.search);
 
-    setSitesFilter(
-      savedSitesFilterJSON
-        ? JSON.parse(savedSitesFilterJSON)
-        : getInitialFilterState(sitesConfig),
-    );
-    setIsWithoutImplementation(savedIsWithoutImplementation === 'true');
+    if (searchFilter) {
+      setSitesFilter(searchFilter.sitesFilter);
+      setIsWithoutImplementation(searchFilter.isWithoutImplementation);
+
+      return;
+    }
+
+    const storageFilterJSON = localStorage.getItem(STORAGE_NAME);
+
+    if (storageFilterJSON) {
+      const storageFilter = JSON.parse(storageFilterJSON);
+
+      setSitesFilter(storageFilter.sitesFilter);
+      setIsWithoutImplementation(storageFilter.isWithoutImplementation);
+
+      return;
+    }
+
+    setSitesFilter(getInitialFilterState(sitesConfig));
+    setIsWithoutImplementation(WITHOUT_IMPLEMENTATION_DEFAULT_VALUE);
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('sitesFilter', JSON.stringify(sitesFilter));
     localStorage.setItem(
-      'isWithoutImplementation',
-      isWithoutImplementation ? 'true' : 'false',
+      STORAGE_NAME,
+      JSON.stringify({
+        sitesFilter,
+        isWithoutImplementation,
+      }),
+    );
+
+    const sitesString = Object.keys(sitesFilter)
+      .filter(site => sitesFilter[site])
+      .join(',')
+      .toLowerCase()
+      .replace(/ /gm, '-');
+
+    const withoutImplementationString = WITHOUT_IMPLEMENTATION.toLowerCase().replace(
+      / /gm,
+      '-',
+    );
+
+    const filterString = isWithoutImplementation
+      ? sitesString
+        ? `${sitesString},${withoutImplementationString}`
+        : withoutImplementationString
+      : sitesString;
+
+    window.history.replaceState(
+      'Digital Board Games',
+      'digital-board-games',
+      `${window.location.pathname}?sites=${filterString}${window.location.hash}`,
     );
   }, [sitesFilter, isWithoutImplementation]);
 
