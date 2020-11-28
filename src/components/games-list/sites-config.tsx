@@ -64,7 +64,7 @@ export const sitesConfig: SiteConfigInterface[] = [
   },
   {
     title: 'Desktop',
-    urlParts: ['keldon.net', 'lantsev1981.pro'],
+    urlParts: ['keldon.net', 'lantsev1981.pro', 'boardgamegeek.com/guild/1733'],
     icon: icons.DESKTOP,
   },
   {
