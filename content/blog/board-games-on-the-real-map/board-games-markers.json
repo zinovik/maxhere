@@ -1,0 +1,239 @@
+[
+  {
+    "lat": 38.8029,
+    "long": -9.3817,
+    "game": "Azul: Stained Glass of Sintra",
+    "links": ["https://en.wikipedia.org/wiki/Sintra"]
+  },
+  {
+    "lat": 16.5004,
+    "long": -151.7415,
+    "game": "Bora Bora",
+    "links": ["https://en.wikipedia.org/wiki/Bora_Bora"]
+  },
+  {
+    "lat": 52.4862,
+    "long": -1.8904,
+    "game": "Brass: Birmingham",
+    "links": ["https://en.wikipedia.org/wiki/Birmingham"]
+  },
+  {
+    "lat": 53.7632,
+    "long": -2.7044,
+    "game": "Brass: Lancashire",
+    "links": ["https://en.wikipedia.org/wiki/Lancashire"]
+  },
+  {
+    "lat": 51.2093,
+    "long": 3.2247,
+    "game": "Bruges",
+    "links": ["https://en.wikipedia.org/wiki/Bruges"]
+  },
+  {
+    "lat": 50.8503,
+    "long": 4.3517,
+    "game": "Bruxelles 1893",
+    "links": ["https://en.wikipedia.org/wiki/Brussels"]
+  },
+  {
+    "lat": 43.2132,
+    "long": 2.3518,
+    "game": "Carcassonne",
+    "links": ["https://en.wikipedia.org/wiki/Carcassonne"]
+  },
+  {
+    "lat": 44.2358,
+    "long": 1.7719,
+    "game": "Caylus",
+    "links": ["https://en.wikipedia.org/wiki/Caylus,_Tarn-et-Garonne"]
+  },
+  {
+    "lat": 56.4907,
+    "long": -4.2026,
+    "game": "Clans of Caledonia",
+    "links": ["https://en.wikipedia.org/wiki/Caledonia"]
+  },
+  {
+    "lat": 37,
+    "long": 25.1667,
+    "game": "Cyclades",
+    "links": ["https://en.wikipedia.org/wiki/Cyclades"]
+  },
+  {
+    "lat": 41.9028,
+    "long": 12.4964,
+    "game": "Glory to Rome",
+    "links": ["https://en.wikipedia.org/wiki/Rome"]
+  },
+  {
+    "lat": 15.2993,
+    "long": 74.124,
+    "game": "Goa",
+    "links": ["https://en.wikipedia.org/wiki/Goa"]
+  },
+  {
+    "lat": 39.0997,
+    "long": -94.5786,
+    "game": "Great Western Trail",
+    "links": ["https://en.wikipedia.org/wiki/Great_Western_Cattle_Trail"]
+  },
+  {
+    "lat": 26.9124,
+    "long": 75.7873,
+    "game": "Jaipur",
+    "links": ["https://en.wikipedia.org/wiki/Jaipur"]
+  },
+  {
+    "lat": 26.8206,
+    "long": 30.8025,
+    "game": "Kemet",
+    "links": ["https://en.wikipedia.org/wiki/Egypt"]
+  },
+  {
+    "lat": 39.6657,
+    "long": 2.5796,
+    "game": "La Granja",
+    "links": [
+      "https://en.wikipedia.org/wiki/Esporles",
+      "https://en.wikipedia.org/wiki/Mallorca"
+    ]
+  },
+  {
+    "lat": 49.4944,
+    "long": 0.1079,
+    "game": "Le Havre",
+    "links": ["https://en.wikipedia.org/wiki/Le_Havre"]
+  },
+  {
+    "lat": 38.7223,
+    "long": -9.1393,
+    "game": "Lisboa",
+    "links": [
+      "https://en.wikipedia.org/wiki/Lisbon",
+      "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+    ]
+  },
+  {
+    "lat": 51.5074,
+    "long": -0.1278,
+    "game": "London (Second Edition)",
+    "links": [
+      "https://en.wikipedia.org/wiki/London",
+      "https://en.wikipedia.org/wiki/Great_Fire_of_London"
+    ]
+  },
+  {
+    "lat": 10.6427,
+    "long": -71.6125,
+    "game": "Maracaibo",
+    "links": ["https://en.wikipedia.org/wiki/Maracaibo"]
+  },
+  {
+    "lat": -4.0435,
+    "long": 39.6682,
+    "game": "Mombasa",
+    "links": ["https://en.wikipedia.org/wiki/Mombasa"]
+  },
+  {
+    "lat": 48.853,
+    "long": 2.3499,
+    "game": "Notre Dame",
+    "links": [
+      "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+      "https://en.wikipedia.org/wiki/Paris"
+    ]
+  },
+  {
+    "lat": 68.0353,
+    "long": 13.3478,
+    "game": "Nusfjord",
+    "links": ["https://en.wikipedia.org/wiki/Nusfjord"]
+  },
+  {
+    "lat": 47.903,
+    "long": 1.9093,
+    "game": "Orléans",
+    "links": ["https://en.wikipedia.org/wiki/Orl%C3%A9ans"]
+  },
+  {
+    "lat": 18.2208,
+    "long": -66.5901,
+    "game": "Puerto Rico",
+    "links": ["https://en.wikipedia.org/wiki/Puerto_Rico"]
+  },
+  {
+    "lat": 27.1767,
+    "long": 78.0081,
+    "game": "Rajas of the Ganges",
+    "links": [
+      "https://en.wikipedia.org/wiki/Ganges",
+      "https://en.wikipedia.org/wiki/Mughal_Empire"
+    ]
+  },
+  {
+    "lat": 41.4036,
+    "long": 2.1744,
+    "game": "Sagrada",
+    "links": [
+      "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "https://en.wikipedia.org/wiki/Barcelona"
+    ]
+  },
+  {
+    "lat": 59.9311,
+    "long": 30.3609,
+    "game": "Saint Petersburg",
+    "links": ["https://en.wikipedia.org/wiki/Saint_Petersburg"]
+  },
+  {
+    "lat": 18.4655,
+    "long": -66.1057,
+    "game": "San Juan",
+    "links": ["https://en.wikipedia.org/wiki/San_Juan,_Puerto_Rico"]
+  },
+  {
+    "lat": 36.3932,
+    "long": 25.4615,
+    "game": "Santorini",
+    "links": ["https://en.wikipedia.org/wiki/Santorini"]
+  },
+  {
+    "lat": 19.6861,
+    "long": -98.8716,
+    "game": "Teotihuacan: City of Gods",
+    "links": ["https://en.wikipedia.org/wiki/Teotihuacan"]
+  },
+  {
+    "lat": 47.0525,
+    "long": 4.3837,
+    "game": "The Castles of Burgundy",
+    "links": ["https://en.wikipedia.org/wiki/Burgundy"]
+  },
+  {
+    "lat": 43.7696,
+    "long": 11.2558,
+    "game": "The Princes of Florence",
+    "links": ["https://en.wikipedia.org/wiki/Florence"]
+  },
+  {
+    "lat": 51.7921,
+    "long": 11.1414,
+    "game": "The Quacks of Quedlinburg",
+    "links": ["https://en.wikipedia.org/wiki/Quedlinburg"]
+  },
+  {
+    "lat": 48.8799,
+    "long": 0.1713,
+    "game": "Undaunted: Normandy",
+    "links": [
+      "https://en.wikipedia.org/wiki/Normandy",
+      "https://en.wikipedia.org/wiki/Normandy_landings"
+    ]
+  },
+  {
+    "lat": 43.7711,
+    "long": 11.2486,
+    "game": "Viticulture Essential Edition",
+    "links": ["https://en.wikipedia.org/wiki/Tuscany"]
+  }
+]

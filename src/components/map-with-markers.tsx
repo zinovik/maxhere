@@ -1,5 +1,4 @@
 import React from 'react';
-import L from 'leaflet';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import Game from './game';
 
@@ -8,6 +7,7 @@ interface MapWithMarkersProps {
     lat: number;
     long: number;
     game: string;
+    links: string[];
   }>;
 }
 
@@ -27,9 +27,24 @@ const MapWithMarkers: React.FC<MapWithMarkersProps> = ({ markers }) => {
         style={{ height: 500 }}
       >
         <TileLayer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png" />
-        {markers.map(({ lat, long, game }) => (
+        {markers.map(({ lat, long, game, links }) => (
           <Marker position={[lat, long]}>
-            <Popup>{game && <Game gameName={game} />}</Popup>
+            <Popup>
+              <Game gameName={game} />
+              {links.length && (
+                <>
+                  <br />
+                  {links.map(link => (
+                    <>
+                      <br />
+                      <a href={link} target="_blank">
+                        {link}
+                      </a>
+                    </>
+                  ))}
+                </>
+              )}
+            </Popup>
           </Marker>
         ))}
       </MapContainer>
