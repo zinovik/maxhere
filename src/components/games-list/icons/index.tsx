@@ -5,8 +5,9 @@ import yucataIcon from './yucata.jpg';
 import boiteajeuxIcon from './boiteajeux.jpg';
 import mattleIcon from './mattle.png';
 import brettspielweltIcon from './brettspielwelt.jpg';
+import happyMeeple from './happymeeple.png';
 import tabletopiaIcon from './tabletopia.png';
-import tabletopSimulatorIcon from './tabletop-simulator.png';
+import tabletopSimulatorIcon from './tabletopsimulator.png';
 import androidIcon from './android.svg';
 import iosIcon from './ios.png';
 import steamIcon from './steam.png';
@@ -27,6 +28,7 @@ export const icons = {
   BOITEAJEUX: <Img src={boiteajeuxIcon} />,
   MATTLE: <Img src={mattleIcon} />,
   BRETTSPIELWELT: <Img src={brettspielweltIcon} />,
+  HAPPYMEEPLE: <Img src={happyMeeple} />,
   TABLETOPIA: <Img src={tabletopiaIcon} />,
   TABLETOP_SIMULATOR: <Img src={tabletopSimulatorIcon} />,
   ANDROID: <Img src={androidIcon} />,

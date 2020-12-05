@@ -33,6 +33,12 @@ export const sitesConfig: SiteConfigInterface[] = [
     siteUrl: '#brettspielwelt',
   },
   {
+    title: 'Happy Meeple',
+    urlParts: ['happymeeple.com'],
+    icon: icons.HAPPYMEEPLE,
+    siteUrl: '#happymeeple',
+  },
+  {
     title: 'Tabletopia',
     urlParts: ['tabletopia.com'],
     icon: icons.TABLETOPIA,
@@ -40,9 +46,9 @@ export const sitesConfig: SiteConfigInterface[] = [
   },
   {
     title: 'Tabletop Simulator',
-    urlParts: ['/Tabletop_Simulator__'],
+    urlParts: ['/Tabletop_Simulator__', 'steamcommunity.com/sharedfiles'],
     icon: icons.TABLETOP_SIMULATOR,
-    siteUrl: '#tabletop-simulator',
+    siteUrl: '#tabletopsimulator',
   },
   {
     title: 'Android',

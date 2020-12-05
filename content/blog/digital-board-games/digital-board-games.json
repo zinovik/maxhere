@@ -136,6 +136,9 @@
     "https://store.steampowered.com/app/1046660/Charterstone_Digital_Edition"
   ],
   "Chronicles of Crime": [],
+  "Circle the Wagons": [
+    "https://happymeeple.com/en/board-games/circle-the-wagons/overview"
+  ],
   "Citadels": ["https://citadelsgame.herokuapp.com"],
   "City of the Big Shoulders": [
     "https://boardgamearena.com/gamepanel?game=cityofthebigshoulders"
@@ -237,7 +240,10 @@
     "https://apps.apple.com/us/app/gloom-digital-edition/id1504014719",
     "https://store.steampowered.com/app/766040/Gloom_Digital_Edition"
   ],
-  "Gloomhaven": ["https://store.steampowered.com/app/780290/Gloomhaven"],
+  "Gloomhaven": [
+    "https://store.steampowered.com/app/780290/Gloomhaven",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1301493206"
+  ],
   "Gloomhaven: Jaws of the Lion": [],
   "Go": [
     "https://boardgamearena.com/gamepanel?game=classicgo",
@@ -289,6 +295,7 @@
   "Kashgar: Merchants of the Silk Road": [
     "https://yucata.de/en/Invite/Kashgar"
   ],
+  "Keltis": ["https://happymeeple.com/en/board-games/keltis-card/overview"],
   "Kemet": [],
   "Keyflower": [
     "https://boardgamearena.com/gamepanel?game=keyflower",
@@ -649,7 +656,10 @@
   ],
   "Through the Ages: A Story of Civilization": [],
   "Thunderstone": ["https://yucata.de/en/Invite/Thunderstone"],
-  "Thurn and Taxis": ["https://yucata.de/en/Invite/ThurnTaxis"],
+  "Thurn and Taxis": [
+    "https://boardgamearena.com/gamepanel?game=thurnandtaxis",
+    "https://yucata.de/en/Invite/ThurnTaxis"
+  ],
   "Ticket to Ride": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.tt.android",
     "https://apps.apple.com/us/app/ticket-to-ride-train-game/id432504470",
@@ -712,7 +722,7 @@
     "https://apps.apple.com/us/app/warhammer-quest-silver-tower/id1517281011"
   ],
   "Wavelength": ["https://heretothere.app", "https://longwave.web.app"],
-  "Welcome To...": [],
+  "Welcome To...": ["https://boardgamearena.com/gamepanel?game=welcometo"],
   "Wingspan": [
     "https://tabletopia.com/games/wingspan",
     "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan",
