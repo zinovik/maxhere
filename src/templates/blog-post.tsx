@@ -44,8 +44,9 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   const disqusConfig = {
     shortname: process.env.GATSBY_DISQUS_NAME || 'maxhere',
     config: {
-      identifier: post.frontmatter.slug,
+      identifier: post.fields.slug.replace(/\/$/, ''),
       title: post.frontmatter.title,
+      disqus_identifier: post.fields.slug.replace(/\/$/, ''),
     },
   };
 
@@ -164,6 +165,9 @@ export const pageQuery = graphql`
             }
           }
         }
+      }
+      fields {
+        slug
       }
     }
   }

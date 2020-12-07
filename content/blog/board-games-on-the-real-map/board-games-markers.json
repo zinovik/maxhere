@@ -123,6 +123,12 @@
     ]
   },
   {
+    "lat": 32.7607,
+    "long": -16.9595,
+    "game": "Madeira",
+    "links": ["https://en.wikipedia.org/wiki/Madeira"]
+  },
+  {
     "lat": 10.6427,
     "long": -71.6125,
     "game": "Maracaibo",
