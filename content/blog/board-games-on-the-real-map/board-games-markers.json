@@ -90,6 +90,12 @@
     "links": ["https://en.wikipedia.org/wiki/Jaipur"]
   },
   {
+    "lat": 18.1096,
+    "long": -77.2975,
+    "game": "Jamaica",
+    "links": ["https://en.wikipedia.org/wiki/Jamaica"]
+  },
+  {
     "lat": 26.8206,
     "long": 30.8025,
     "game": "Kemet",
