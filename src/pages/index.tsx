@@ -50,7 +50,6 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                       fluid={
                         node.frontmatter.featuredImage.childImageSharp.fluid
                       }
-                      style={{ maxHeight: '500px' }}
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <p

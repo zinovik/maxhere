@@ -97,7 +97,10 @@
     "https://yourturnmyturn.com/game.php?gametype=carcassonne",
     "https://king-of-the-jungle.herokuapp.com"
   ],
-  "Carcassonne: Hunters and Gatherers": ["https://yucata.de/en/Invite/CarcHaG"],
+  "Carcassonne: Hunters and Gatherers": [
+    "https://boardgamearena.com/gamepanel?game=carcassonnehuntersandgatherers",
+    "https://yucata.de/en/Invite/CarcHaG"
+  ],
   "Carcassonne: South Seas": ["https://yucata.de/en/Invite/CarcSouthSeas"],
   "Carolus Magnus": ["https://yucata.de/en/Invite/CarolusMagnus"],
   "Carpe Diem": ["https://yucata.de/en/Invite/CarpeDiem"],
@@ -250,7 +253,7 @@
     "https://tabletopia.com/games/go",
     "https://online-go.com"
   ],
-  "Grand Austria Hotel": [],
+  "Grand Austria Hotel": ["https://yucata.de/en/Invite/GrandAustria"],
   "Great Western Trail": [],
   "Guildhall": ["https://yucata.de/en/Invite/Guildhall"],
   "Hacienda": ["https://yucata.de/en/Invite/Hazienda"],
@@ -698,7 +701,7 @@
     "http://boiteajeux.net"
   ],
   "Ulm": ["https://yucata.de/en/Invite/Ulm"],
-  "Underwater Cities": [],
+  "Underwater Cities": ["https://yucata.de/en/Invite/UnderwaterCities"],
   "Valletta": ["https://yucata.de/en/Invite/Valletta"],
   "Vanuatu": ["http://boiteajeux.net"],
   "Vikings": ["https://yucata.de/en/Invite/Vikings"],

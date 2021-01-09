@@ -63,7 +63,6 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
             <>
               <Img
                 fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
-                style={{ maxHeight: '500px' }}
                 imgStyle={{ objectFit: 'contain' }}
               />
               <p
