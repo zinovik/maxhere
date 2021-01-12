@@ -8,21 +8,26 @@ const Tag = styled.span`
 `;
 
 interface TagsListProps {
-  tags: string[];
+  tags: (string | { fieldValue: string; totalCount: number })[];
 }
 
 const TagsList: React.FC<TagsListProps> = ({ tags }) => {
   return (
-    <p>
-      tags:
-      {tags.map(tag => (
-        <Tag key={tag}>
-          <Link to={`/tag/${kebabCase(tag)}`} rel="next">
-            {tag}
-          </Link>
-        </Tag>
-      ))}
-    </p>
+    <>
+      {tags.map(tag => {
+        const { fieldValue: tagName, totalCount } =
+          typeof tag === 'string' ? { fieldValue: tag } : tag;
+
+        return (
+          <Tag key={tagName}>
+            <Link to={`/tag/${kebabCase(tagName)}`} rel="next">
+              {tagName}
+              {totalCount ? ` (${totalCount})` : ''}
+            </Link>
+          </Tag>
+        );
+      })}
+    </>
   );
 };
 

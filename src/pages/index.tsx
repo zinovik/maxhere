@@ -3,10 +3,10 @@ import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
 
-import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import BackToTop from '../components/back-to-top';
+import TagsList from '../components/tags-list';
 import { BlogIndexQuery } from '../../gatsby-graphql';
 import { scale } from '../utils/typography';
 
@@ -22,6 +22,13 @@ const PostImg = styled(Img)`
   margin: 0px;
 `;
 
+const TagsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+`;
+
 interface BlogIndexProps {
   data: BlogIndexQuery;
   location: {
@@ -32,11 +39,21 @@ interface BlogIndexProps {
 const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
   const posts = data.allMdx.edges;
+  const tags = data.allMdx.group;
 
   return (
     <Layout location={location} title={siteTitle}>
+      <TagsContainer>
+        <TagsList
+          tags={tags
+            .slice()
+            .reverse()
+            .sort((t1, t2) => t2.totalCount - t1.totalCount)}
+        />
+      </TagsContainer>
+
       <SEO title="All posts" />
-      <Bio />
+
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
 
@@ -112,6 +129,10 @@ export const pageQuery = graphql`
             }
           }
         }
+      }
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }

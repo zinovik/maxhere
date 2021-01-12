@@ -15,10 +15,9 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
-  let header;
 
-  if (location.pathname === rootPath) {
-    header = (
+  const header =
+    location.pathname === rootPath ? (
       <h1
         style={{
           ...scale(1.5),
@@ -35,9 +34,7 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
-    );
-  } else {
-    header = (
+    ) : (
       <h3
         style={{
           marginTop: 0,
@@ -53,7 +50,6 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
         </Link>
       </h3>
     );
-  }
 
   return (
     <div
@@ -67,7 +63,7 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with 💚 and
+        © 2020 - 2021, Built with 💚 and
         {` `}
         <a href="https://gatsbyjs.org" target="_blank">
           Gatsby

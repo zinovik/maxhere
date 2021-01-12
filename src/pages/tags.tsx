@@ -2,7 +2,6 @@ import React from 'react';
 
 import kebabCase from 'lodash/kebabCase';
 
-import { Helmet } from 'react-helmet';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import { TagsPageQuery } from '../../gatsby-graphql';
@@ -25,7 +24,6 @@ const TagsPage: React.FC<TagsPageProps> = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Helmet title={siteTitle} />
       <div>
         <h1>Tags</h1>
         <ul>

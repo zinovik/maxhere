@@ -40,7 +40,10 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.abvrelease"
   ],
   "Alchemists": ["http://boiteajeux.net"],
-  "Alhambra": ["http://boiteajeux.net"],
+  "Alhambra": [
+    "https://boardgamearena.com/gamepanel?game=alhambra",
+    "http://boiteajeux.net"
+  ],
   "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": [],
@@ -57,10 +60,14 @@
   "Automobiles": ["https://yucata.de/en/Invite/Automobiles"],
   "Azul": [
     "https://azee.mattle.online",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2143374769",
     "https://play.google.com/store/apps/details?id=es.pozoesteban.alberto.mvcrystals"
   ],
   "Balloon Cup": ["https://yucata.de/en/Invite/BalloonCup"],
-  "Barrage": ["https://tabletopia.com/games/barrage_ks"],
+  "Barrage": [
+    "https://tabletopia.com/games/barrage_ks",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1676875832"
+  ],
   "Battlestar Galactica: The Board Game": [],
   "Blood Rage": [
     "https://store.steampowered.com/app/610700/Tabletop_Simulator__Blood_Rage",
@@ -171,7 +178,9 @@
     "https://apps.apple.com/us/app/colt-express/id1140513212"
   ],
   "Commands & Colors: Ancients": [],
+  "Concept": ["https://boardgamearena.com/gamepanel?game=concept"],
   "Concordia": ["http://boiteajeux.net"],
+  "Cosmic Encounter": [],
   "Coup": [
     "https://boardgamearena.com/gamepanel?game=coupcitystate",
     "https://play.google.com/store/apps/details?id=com.bananaandco.coup",
@@ -253,8 +262,13 @@
     "https://tabletopia.com/games/go",
     "https://online-go.com"
   ],
-  "Grand Austria Hotel": ["https://yucata.de/en/Invite/GrandAustria"],
-  "Great Western Trail": [],
+  "Grand Austria Hotel": [
+    "https://yucata.de/en/Invite/GrandAustria",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1312754315"
+  ],
+  "Great Western Trail": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1865841102"
+  ],
   "Guildhall": ["https://yucata.de/en/Invite/Guildhall"],
   "Hacienda": ["https://yucata.de/en/Invite/Hazienda"],
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
@@ -295,6 +309,7 @@
     "https://yucata.de/en/Invite/Kahuna"
   ],
   "Kamisado": ["https://yucata.de/en/Invite/Kamisado"],
+  "Kanban: Driver's Edition": ["http://boiteajeux.net"],
   "Kashgar: Merchants of the Silk Road": [
     "https://yucata.de/en/Invite/Kashgar"
   ],
@@ -392,7 +407,9 @@
   ],
   "Nippon": ["https://boardgamearena.com/gamepanel?game=nippon"],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
-  "On Mars": [],
+  "On Mars": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1717537374"
+  ],
   "One Deck Dungeon": [
     "https://play.google.com/store/apps/details?id=com.handelabra.OneDeckDungeon",
     "https://apps.apple.com/us/app/one-deck-dungeon/id1380151253",
@@ -422,6 +439,9 @@
     "https://play.google.com/store/apps/details?id=com.digidiced.pxwrelease",
     "https://apps.apple.com/us/app/patchwork-the-game/id1075851197",
     "https://store.steampowered.com/app/528250/Patchwork"
+  ],
+  "Pax Pamir (Second Edition)": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1506351740"
   ],
   "Pax Porfiriana": ["https://yucata.de/en/Invite/PaxPorfiriana"],
   "Pergamon": ["https://yucata.de/en/Invite/Pergamon"],
@@ -455,12 +475,17 @@
   ],
   "Raiders of the North Sea": [
     "https://tabletopia.com/games/raiders-of-the-north-sea",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2032372054",
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.raiders",
     "https://apps.apple.com/us/app/raiders-of-the-north-sea/id1439244088",
     "https://store.steampowered.com/app/965600/Raiders_of_the_North_Sea"
   ],
   "Railways of the World": [],
-  "Rajas of the Ganges": ["https://yucata.de/en/Invite/Rajas"],
+  "Rajas of the Ganges": [
+    "https://yucata.de/en/Invite/Rajas",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1414991432"
+  ],
+  "Rallyman": ["http://boiteajeux.net"],
   "Rattus": ["https://yucata.de/en/Invite/Rattus"],
   "Red7": [
     "https://boardgamearena.com/gamepanel?game=redsevengame",
@@ -543,7 +568,10 @@
   ],
   "Snowdonia": ["https://yucata.de/en/Invite/Snowdonia"],
   "Sobek": ["https://yucata.de/en/Invite/Sobek"],
-  "Spirit Island": ["https://store.steampowered.com/app/1236720/Spirit_Island"],
+  "Spirit Island": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1396185597",
+    "https://store.steampowered.com/app/1236720/Spirit_Island"
+  ],
   "Splendor": [
     "https://spendee.mattle.online",
     "https://play.google.com/store/apps/details?id=com.daysofwonder.Splendor.gp",
@@ -707,6 +735,9 @@
   "Vikings": ["https://yucata.de/en/Invite/Vikings"],
   "Vinci": ["https://yucata.de/en/Invite/Vinci"],
   "Vinhos Deluxe Edition": [],
+  "Viscounts of the West Kingdom": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2019629680"
+  ],
   "Viticulture Essential Edition": [
     "https://tabletopia.com/games/viticulture-essential-edition",
     "https://store.steampowered.com/app/468733/Tabletop_Simulator__Viticulture",
@@ -726,7 +757,10 @@
     "https://apps.apple.com/us/app/warhammer-quest-silver-tower/id1517281011"
   ],
   "Wavelength": ["https://heretothere.app", "https://longwave.web.app"],
-  "Welcome To...": ["https://boardgamearena.com/gamepanel?game=welcometo"],
+  "Welcome To...": [
+    "https://boardgamearena.com/gamepanel?game=welcometo",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2030704196"
+  ],
   "Wingspan": [
     "https://tabletopia.com/games/wingspan",
     "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan",

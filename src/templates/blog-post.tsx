@@ -50,6 +50,12 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
     },
   };
 
+  const Tags = () => (
+    <p>
+      tags: <TagsList tags={post.frontmatter.tags} />
+    </p>
+  );
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -68,7 +74,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
               <p
                 style={{
                   ...scale(-1 / 5),
-                  color: "darkgray",
+                  color: 'darkgray',
                 }}
               >
                 {post.frontmatter.imageDescription}
@@ -91,7 +97,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
             {post.frontmatter.date}
           </p>
           <p>{post.frontmatter?.description}</p>
-          <TagsList tags={post.frontmatter.tags} />
+          <Tags />
         </header>
         <hr />
         <MDXRenderer>{post.body}</MDXRenderer>
@@ -101,7 +107,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           }}
         />
         <footer>
-          <TagsList tags={post?.frontmatter?.tags || []} />
+          <Tags />
           <Bio />
           <DiscussionEmbed {...disqusConfig} />
         </footer>

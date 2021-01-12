@@ -96,6 +96,12 @@
     "links": ["https://en.wikipedia.org/wiki/Jamaica"]
   },
   {
+    "lat": -7.6145,
+    "long": 110.7122,
+    "game": "Java",
+    "links": ["https://en.wikipedia.org/wiki/Java"]
+  },
+  {
     "lat": 26.8206,
     "long": 30.8025,
     "game": "Kemet",
@@ -228,10 +234,22 @@
     "links": ["https://en.wikipedia.org/wiki/Teotihuacan"]
   },
   {
+    "lat": 17.222,
+    "long": -89.6237,
+    "game": "Tikal",
+    "links": ["https://en.wikipedia.org/wiki/Tikal"]
+  },
+  {
     "lat": 47.0525,
     "long": 4.3837,
     "game": "The Castles of Burgundy",
     "links": ["https://en.wikipedia.org/wiki/Burgundy"]
+  },
+  {
+    "lat": -19.0154,
+    "long": 29.1549,
+    "game": "The Great Zimbabwe",
+    "links": ["https://en.wikipedia.org/wiki/Zimbabwe"]
   },
   {
     "lat": 43.7696,

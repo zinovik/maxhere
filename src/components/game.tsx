@@ -43,7 +43,7 @@ const Game: React.FC<GameProps> = ({
       {game.rank}. {game.name} ({game.year})
     </>
   ) : (
-    <a href={`https://boardgamegeek.com${game.link}`} target="_blank">
+    <a href={`https://boardgamegeek.com/boardgame/${game.link}`} target="_blank">
       {!isSkipRank && `${game.rank}. `}
       {game.name}
       {!isSkipYear && ` (${game.year})`}

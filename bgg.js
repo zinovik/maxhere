@@ -58,7 +58,7 @@ const parsePage = page => {
     years.push(year);
   });
   const links = select(gameLinksXPath, dom).map(selectedValue =>
-    selectedValue.textContent.trim(),
+    selectedValue.textContent.trim().replace('/boardgame/', ''),
   );
 
   return ranks.map((rank, i) => ({
