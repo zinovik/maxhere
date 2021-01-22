@@ -61,8 +61,10 @@
   "Azul": [
     "https://azee.mattle.online",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2143374769",
-    "https://play.google.com/store/apps/details?id=es.pozoesteban.alberto.mvcrystals"
+    "https://play.google.com/store/apps/details?id=es.pozoesteban.alberto.mvcrystals",
+    "http://boardwebgames.com/rojo"
   ],
+  "Azul: Summer Pavilion": [],
   "Balloon Cup": ["https://yucata.de/en/Invite/BalloonCup"],
   "Barrage": [
     "https://tabletopia.com/games/barrage_ks",
@@ -94,6 +96,9 @@
   "Can't Stop": [
     "https://boardgamearena.com/gamepanel?game=cantstop",
     "https://yucata.de/en/Invite/CantStop"
+  ],
+  "Captain Sonar": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=750638132"
   ],
   "Carcassonne": [
     "https://boardgamearena.com/gamepanel?game=carcassonne",
@@ -172,11 +177,13 @@
     "https://horsepaste.com",
     "https://netgames.io/games/codewords"
   ],
+  "Coimbra": [],
   "Colt Express": [
     "https://boardgamearena.com/gamepanel?game=coltexpress",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.coltexpress",
     "https://apps.apple.com/us/app/colt-express/id1140513212"
   ],
+  "Combat Commander: Europe": [],
   "Commands & Colors: Ancients": [],
   "Concept": ["https://boardgamearena.com/gamepanel?game=concept"],
   "Concordia": ["http://boiteajeux.net"],
@@ -191,12 +198,16 @@
     "https://play.google.com/store/apps/details?id=com.whitewizardgames.cthulhurealms",
     "https://apps.apple.com/us/app/cthulhu-realms/id1035256452"
   ],
+  "Cyclades": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=734722020"
+  ],
   "Dead of Winter: A Crossroads Game": [],
   "Decrypto": [
     "https://whoawhoa.github.io/decrypto",
     "https://netgames.io/games/enigma"
   ],
   "Descent: Journeys in the Dark (Second Edition)": [],
+  "Detective: A Modern Crime Board Game": [],
   "Deus": ["http://boiteajeux.net"],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
   "Dinosaur Island": [],
@@ -205,10 +216,12 @@
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
+  "Draftosaurus": ["https://boardgamearena.com/gamepanel?game=draftosaurus"],
   "Dragonheart": ["https://yucata.de/en/Invite/Dragonheart"],
   "Drako: Dragon & Dwarves": ["https://yucata.de/en/Invite/Drako"],
   "Dream Home": ["https://store.steampowered.com/app/951680/Dream_Home"],
   "Dungeon Lords": ["http://boiteajeux.net"],
+  "Dungeon Petz": ["https://boardgamearena.com/gamepanel?game=dungeonpetz"],
   "Dungeon Twister": ["http://boiteajeux.net"],
   "Eclipse": [],
   "Egizia": ["https://yucata.de/en/Invite/Egizia"],
@@ -300,6 +313,7 @@
     "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur",
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
   ],
+  "Just One": ["https://justone-the-game.com"],
   "K2": [
     "https://boardgamearena.com/gamepanel?game=k2",
     "https://tabletopia.com/games/k2"
@@ -397,15 +411,18 @@
     "https://store.steampowered.com/app/556180/Mysterium_A_Psychic_Clue_Game"
   ],
   "Mystic Vale": ["https://yucata.de/en/Invite/MysticVale"],
+  "Nations": [],
   "Nations: The Dice Game": ["https://yucata.de/en/Invite/NationsDiceGame"],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Navegador": ["https://yucata.de/en/Invite/Navegador"],
+  "Near and Far": [],
   "Nemesis": [],
   "Neuroshima Hex! 3.0": [
     "https://play.google.com/store/apps/details?id=com.bdc.nh",
     "https://apps.apple.com/us/app/neuroshima-hex/id391297152"
   ],
   "Nippon": ["https://boardgamearena.com/gamepanel?game=nippon"],
+  "No Thanks!": ["https://boardgamearena.com/gamepanel?game=nothanks"],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
   "On Mars": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1717537374"
@@ -435,10 +452,16 @@
     "https://apps.apple.com/us/app/paperback-the-game/id1131388981",
     "https://store.steampowered.com/app/710700/Paperback_The_Game"
   ],
+  "Paris Connection": [
+    "https://boardgamearena.com/gamepanel?game=parisconnection"
+  ],
   "Patchwork": [
     "https://play.google.com/store/apps/details?id=com.digidiced.pxwrelease",
     "https://apps.apple.com/us/app/patchwork-the-game/id1075851197",
     "https://store.steampowered.com/app/528250/Patchwork"
+  ],
+  "Paths of Glory": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=688964325"
   ],
   "Pax Pamir: Second Edition": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1506351740"
@@ -466,6 +489,7 @@
     "https://apps.apple.com/us/app/puerto-rico-hd/id438437326"
   ],
   "R-Eco": ["https://yucata.de/en/Invite/REco"],
+  "Ra": [],
   "Race for the Galaxy": [
     "https://boardgamearena.com/gamepanel?game=raceforthegalaxy",
     "https://play.google.com/store/apps/details?id=com.templegatesgames.RaceAndroid",
@@ -480,7 +504,9 @@
     "https://apps.apple.com/us/app/raiders-of-the-north-sea/id1439244088",
     "https://store.steampowered.com/app/965600/Raiders_of_the_North_Sea"
   ],
-  "Railways of the World": [],
+  "Railways of the World": [
+    "https://tabletopia.com/games/railways-of-the-world"
+  ],
   "Rajas of the Ganges": [
     "https://yucata.de/en/Invite/Rajas",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1414991432"
@@ -553,6 +579,7 @@
     "https://secrethitler.io",
     "https://netgames.io/games/secret-hitler"
   ],
+  "Sekigahara: The Unification of Japan": [],
   "Sentinels of the Multiverse": [
     "https://play.google.com/store/apps/details?id=com.handelabra.Sentinels",
     "https://apps.apple.com/us/app/sentinels-of-the-multiverse/id923772792",
@@ -680,6 +707,7 @@
     "https://yucata.de/en/Invite/MarcoPolo",
     "http://brettspielwelt.de/Spiele/MarcoPolo"
   ],
+  "This War of Mine: The Board Game": [],
   "Through the Ages: A New Story of Civilization": [
     "https://boardgamearena.com/gamepanel?game=throughtheagesnewstory",
     "https://play.google.com/store/apps/details?id=com.czechgames.tta",
@@ -699,6 +727,7 @@
     "https://www.daysofwonder.com/online/en/play"
   ],
   "Ticket to Ride: Europe": [],
+  "Ticket to Ride: Nordic Countries": [],
   "Tigris & Euphrates": [
     "https://apps.apple.com/us/app/reiner-knizia-tigris-euphrates/id471458190"
   ],
@@ -733,6 +762,7 @@
   "Valletta": ["https://yucata.de/en/Invite/Valletta"],
   "Vanuatu": ["http://boiteajeux.net"],
   "Vikings": ["https://yucata.de/en/Invite/Vikings"],
+  "Village": ["https://tabletopia.com/games/village"],
   "Vinci": ["https://yucata.de/en/Invite/Vinci"],
   "Vinhos Deluxe Edition": [],
   "Viscounts of the West Kingdom": [
@@ -779,5 +809,6 @@
   "Yspahan": [
     "https://boardgamearena.com/gamepanel?game=yspahan",
     "https://yucata.de/en/Invite/Yspahan"
-  ]
+  ],
+  "Zombicide: Black Plague": []
 }
