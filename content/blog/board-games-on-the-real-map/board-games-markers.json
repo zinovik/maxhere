@@ -165,6 +165,12 @@
     "links": ["https://en.wikipedia.org/wiki/Mombasa"]
   },
   {
+    "lat": 43.0582,
+    "long": -79.2902,
+    "game": "Niagara",
+    "links": ["https://en.wikipedia.org/wiki/Niagara_Falls"]
+  },
+  {
     "lat": 48.853,
     "long": 2.3499,
     "game": "Notre Dame",
