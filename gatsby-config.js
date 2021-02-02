@@ -7,7 +7,7 @@ module.exports = {
       name: `Max`,
       summary: `.`,
     },
-  description: `A personal blog about 🗺️ travel, 🎲 board games, 👨‍💻 software development, 🎵 extreme music, and other stuff built with Gatsby React.`,
+    description: `A personal blog about 🗺️ travel, 🎲 board games, 👨‍💻 software development, 🎵 extreme music, and other stuff built with Gatsby React.`,
     siteUrl: `https://maxhere.netlify.app/`,
     social: {
       telegram: `zinovik`,
@@ -97,8 +97,8 @@ module.exports = {
       resolve: 'gatsby-plugin-react-leaflet',
       options: {
         linkStyles: true,
-      }
-    }
+      },
+    },
     // {
     //   resolve: `gatsby-theme-blog`,
     //   options: {

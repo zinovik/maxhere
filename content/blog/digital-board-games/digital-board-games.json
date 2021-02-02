@@ -28,6 +28,7 @@
     "https://thronemaster.net",
     "http://www.lantsev1981.pro"
   ],
+  "Abyss": ["https://boardgamearena.com/gamepanel?game=abyss"],
   "Aeon's End": [
     "https://play.google.com/store/apps/details?id=com.handelabra.AeonsEnd",
     "https://apps.apple.com/us/app/aeons-end/id1476090287",
@@ -51,6 +52,7 @@
     "http://boiteajeux.net",
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.alhambra"
   ],
+  "Alien Frontiers": [],
   "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": ["https://jinteki.net"],
@@ -78,6 +80,7 @@
     "https://tabletopia.com/games/barrage_ks",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1676875832"
   ],
+  "Battle Line": [],
   "Battle Sheep": ["http://boiteajeux.net"],
   "Battlestar Galactica: The Board Game": [],
   "Between Two Castles of Mad King Ludwig": [
@@ -106,16 +109,14 @@
   "Bunny Kingdom": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1940150124"
   ],
+  "Burgle Bros.": [],
   "Cacao": [
     "https://boardgamearena.com/gamepanel?game=cacao",
     "https://yucata.de/en/Invite/Cacao"
   ],
   "Calico": ["https://tabletopia.com/games/calico"],
   "Campaign Manager 2008": ["https://yucata.de/en/Invite/CampaignManager"],
-  "Can't Stop": [
-    "https://boardgamearena.com/gamepanel?game=cantstop",
-    "https://yucata.de/en/Invite/CantStop"
-  ],
+  "Can't Stop": ["https://boardgamearena.com/gamepanel?game=cantstop"],
   "Captain Sonar": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=750638132"
   ],
@@ -233,6 +234,7 @@
   ],
   "DVONN": ["http://boiteajeux.net"],
   "Dead of Winter: A Crossroads Game": [],
+  "Dead of Winter: The Long Night": [],
   "Deception: Murder in Hong Kong": [],
   "Decrypto": [
     "https://whoawhoa.github.io/decrypto",
@@ -268,6 +270,7 @@
   "Eldritch Horror": [],
   "Endeavor: Age of Sail": [],
   "Everdell": ["https://tabletopia.com/games/everdell"],
+  "Exit: The Game – The Abandoned Cabin": [],
   "Expedition: Northwest Passage": [
     "https://boardgamearena.com/gamepanel?game=northwestpassage"
   ],
@@ -301,6 +304,7 @@
   "Gaia Project": ["https://www.boardgamers.space"],
   "Galaxy Trucker": [],
   "Ginkgopolis": ["http://boiteajeux.net"],
+  "Glen More II: Chronicles": [],
   "Glen More": ["https://yucata.de/en/Invite/GlenMore"],
   "Gloom": [
     "https://apps.apple.com/us/app/gloom-digital-edition/id1504014719",
@@ -346,11 +350,13 @@
   "Horrified": [],
   "Imhotep": ["https://yucata.de/en/Invite/Imhotep"],
   "Imhotep: The Duel": ["https://yucata.de/en/Invite/ImhotepDuell"],
+  "Imperial 2030": [],
   "Imperial Settlers": [],
   "Imperial": [],
   "In the Year of the Dragon": [
     "https://boardgamearena.com/gamepanel?game=intheyearofthedragon"
   ],
+  "Indonesia": [],
   "Inis": [],
   "Innovation": ["https://boardgamearena.com/gamepanel?game=innovation"],
   "Isle of Skye: From Chieftain to King": [],
@@ -361,7 +367,6 @@
   "It's a Wonderful World": ["https://game-park.com/"],
   "Jaipur": [
     "https://boardgamearena.com/gamepanel?game=jaipur",
-    "https://yucata.de/en/Invite/Jaipur",
     "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur",
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
   ],
@@ -466,6 +471,7 @@
   "Mint Works": [
     "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks"
   ],
+  "Modern Art": [],
   "Mombasa": [],
   "Mr. Jack": ["https://boardgamearena.com/gamepanel?game=mrjack"],
   "Mykerinos": ["http://boiteajeux.net"],
@@ -567,6 +573,7 @@
     "https://play.google.com/store/apps/details?id=com.smugapps.islarica",
     "https://apps.apple.com/us/app/puerto-rico-hd/id438437326"
   ],
+  "Pulsar 2849": [],
   "PÜNCT": ["http://boiteajeux.net"],
   "R-Eco": ["https://yucata.de/en/Invite/REco"],
   "Ra": [],
@@ -604,6 +611,7 @@
   "Robinson Crusoe: Adventures on the Cursed Island": [
     "https://tabletopia.com/games/robinson-crusoe"
   ],
+  "Rococo": [],
   "Roll Player": [
     "https://tabletopia.com/games/roll-player",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=566893683"
@@ -623,6 +631,7 @@
     "https://apps.apple.com/us/app/root-board-game/id1439262206",
     "https://store.steampowered.com/app/965580/Root"
   ],
+  "Runewars": [],
   "Russian Railroads": [
     "https://boardgamearena.com/gamepanel?game=russianrailroads",
     "https://yucata.de/en/Invite/RRR2"
@@ -640,6 +649,7 @@
     "https://boardgamearena.com/gamepanel?game=saintpetersburg",
     "https://yucata.de/en/Invite/Petersburg"
   ],
+  "Samurai": [],
   "San Juan": [
     "https://yucata.de/en/Invite/PuertoRicoCard",
     "http://brettspielwelt.de/Spiele/SanJuan",
@@ -683,6 +693,7 @@
   "Snowdonia": ["https://yucata.de/en/Invite/Snowdonia"],
   "Sobek": ["https://yucata.de/en/Invite/Sobek"],
   "Space Alert": [],
+  "Space Base": [],
   "Spirit Island": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1396185597",
     "https://store.steampowered.com/app/1236720/Spirit_Island"
@@ -719,6 +730,7 @@
     "https://play.google.com/store/apps/details?id=com.suburbiagame.suburbia",
     "https://apps.apple.com/us/app/suburbia-city-building-game/id681966300"
   ],
+  "Summoner Wars: Master Set": [],
   "Sushi Go Party!": [],
   "Sushi Go!": ["https://boardgamearena.com/gamepanel?game=sushigo"],
   "T.I.M.E Stories": [],
@@ -794,6 +806,7 @@
   ],
   "The Lord of the Rings: Journeys in Middle-Earth": [],
   "The Lord of the Rings: The Card Game": [],
+  "The Manhattan Project: Energy Empire": [],
   "The Oracle of Delphi": ["https://yucata.de/en/Invite/Delphi"],
   "The Palaces of Carrara": ["https://yucata.de/en/Invite/Carrara"],
   "The Princes of Florence": [],
@@ -864,6 +877,9 @@
     "http://boiteajeux.net"
   ],
   "Ulm": ["https://yucata.de/en/Invite/Ulm"],
+  "Unconditional Surrender! World War 2 in Europe": [
+    "https://boardgamearena.com/gamepanel?game=unconditionalsurrender"
+  ],
   "Underwater Cities": ["https://yucata.de/en/Invite/UnderwaterCities"],
   "Valletta": ["https://yucata.de/en/Invite/Valletta"],
   "Vanuatu": ["http://boiteajeux.net"],

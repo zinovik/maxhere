@@ -51,7 +51,7 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
+      <p style={{ marginBottom: 0 }}>
         Written by{' '}
         <strong>
           <a href={`https://t.me/${social.telegram}`} target="_blank">

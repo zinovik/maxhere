@@ -6,12 +6,14 @@ import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import BackToTop from '../components/back-to-top';
-import TagsList from '../components/tags-list';
-import { BlogIndexQuery } from '../../gatsby-graphql';
-import { scale } from '../utils/typography';
+import Date from '../components/date';
+import { CommentsCount } from '../components/disqus';
 
-const H3 = styled.h3`
-  margin: 10px;
+import { scale } from '../utils/typography';
+import { BlogIndexQuery } from '../../gatsby-graphql';
+
+const Title = styled.h3`
+  margin: 10px 0;
 `;
 
 const Article = styled.article`
@@ -20,13 +22,6 @@ const Article = styled.article`
 
 const PostImg = styled(Img)`
   margin: 0px;
-`;
-
-const TagsContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  padding-bottom: 40px;
-  flex-wrap: wrap;
 `;
 
 interface BlogIndexProps {
@@ -38,20 +33,14 @@ interface BlogIndexProps {
 
 const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
+
   const posts = data.allMdx.edges;
   const tags = data.allMdx.group;
 
-  return (
-    <Layout location={location} title={siteTitle}>
-      <TagsContainer>
-        <TagsList
-          tags={tags
-            .slice()
-            .reverse()
-            .sort((t1, t2) => t2.totalCount - t1.totalCount)}
-        />
-      </TagsContainer>
+  const shortname = process.env.GATSBY_DISQUS_NAME || 'maxhere';
 
+  return (
+    <Layout location={location} title={siteTitle} tags={tags}>
       <SEO title="All posts" />
 
       {posts.map(({ node }) => {
@@ -60,6 +49,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
         return (
           <Article key={node.fields.slug}>
             <header>
+              <Date date={node.frontmatter.date} />
               <Link to={node.fields.slug}>
                 {node.frontmatter.featuredImage && (
                   <>
@@ -80,15 +70,19 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                     </p>
                   </>
                 )}
-                <H3>{title}</H3>
+                <Title>{title}</Title>
               </Link>
-              <small>{node.frontmatter.date}</small>
             </header>
             <section>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
+              />
+              <CommentsCount
+                slug={node.fields.slug}
+                title={node.frontmatter.title}
+                shortname={shortname}
               />
             </section>
           </Article>

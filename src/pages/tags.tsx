@@ -1,9 +1,9 @@
 import React from 'react';
-
+import { Link, graphql } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 
-import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
+
 import { TagsPageQuery } from '../../gatsby-graphql';
 
 interface TagsPageProps {
@@ -13,27 +13,27 @@ interface TagsPageProps {
   };
 }
 
-const TagsPage: React.FC<TagsPageProps> = ({
-  data,
-  data: {
-    allMdx: { group },
-  },
-  location,
-}) => {
+const TagsPage: React.FC<TagsPageProps> = ({ data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
+  const {
+    allMdx: { group },
+  } = data;
 
   return (
     <Layout location={location} title={siteTitle}>
       <div>
         <h1>Tags</h1>
         <ul>
-          {group.map(tag => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          ))}
+          {group.map(
+            tag =>
+              tag.fieldValue && (
+                <li key={tag.fieldValue}>
+                  <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
+                    {tag.fieldValue} ({tag.totalCount})
+                  </Link>
+                </li>
+              ),
+          )}
         </ul>
       </div>
     </Layout>

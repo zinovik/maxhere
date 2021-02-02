@@ -78,6 +78,12 @@
     "links": ["https://en.wikipedia.org/wiki/Great_Western_Cattle_Trail"]
   },
   {
+    "lat": -0.7893,
+    "long": 113.9213,
+    "game": "Indonesia",
+    "links": ["https://en.wikipedia.org/wiki/Indonesia"]
+  },
+  {
     "lat": 41.0082,
     "long": 28.9784,
     "game": "Istanbul",

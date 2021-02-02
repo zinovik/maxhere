@@ -2,24 +2,27 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Img from 'gatsby-image';
-import { DiscussionEmbed } from 'disqus-react';
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import TagsList from '../components/tags-list';
 import BackToTop from '../components/back-to-top';
+import Date from '../components/date';
+import { Comments, CommentsCount } from '../components/disqus';
+
 import { rhythm, scale } from '../utils/typography';
 import { BlogPostTemplateQuery } from '../../gatsby-graphql';
 
-type Context = {
+interface Context {
   frontmatter: {
     title: string;
+    tags: string[];
   };
   fields: {
     slug: string;
   };
-};
+}
 
 interface BlogPostTemplateProps {
   data: BlogPostTemplateQuery;
@@ -37,38 +40,40 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   pageContext,
   location,
 }) => {
-  const siteTitle = data?.site?.siteMetadata?.title ?? '';
-  const post = data.mdx;
+  if (!data.mdx?.frontmatter || !data.mdx?.fields?.slug || !data.mdx?.body) {
+    return null;
+  }
+
+  const siteTitle = data.site?.siteMetadata?.title ?? '';
+  const tags = data.allMdx.group;
+
+  const { frontmatter, fields, body } = data.mdx;
   const { previous, next } = pageContext;
 
-  const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME || 'maxhere',
-    config: {
-      identifier: post.fields.slug.replace(/\/$/, ''),
-      title: post.frontmatter.title,
-      disqus_identifier: post.fields.slug.replace(/\/$/, ''),
-    },
-  };
+  const shortname = process.env.GATSBY_DISQUS_NAME || 'maxhere';
+  const slug = data.mdx.fields.slug;
+  const title = frontmatter.title;
 
   const Tags = () => (
     <p>
-      tags: <TagsList tags={post.frontmatter.tags} />
+      tags: <TagsList tags={frontmatter.tags} />
     </p>
   );
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} tags={tags}>
       <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        image={post.frontmatter.featuredImage.childImageSharp.fluid.src}
+        title={frontmatter.title}
+        description={frontmatter.description || data.mdx.excerpt}
+        image={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
       />
       <article>
         <header>
-          {post.frontmatter.featuredImage && (
+          <Date date={frontmatter.date} />
+          {frontmatter.featuredImage && (
             <>
               <Img
-                fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+                fluid={frontmatter?.featuredImage?.childImageSharp?.fluid}
                 imgStyle={{ objectFit: 'contain' }}
               />
               <p
@@ -77,7 +82,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
                   color: 'darkgray',
                 }}
               >
-                {post.frontmatter.imageDescription}
+                {frontmatter.imageDescription}
               </p>
             </>
           )}
@@ -86,21 +91,16 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
               marginTop: rhythm(1),
             }}
           >
-            {post.frontmatter.title}
+            {frontmatter.title}
           </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              marginBottom: rhythm(1),
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
-          <p>{post.frontmatter?.description}</p>
+          <p>{frontmatter.description}</p>
           <Tags />
+          <a href="#comments">
+            ⬇️ <CommentsCount slug={slug} title={title} shortname={shortname} />
+          </a>
         </header>
         <hr />
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXRenderer>{body}</MDXRenderer>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -109,7 +109,8 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
         <footer>
           <Tags />
           <Bio />
-          <DiscussionEmbed {...disqusConfig} />
+          <a name="comments"></a>
+          <Comments slug={slug} title={title} shortname={shortname} />
         </footer>
       </article>
 
@@ -173,6 +174,12 @@ export const pageQuery = graphql`
       }
       fields {
         slug
+      }
+    }
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }

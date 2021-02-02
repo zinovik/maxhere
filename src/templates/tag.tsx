@@ -1,15 +1,29 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+
 import Layout from '../components/layout';
 
-interface TagProps {
-  pageContext: any;
-  data: any;
-  location: any;
+import { TagTemplateQuery } from '../../gatsby-graphql';
+
+interface Context {
+  tag: string;
 }
 
-const Tag: React.FC<TagProps> = ({ pageContext, data, location }) => {
+interface TagTemplateProps {
+  data: TagTemplateQuery;
+  pageContext: Context;
+  location: {
+    pathname: string;
+  };
+}
+
+const TagTemplate: React.FC<TagTemplateProps> = ({
+  pageContext,
+  data,
+  location,
+}) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
+
   const { tag } = pageContext;
   const { edges, totalCount } = data.allMdx;
 
@@ -21,17 +35,19 @@ const Tag: React.FC<TagProps> = ({ pageContext, data, location }) => {
     <Layout location={location} title={siteTitle}>
       <div>
         <h1>{tagHeader}</h1>
+
         <ul>
-          {edges.map(({ node }) => {
-            const { slug } = node.fields;
-            const { title } = node.frontmatter;
+          {edges.map(edge => {
+            const slug = edge.node.fields?.slug ?? '';
+
             return (
               <li key={slug}>
-                <Link to={slug}>{title}</Link>
+                <Link to={slug}>{edge.node.frontmatter?.title}</Link>
               </li>
             );
           })}
         </ul>
+
         <Link to="/tags">All tags</Link>
         <br />
         <br />
@@ -40,10 +56,10 @@ const Tag: React.FC<TagProps> = ({ pageContext, data, location }) => {
   );
 };
 
-export default Tag;
+export default TagTemplate;
 
 export const pageQuery = graphql`
-  query Tag($tag: String) {
+  query TagTemplate($tag: String) {
     site {
       siteMetadata {
         title
