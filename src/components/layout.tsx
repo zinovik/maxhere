@@ -81,12 +81,11 @@ const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
           />
         </TagsContainer>
       )}
-
       <header>{header}</header>
 
       <main>{children}</main>
 
-      <footer>
+      <footer style={{ textAlign: 'center' }}>
         © 2020 - 2021, Built with 💚 and
         {` `}
         <a href="https://gatsbyjs.org" target="_blank">

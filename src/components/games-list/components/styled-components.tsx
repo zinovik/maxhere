@@ -23,4 +23,6 @@ export const CellGame = styled(Cell)`
   flex-shrink: 100;
 `;
 
-export const CellSites = styled(Cell)``;
+export const CellSites = styled(Cell)`
+  display: flex;
+`;

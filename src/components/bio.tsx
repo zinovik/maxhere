@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
+import Img from 'gatsby-image';
 import styled from 'styled-components';
 import { BioQuery } from '../../gatsby-graphql';
 
@@ -8,6 +8,8 @@ import { rhythm } from '../utils/typography';
 
 const BioContainer = styled.div`
   display: flex;
+  align-items: center;
+  padding-bottom: 5px;
 `;
 
 const Bio = () => {
@@ -38,7 +40,7 @@ const Bio = () => {
 
   return (
     <BioContainer>
-      <Image
+      <Img
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{

@@ -45,9 +45,9 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   }
 
   const siteTitle = data.site?.siteMetadata?.title ?? '';
-  const tags = data.allMdx.group;
+  const allTags = data.allMdx.group;
 
-  const { frontmatter, fields, body } = data.mdx;
+  const { frontmatter, body } = data.mdx;
   const { previous, next } = pageContext;
 
   const shortname = process.env.GATSBY_DISQUS_NAME || 'maxhere';
@@ -55,13 +55,13 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   const title = frontmatter.title;
 
   const Tags = () => (
-    <p>
+    <>
       tags: <TagsList tags={frontmatter.tags} />
-    </p>
+    </>
   );
 
   return (
-    <Layout location={location} title={siteTitle} tags={tags}>
+    <Layout location={location} title={siteTitle} tags={allTags}>
       <SEO
         title={frontmatter.title}
         description={frontmatter.description || data.mdx.excerpt}
@@ -72,10 +72,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           <Date date={frontmatter.date} />
           {frontmatter.featuredImage && (
             <>
-              <Img
-                fluid={frontmatter?.featuredImage?.childImageSharp?.fluid}
-                imgStyle={{ objectFit: 'contain' }}
-              />
+              <Img fluid={frontmatter?.featuredImage?.childImageSharp?.fluid} />
               <p
                 style={{
                   ...scale(-1 / 5),
@@ -94,18 +91,16 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
             {frontmatter.title}
           </h1>
           <p>{frontmatter.description}</p>
-          <Tags />
+          <Tags /> |{' '}
           <a href="#comments">
             ⬇️ <CommentsCount slug={slug} title={title} shortname={shortname} />
           </a>
         </header>
+
         <hr />
         <MDXRenderer>{body}</MDXRenderer>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr />
+
         <footer>
           <Tags />
           <Bio />
@@ -166,7 +161,7 @@ export const pageQuery = graphql`
         tags
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 1200) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -176,7 +171,7 @@ export const pageQuery = graphql`
         slug
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount

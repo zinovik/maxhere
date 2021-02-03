@@ -27,7 +27,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
-        tagsGroup: allMdx(limit: 2000) {
+        tags: allMdx(limit: 2000) {
           group(field: frontmatter___tags) {
             fieldValue
           }
@@ -57,9 +57,9 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  const tags = result.data.tagsGroup.group;
+  const allTags = result.data.tags.group;
 
-  tags.forEach(tag => {
+  allTags.forEach(tag => {
     createPage({
       path: `/tag/${kebabCase(tag.fieldValue)}/`,
       component: tagTemplate,

@@ -27,12 +27,14 @@ const TagTemplate: React.FC<TagTemplateProps> = ({
   const { tag } = pageContext;
   const { edges, totalCount } = data.allMdx;
 
+  const allTags = data.tags.group;
+
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? '' : 's'
   } tagged with "${tag}"`;
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} tags={allTags}>
       <div>
         <h1>{tagHeader}</h1>
 
@@ -47,10 +49,6 @@ const TagTemplate: React.FC<TagTemplateProps> = ({
             );
           })}
         </ul>
-
-        <Link to="/tags">All tags</Link>
-        <br />
-        <br />
       </div>
     </Layout>
   );
@@ -66,7 +64,6 @@ export const pageQuery = graphql`
       }
     }
     allMdx(
-      limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
@@ -80,6 +77,12 @@ export const pageQuery = graphql`
             title
           }
         }
+      }
+    }
+    tags: allMdx {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }

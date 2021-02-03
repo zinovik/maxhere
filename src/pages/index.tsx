@@ -35,12 +35,12 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
 
   const posts = data.allMdx.edges;
-  const tags = data.allMdx.group;
+  const allTags = data.allMdx.group;
 
   const shortname = process.env.GATSBY_DISQUS_NAME || 'maxhere';
 
   return (
-    <Layout location={location} title={siteTitle} tags={tags}>
+    <Layout location={location} title={siteTitle} tags={allTags}>
       <SEO title="All posts" />
 
       {posts.map(({ node }) => {
@@ -116,7 +116,7 @@ export const pageQuery = graphql`
             imageDescription
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 800) {
+                fluid(maxWidth: 1200) {
                   ...GatsbyImageSharpFluid
                 }
               }

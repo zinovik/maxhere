@@ -15,13 +15,13 @@ const TagsList: React.FC<TagsListProps> = ({ tags }) => {
   return (
     <>
       {tags.map(tag => {
-        const { fieldValue: tagName, totalCount } =
+        const { fieldValue, totalCount = 0 } =
           typeof tag === 'string' ? { fieldValue: tag } : tag;
 
         return (
-          <Tag key={tagName}>
-            <Link to={`/tag/${kebabCase(tagName)}`} rel="next">
-              {tagName}
+          <Tag key={fieldValue}>
+            <Link to={`/tag/${kebabCase(fieldValue)}`} rel="next">
+              {fieldValue}
               {totalCount ? ` (${totalCount})` : ''}
             </Link>
           </Tag>
