@@ -8,7 +8,7 @@ module.exports = {
       summary: `.`,
     },
     description: `A personal blog about 🗺️ travel, 🎲 board games, 👨‍💻 software development, 🎵 extreme music, and other stuff built with Gatsby React.`,
-    siteUrl: `https://maxhere.netlify.app/`,
+    siteUrl: `https://maxhere.netlify.app`,
     social: {
       telegram: `zinovik`,
     },

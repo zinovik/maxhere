@@ -18,6 +18,7 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta, title, image }) => {
         site {
           siteMetadata {
             title
+            siteUrl
             description
             social {
               telegram
@@ -56,7 +57,7 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta, title, image }) => {
         },
         {
           property: `og:image`,
-          content: image,
+          content: `${site.siteMetadata.siteUrl}${image}`,
         },
         {
           name: `twitter:card`,
@@ -83,7 +84,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-  image: `logo-icon.png`,
+  image: `/mh.png`,
 };
 
 SEO.propTypes = {
