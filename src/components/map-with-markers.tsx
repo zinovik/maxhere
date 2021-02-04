@@ -26,7 +26,7 @@ const MapWithMarkers: React.FC<MapWithMarkersProps> = ({ markers }) => {
         easeLinearity={0.35}
         style={{ height: 500 }}
       >
-        <TileLayer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png" />
+        <TileLayer url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" />
         {markers.map(({ lat, long, game, links }) => (
           <Marker position={[lat, long]}>
             <Popup>
