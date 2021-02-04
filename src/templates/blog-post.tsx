@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
-import Img from 'gatsby-image';
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
@@ -10,8 +9,10 @@ import TagsList from '../components/tags-list';
 import BackToTop from '../components/back-to-top';
 import Date from '../components/date';
 import { Comments, CommentsCount } from '../components/disqus';
+import ParallaxImage from '../components/parallax-image';
+import ImageDescription from '../components/image-description';
 
-import { rhythm, scale } from '../utils/typography';
+import { rhythm } from '../utils/typography';
 import { BlogPostTemplateQuery } from '../../gatsby-graphql';
 
 interface Context {
@@ -70,19 +71,10 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
       <article>
         <header>
           <Date date={frontmatter.date} />
-          {frontmatter.featuredImage && (
-            <>
-              <Img fluid={frontmatter?.featuredImage?.childImageSharp?.fluid} />
-              <p
-                style={{
-                  ...scale(-1 / 5),
-                  color: 'darkgray',
-                }}
-              >
-                {frontmatter.imageDescription}
-              </p>
-            </>
-          )}
+          <ParallaxImage
+            imageSrc={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
+          />
+          <ImageDescription description={frontmatter.imageDescription} />
           <h1
             style={{
               marginTop: rhythm(1),
@@ -97,6 +89,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
           </a>
         </header>
 
+        <br />
         <hr />
         <MDXRenderer>{body}</MDXRenderer>
         <hr />
@@ -161,7 +154,7 @@ export const pageQuery = graphql`
         tags
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 1200) {
+            fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid
             }
           }

@@ -8,8 +8,8 @@ import SEO from '../components/seo';
 import BackToTop from '../components/back-to-top';
 import Date from '../components/date';
 import { CommentsCount } from '../components/disqus';
+import ImageDescription from '../components/image-description';
 
-import { scale } from '../utils/typography';
 import { BlogIndexQuery } from '../../gatsby-graphql';
 
 const Title = styled.h3`
@@ -59,15 +59,9 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                       }
                       imgStyle={{ objectFit: 'contain' }}
                     />
-                    <p
-                      style={{
-                        ...scale(-1 / 5),
-                        color: 'darkgray',
-                        margin: '0px',
-                      }}
-                    >
-                      {node.frontmatter.imageDescription}
-                    </p>
+                    <ImageDescription
+                      description={node.frontmatter.imageDescription}
+                    />
                   </>
                 )}
                 <Title>{title}</Title>
