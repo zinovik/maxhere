@@ -113,6 +113,6 @@ module.exports = {
     //     basePath: `/blog`,
     //   },
     // },
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 };
