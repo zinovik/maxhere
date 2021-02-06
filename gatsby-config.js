@@ -78,7 +78,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Max here.`,
-        short_name: `GatsbyJS`,
+        short_name: `Max here.`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
