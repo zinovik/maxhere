@@ -73,11 +73,13 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                   __html: node.frontmatter.description || node.excerpt,
                 }}
               />
-              <CommentsCount
-                slug={node.fields.slug}
-                title={node.frontmatter.title}
-                shortname={shortname}
-              />
+              <Link to={`${node.fields.slug}#comments`}>
+                <CommentsCount
+                  slug={node.fields.slug}
+                  title={node.frontmatter.title}
+                  shortname={shortname}
+                />
+              </Link>
             </section>
           </Article>
         );

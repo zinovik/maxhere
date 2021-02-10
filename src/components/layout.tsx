@@ -3,16 +3,18 @@ declare const __PATH_PREFIX__: string;
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import { Parallax } from 'react-scroll-parallax';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
-import TagsList from '../components/tags-list';
+import Nav from '../components/nav';
+import Footer from '../components/footer';
 
 import { rhythm, scale } from '../utils/typography';
 
-const TagsContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-  flex-wrap: wrap;
+const Main = styled.main`
+  position: relative;
+  z-index: 1;
+  background-color: white;
 `;
 
 interface LayoutProps {
@@ -27,30 +29,26 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
 
-  const header =
+  const Logo = () =>
     location.pathname === rootPath ? (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
+      <Parallax x={[-100, 25]}>
+        <h1
           style={{
-            color: `inherit`,
+            ...scale(1.5),
           }}
-          to={`/`}
         >
-          {title}
-        </Link>
-      </h1>
+          <Link
+            style={{
+              color: `inherit`,
+            }}
+            to={`/`}
+          >
+            {title}
+          </Link>
+        </h1>
+      </Parallax>
     ) : (
-      <h3
-        style={{
-          marginTop: 0,
-        }}
-      >
+      <h3>
         <Link
           style={{
             color: `inherit`,
@@ -63,36 +61,27 @@ const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
     );
 
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: rhythm(1 / 4),
-      }}
-    >
-      {tags && (
-        <TagsContainer>
-          <TagsList
-            tags={tags
-              .slice()
-              .reverse()
-              .sort((t1, t2) => t2.totalCount - t1.totalCount)}
-          />
-        </TagsContainer>
-      )}
-      <header>{header}</header>
+    <ParallaxProvider>
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: rhythm(1 / 4),
+          paddingTop: rhythm(1),
+        }}
+      >
+        <header>
+          {tags && <Nav tags={tags} />}
 
-      <main>{children}</main>
+          <Logo />
+        </header>
 
-      <footer style={{ textAlign: 'center' }}>
-        © 2020 - 2021, Built with 💚 and
-        {` `}
-        <a href="https://gatsbyjs.org" target="_blank">
-          Gatsby
-        </a>
-      </footer>
-    </div>
+        <Main>{children}</Main>
+
+        <Footer />
+      </div>
+    </ParallaxProvider>
   );
 };
 

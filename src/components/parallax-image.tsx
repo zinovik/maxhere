@@ -15,13 +15,6 @@ const Logo = styled.div`
   background-size: cover;
 `;
 
-const Container = styled.div`
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 0 20px;
-`;
-
 const Space = styled.div`
   min-height: 100vh;
 `;
@@ -30,13 +23,9 @@ interface ParallaxImageProps {
   imageSrc: string;
 }
 
-const ParallaxImage: React.FC<ParallaxImageProps> = ({
-  imageSrc,
-  children,
-}) => (
+const ParallaxImage: React.FC<ParallaxImageProps> = ({ imageSrc }) => (
   <>
     <Logo style={{ backgroundImage: `url("${imageSrc}")` }} />
-    <Container>{children}</Container>
     <Space />
   </>
 );

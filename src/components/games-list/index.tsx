@@ -142,7 +142,7 @@ const GamesList: React.FC<GamesListProps> = ({ games }) => {
       <Header />
       {gamesSorted.map((game: GameInterface) => (
         <Row key={game.name}>
-          <CellRank>{game.rank}</CellRank>
+          <CellRank>{game.rank || '2000+'}</CellRank>
           <CellGame>
             <Game gameName={game.name} isSkipRank />
           </CellGame>
