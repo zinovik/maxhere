@@ -5,7 +5,8 @@
   "6 nimmt!": [
     "https://boardgamearena.com/gamepanel?game=sechsnimmt",
     "http://brettspielwelt.de/Spiele/6nimmt",
-    "https://play.google.com/store/apps/details?id=de.application_systems.SixTakes"
+    "https://play.google.com/store/apps/details?id=de.application_systems.SixTakes",
+    "https://apps.apple.com/us/app/6-takes/id845190066"
   ],
   "7 Wonders Duel": [
     "https://boardgamearena.com/gamepanel?game=sevenwondersduel",
@@ -44,13 +45,15 @@
   ],
   "Agricola": ["http://boiteajeux.net", "http://play-agricola.com"],
   "Agricola: All Creatures Big and Small": [
-    "https://play.google.com/store/apps/details?id=com.digidiced.abvrelease"
+    "https://play.google.com/store/apps/details?id=com.digidiced.abvrelease",
+    "https://apps.apple.com/us/app/agricola-all-creatures-2p/id1118398079"
   ],
   "Alchemists": ["http://boiteajeux.net"],
   "Alhambra": [
     "https://boardgamearena.com/gamepanel?game=alhambra",
     "http://boiteajeux.net",
-    "https://play.google.com/store/apps/details?id=de.brettspielwelt.alhambra"
+    "https://play.google.com/store/apps/details?id=de.brettspielwelt.alhambra",
+    "https://apps.apple.com/us/app/alhambra-game/id724408296"
   ],
   "Alien Frontiers": [],
   "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
@@ -221,9 +224,11 @@
   "Coup": [
     "https://boardgamearena.com/gamepanel?game=coupcitystate",
     "https://play.google.com/store/apps/details?id=com.bananaandco.coup",
+    "https://apps.apple.com/us/app/coup-board-game/id1433956606",
     "http://coup.thebrown.net"
   ],
   "Crokinole": [],
+  "Cryptid": ["https://ospreypublishing.com/playcryptid"],
   "Cthulhu Realms": [
     "https://play.google.com/store/apps/details?id=com.whitewizardgames.cthulhurealms",
     "https://apps.apple.com/us/app/cthulhu-realms/id1035256452"
@@ -249,6 +254,7 @@
   "Dixit": ["http://boiteajeux.net"],
   "Dixit: Odyssey": [],
   "Dominant Species": ["https://tabletopia.com/games/dominant-species"],
+  "Dominion (Second Edition)": ["https://dominion.games"],
   "Dominion": ["https://dominion.games"],
   "Dominion: Intrigue": ["https://dominion.games"],
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
@@ -309,6 +315,7 @@
   "Glen More II: Chronicles": [],
   "Glen More": ["https://yucata.de/en/Invite/GlenMore"],
   "Gloom": [
+    "https://play.google.com/store/apps/details?id=com.skyshipstudios.gloomdigital",
     "https://apps.apple.com/us/app/gloom-digital-edition/id1504014719",
     "https://store.steampowered.com/app/766040/Gloom_Digital_Edition"
   ],
@@ -339,6 +346,7 @@
     "https://hanab.live"
   ],
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
+  "Hannibal: Rome vs. Carthage": [],
   "Hansa Teutonica": ["https://tabletopia.com/games/hansa-teutonica"],
   "Hawaii": ["https://yucata.de/en/Invite/Hawaii"],
   "Helios": ["https://yucata.de/en/Invite/Fish"],
@@ -364,6 +372,7 @@
   "Isle of Skye: From Chieftain to King": [],
   "Istanbul": [
     "https://play.google.com/store/apps/details?id=com.acram.Istanbul",
+    "https://apps.apple.com/us/app/istanbul-digital-edition/id1296756606",
     "https://store.steampowered.com/app/943410/Istanbul_Digital_Edition"
   ],
   "It's a Wonderful World": ["https://game-park.com/"],
@@ -380,7 +389,8 @@
   "Kahuna": [
     "https://boardgamearena.com/gamepanel?game=kahuna",
     "https://yucata.de/en/Invite/Kahuna",
-    "https://play.google.com/store/apps/details?id=com.usm.kahuna"
+    "https://play.google.com/store/apps/details?id=com.usm.kahuna",
+    "https://apps.apple.com/us/app/kahuna/id774875399"
   ],
   "Kamisado": ["https://yucata.de/en/Invite/Kamisado"],
   "Kanban: Driver's Edition": ["http://boiteajeux.net"],
@@ -471,7 +481,8 @@
   "Mechs vs. Minions": [],
   "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
   "Mint Works": [
-    "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks"
+    "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks",
+    "https://apps.apple.com/us/app/mint-works/id1527301930"
   ],
   "Modern Art": [],
   "Mombasa": [],
@@ -510,10 +521,12 @@
   ],
   "One Night Ultimate Werewolf": ["https://netgames.io/games/onu-werewolf"],
   "Onirim": [
-    "https://play.google.com/store/apps/details?id=com.asmodeedigital.onirim"
+    "https://play.google.com/store/apps/details?id=com.asmodeedigital.onirim",
+    "https://apps.apple.com/us/app/onirim-solitaire-card-game/id1191315610"
   ],
   "Onitama": [
-    "https://play.google.com/store/apps/details?id=com.asmodeedigital.onitama"
+    "https://play.google.com/store/apps/details?id=com.asmodeedigital.onitama",
+    "https://apps.apple.com/us/app/onitama-the-board-game/id1288557147"
   ],
   "Ora et Labora": [],
   "Oregon": ["https://yucata.de/en/Invite/Oregon"],
@@ -725,6 +738,16 @@
   "Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set": [],
   "Star Wars: X-Wing Miniatures Game": [],
   "Steam": [],
+  "Steampunk Rally": [
+    "https://tabletopia.com/games/steampunk-rally",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=604552940"
+  ],
+  "Stockpile": [
+    "https://tabletopia.com/games/stockpile",
+    "https://play.google.com/store/apps/details?id=com.digidiced.sxprelease",
+    "https://apps.apple.com/us/app/stockpile-game/id1410674432",
+    "https://store.steampowered.com/app/900370/Stockpile"
+  ],
   "Stone Age": [
     "https://boardgamearena.com/gamepanel?game=stoneage",
     "https://yucata.de/en/Invite/StoneAge",

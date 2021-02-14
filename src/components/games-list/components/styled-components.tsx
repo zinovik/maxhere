@@ -15,7 +15,7 @@ const Cell = styled.div`
 `;
 
 export const CellRank = styled(Cell)`
-  width: 55px;
+  width: 58px;
 `;
 
 export const CellGame = styled(Cell)`
