@@ -13,8 +13,17 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+`;
 
-  transition: 2.5s;
+const Space = styled.div`
+  width: 100%;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 `;
 
 interface NavProps {
@@ -38,16 +47,30 @@ const Nav: React.FC<NavProps> = ({ tags }) => {
   });
 
   return (
-    <NavContainer
-      style={{ backgroundColor: isTopPage ? 'transparent' : 'white' }}
-    >
-      <TagsList
-        tags={tags
-          .slice()
-          .reverse()
-          .sort((t1, t2) => t2.totalCount - t1.totalCount)}
-      />
-    </NavContainer>
+    <>
+      <NavContainer
+        style={{
+          backgroundColor: isTopPage ? 'transparent' : 'white',
+          boxShadow: isTopPage ? 'none' : '0px 1px 1px lightgrey',
+          transition: isTopPage ? '0s' : '2.5s',
+        }}
+      >
+        <TagsList
+          tags={tags
+            .slice()
+            .reverse()
+            .sort((t1, t2) => t2.totalCount - t1.totalCount)}
+        />
+      </NavContainer>
+      <Space>
+        <TagsList
+          tags={tags
+            .slice()
+            .reverse()
+            .sort((t1, t2) => t2.totalCount - t1.totalCount)}
+        />
+      </Space>
+    </>
   );
 };
 

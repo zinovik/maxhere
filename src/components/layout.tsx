@@ -25,6 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
       <h1
         style={{
           ...scale(1.5),
+          marginTop: rhythm(1 / 2),
         }}
       >
         <Link
@@ -37,7 +38,11 @@ const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
         </Link>
       </h1>
     ) : (
-      <h3>
+      <h3
+        style={{
+          marginTop: rhythm(1),
+        }}
+      >
         <Link
           style={{
             color: `inherit`,
@@ -56,7 +61,6 @@ const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(24),
         padding: rhythm(1 / 4),
-        paddingTop: rhythm(1),
       }}
     >
       <header>
