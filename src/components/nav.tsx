@@ -31,7 +31,7 @@ interface NavProps {
 }
 
 const Nav: React.FC<NavProps> = ({ tags }) => {
-  const [isTopPage, setIsTopPage] = useState(false);
+  const [isTopPage, setIsTopPage] = useState(true);
 
   const handleScroll = () =>
     setIsTopPage(
@@ -46,6 +46,11 @@ const Nav: React.FC<NavProps> = ({ tags }) => {
     };
   });
 
+  const tagsSorted = tags
+    .slice()
+    .reverse()
+    .sort((t1, t2) => t2.totalCount - t1.totalCount);
+
   return (
     <>
       <NavContainer
@@ -55,20 +60,11 @@ const Nav: React.FC<NavProps> = ({ tags }) => {
           transition: isTopPage ? '0s' : '2.5s',
         }}
       >
-        <TagsList
-          tags={tags
-            .slice()
-            .reverse()
-            .sort((t1, t2) => t2.totalCount - t1.totalCount)}
-        />
+        <TagsList tags={tagsSorted} />
       </NavContainer>
+
       <Space>
-        <TagsList
-          tags={tags
-            .slice()
-            .reverse()
-            .sort((t1, t2) => t2.totalCount - t1.totalCount)}
-        />
+        <TagsList tags={tagsSorted} />
       </Space>
     </>
   );

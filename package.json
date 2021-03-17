@@ -49,6 +49,7 @@
     "xpath": "0.0.32"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.72",
     "@types/leaflet": "^1.5.23",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
@@ -60,6 +61,7 @@
     "eslint": "^7.21.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "netlify-lambda": "^2.0.3",
     "prettier": "^2.2.1",
     "request": "^2.88.2",
     "typescript": "^4.2.3"
@@ -77,8 +79,10 @@
     "url": "git+https://github.com/zinovik/maxhere.git"
   },
   "scripts": {
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda",
     "bgg": "node bgg",
-    "build": "gatsby build",
+    "build": "gatsby build && npm run build:lambda",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{ts,tsx,mdx}\"",
     "start": "npm run develop",
