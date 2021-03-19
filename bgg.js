@@ -1,3 +1,3 @@
-const { getGames } = require('./src/lambda/get-games');
+const { updateGames } = require('./src/lambda/scripts/update-games');
 
-getGames();
+updateGames();

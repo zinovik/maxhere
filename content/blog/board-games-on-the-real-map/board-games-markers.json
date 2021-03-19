@@ -198,6 +198,12 @@
     "links": ["https://en.wikipedia.org/wiki/Orl%C3%A9ans"]
   },
   {
+    "lat": 33.9391,
+    "long": 67.71,
+    "game": "Pax Pamir: Second Edition",
+    "links": ["https://en.wikipedia.org/wiki/Durrani_Empire"]
+  },
+  {
     "lat": 18.2208,
     "long": -66.5901,
     "game": "Puerto Rico",

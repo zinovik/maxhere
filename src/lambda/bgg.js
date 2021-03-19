@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 
-const { getGames } = require('./get-games');
+const { updateGames } = require('./scripts/update-games');
 
 dotenv.config();
 
@@ -17,7 +17,7 @@ exports.handler = async ({ queryStringParameters: { token } }) => {
     };
   }
 
-  const date = await getGames();
+  const date = await updateGames('../../content/bgg.json');
 
   return {
     statusCode: 200,

@@ -61,6 +61,7 @@
   "Android: Netrunner": ["https://jinteki.net"],
   "Antike Duellum": ["https://yucata.de/en/Invite/CasusBelli"],
   "Antiquity": ["http://play.boardgamecore.net"],
+  "Arboretum": [],
   "Arcadia Quest": [],
   "Architects of the West Kingdom": [
     "https://tabletopia.com/games/architects-of-the-west-kingdom"
@@ -351,6 +352,7 @@
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
   "Hannibal: Rome vs. Carthage": [],
   "Hansa Teutonica": ["https://tabletopia.com/games/hansa-teutonica"],
+  "Hardback": ["https://boardgamearena.com/gamepanel?game=hardback"],
   "Hawaii": ["https://yucata.de/en/Invite/Hawaii"],
   "Helios": ["https://yucata.de/en/Invite/Fish"],
   "Hero Realms": ["https://tabletopia.com/games/ww-hero-realms"],
@@ -390,6 +392,7 @@
     "https://boardgamearena.com/gamepanel?game=k2",
     "https://tabletopia.com/games/k2"
   ],
+  "KLASK": [],
   "Kahuna": [
     "https://boardgamearena.com/gamepanel?game=kahuna",
     "https://yucata.de/en/Invite/Kahuna",
@@ -488,6 +491,7 @@
   "Marvel Champions: The Card Game": [],
   "Masons": ["https://yucata.de/en/Invite/Mauerbauer"],
   "Mechs vs. Minions": [],
+  "Medina": ["https://boardgamearena.com/gamepanel?game=medina"],
   "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
   "Mint Works": [
     "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks",
@@ -510,6 +514,7 @@
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Navegador": ["https://yucata.de/en/Invite/Navegador"],
   "Near and Far": [],
+  "Nemo's War (Second Edition)": [],
   "Nemesis": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1265009992"
   ],
@@ -742,6 +747,7 @@
   ],
   "Star Realms: Colony Wars": [],
   "Star Wars: Imperial Assault": [],
+  "Star Wars: Outer Rim": [],
   "Star Wars: Rebellion": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=674546583"
   ],
@@ -782,7 +788,7 @@
     "https://apps.apple.com/us/app/takenoko-the-board-game/id1384376377",
     "https://store.steampowered.com/app/865160/Takenoko"
   ],
-  "Talisman (Revised 4th Edition)": [
+  "Talisman: Revised 4th Edition": [
     "https://play.google.com/store/apps/details?id=com.nomadgames.talisman",
     "https://apps.apple.com/us/app/talisman-digital-edition/id1312840735",
     "https://store.steampowered.com/app/247000/Talisman_Digital_Edition"
@@ -794,6 +800,7 @@
   "Tash-Kalar: Arena of Legends": [
     "https://boardgamearena.com/gamepanel?game=tashkalar"
   ],
+  "Telestrations": [],
   "Teotihuacan: City of Gods": [
     "https://boardgamearena.com/gamepanel?game=teotihuacan",
     "https://tabletopia.com/games/teotihuacan-city-of-gods"
@@ -857,6 +864,7 @@
   "The Resistance: Avalon": [],
   "The Rose King": ["https://yucata.de/en/Invite/Rosenkoenig2"],
   "The Speicherstadt": ["https://yucata.de/en/Invite/Speicherstadt"],
+  "The Taverns of Tiefenthal": [],
   "The Voyages of Marco Polo": [
     "https://boardgamearena.com/gamepanel?game=marcopolo",
     "https://yucata.de/en/Invite/MarcoPolo",
@@ -875,7 +883,10 @@
     "https://boardgamearena.com/gamepanel?game=thurnandtaxis",
     "https://yucata.de/en/Invite/ThurnTaxis"
   ],
-  "Tichu": ["https://tabletopia.com/games/tichu"],
+  "Tichu": [
+    "https://boardgamearena.com/gamepanel?game=tichu",
+    "https://tabletopia.com/games/tichu"
+  ],
   "Ticket to Ride": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.tt.android",
     "https://apps.apple.com/us/app/ticket-to-ride-train-game/id432504470",
@@ -887,6 +898,7 @@
   "Tigris & Euphrates": [
     "https://apps.apple.com/us/app/reiner-knizia-tigris-euphrates/id471458190"
   ],
+  "Tikal": [],
   "To Court the King": ["https://yucata.de/en/Invite/ToCourtTheKing"],
   "Tobago": ["https://boardgamearena.com/gamepanel?game=tobago"],
   "Tokaido": [
@@ -964,6 +976,7 @@
     "https://store.steampowered.com/app/1054490/Wingspan"
   ],
   "Wir sind das Volk!": ["http://play.boardgamecore.net"],
+  "Wizard": ["https://boardgamearena.com/gamepanel?game=wizard"],
   "Xia: Legends of a Drift System": [
     "https://store.steampowered.com/app/468737/Tabletop_Simulator__Xia_Legends_of_a_Drift_System"
   ],

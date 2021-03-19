@@ -97,7 +97,6 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
         <hr />
 
         <footer>
-          <Tags />
           <Bio />
           <a name="comments"></a>
           <Comments slug={slug} title={title} shortname={shortname} />

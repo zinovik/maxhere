@@ -375,4 +375,8 @@ export const designersConfig: {
     text: `${flags.US} Scot Eaton`,
     link: '68016/scot-eaton',
   },
+  'federico-pierlorenzi': {
+    text: `${flags.IT} Federico Pierlorenzi`,
+    link: '118417/federico-pierlorenzi',
+  },
 };
