@@ -35,7 +35,7 @@ const Game: React.FC<GameProps> = ({
   const game = bgg.games.find(({ name }) => name === gameName);
 
   if (!game) {
-    return gameName;
+    return isSkipRank ? gameName : `2000+. ${gameName}`;
   }
 
   return isText ? (
