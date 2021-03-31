@@ -76,7 +76,7 @@ const getPageGames = async pageNumber => {
   return games;
 };
 
-const updateGames = async (filePath = 'content/bgg.json') => {
+const updateGames = async (filePath = '') => {
   const gamesByPages = await Promise.all(
     new Array(PAGES).fill().map((_, i) => getPageGames(i + 1)),
   );
@@ -89,7 +89,7 @@ const updateGames = async (filePath = 'content/bgg.json') => {
   const date = new Date();
 
   await writeFileAsync(
-    filePath,
+    `${filePath}content/bgg.json`,
     JSON.stringify({
       date,
       games,

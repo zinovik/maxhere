@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
+import ImageDescription from './image-description';
+
 const BigImageContainer = styled.div`
   position: fixed;
   display: flex;
@@ -14,6 +16,10 @@ const BigImageContainer = styled.div`
   z-index: 10;
   background-color: rgb(255, 255, 255, 0.8);
   cursor: pointer;
+`;
+
+const SmallImage = styled.img`
+  margin-bottom: 0;
 `;
 
 const BigImage = styled.img`
@@ -30,6 +36,20 @@ interface ImageProps {
 const CLOUDINARY_LINK = 'https://res.cloudinary.com/zinovik/image/upload/';
 const TRANSFORM_LINK = 'c_scale,h_0.25,w_0.25/';
 
+const getDateTimeFromFilename = (filename = '') => {
+  const dateTimeParsed = filename.match(
+    new RegExp('([\\d]{4})([\\d]{2})([\\d]{2})_([\\d]{2})([\\d]{2})'),
+  );
+
+  if (!Array.isArray(dateTimeParsed)) {
+    return '';
+  }
+
+  const [_, year, month, date, hour, minute] = dateTimeParsed;
+
+  return `${date}.${month}.${year} ${hour}:${minute}`;
+};
+
 const Image: React.FC<ImageProps> = ({ link, alt }) => {
   const [isBigImage, setIsBigImage] = useState(false);
 
@@ -37,14 +57,19 @@ const Image: React.FC<ImageProps> = ({ link, alt }) => {
     setIsBigImage(!isBigImage);
   };
 
+  const dateTime = getDateTimeFromFilename(link);
+
   return (
     <>
-      <img
+      <SmallImage
         src={`${CLOUDINARY_LINK}${TRANSFORM_LINK}${link}`}
         alt={alt}
         onClick={handleImageClick}
         style={{ cursor: 'pointer' }}
       />
+
+      {dateTime && <ImageDescription description={`${alt} ${dateTime}`} />}
+
       {isBigImage && (
         <BigImageContainer onClick={handleImageClick}>
           <BigImage src={`${CLOUDINARY_LINK}${link}`} alt={alt} />

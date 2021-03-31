@@ -17,7 +17,7 @@ exports.handler = async ({ queryStringParameters: { token } }) => {
     };
   }
 
-  const date = await updateGames('../../content/bgg.json');
+  const date = await updateGames(`${process.cwd()}/`);
 
   return {
     statusCode: 200,
