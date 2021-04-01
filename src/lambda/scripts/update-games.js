@@ -86,19 +86,16 @@ const updateGames = async (filePath = '') => {
     [],
   );
 
-  const date = new Date();
+  const data = JSON.stringify({
+    date: new Date(),
+    games,
+  });
 
-  await writeFileAsync(
-    `${filePath}content/bgg.json`,
-    JSON.stringify({
-      date,
-      games,
-    }),
-  );
+  await writeFileAsync(`${filePath}/bgg.json`, data);
 
   console.log('Games info updated!');
 
-  return date;
+  return data;
 };
 
 module.exports = { updateGames };
