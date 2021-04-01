@@ -76,7 +76,7 @@ const getPageGames = async pageNumber => {
   return games;
 };
 
-const updateGames = async (filePath = '') => {
+const updateGames = async (filePath = '', isSkipFileUpdate) => {
   const gamesByPages = await Promise.all(
     new Array(PAGES).fill().map((_, i) => getPageGames(i + 1)),
   );
@@ -91,7 +91,9 @@ const updateGames = async (filePath = '') => {
     games,
   });
 
-  await writeFileAsync(`${filePath}/bgg.json`, data);
+  if (!isSkipFileUpdate) {
+    await writeFileAsync(`${filePath}/bgg.json`, data);
+  }
 
   console.log('Games info updated!');
 

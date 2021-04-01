@@ -15,7 +15,7 @@ exports.handler = async ({ queryStringParameters: { token } }) => {
     };
   }
 
-  const data = await updateGames(process.cwd());
+  const data = await updateGames(process.cwd(), true);
 
   return {
     statusCode: 200,
