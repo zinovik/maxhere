@@ -100,6 +100,7 @@
     "https://tabletopia.com/games/between-two-castles-of-mad-king-ludwig",
     "https://store.steampowered.com/app/1158500/Between_Two_Castles__Digital_Edition"
   ],
+  "Beyond the Sun": ["https://boardgamearena.com/gamepanel?game=beyondthesun"],
   "Blood Bowl: Team Manager – The Card Game": [],
   "Blood Rage": [
     "https://store.steampowered.com/app/610700/Tabletop_Simulator__Blood_Rage",
@@ -495,7 +496,7 @@
     "https://happymeeple.com/en/board-games/lost-cities/overview",
     "https://yourturnmyturn.com/game.php?gametype=lost+cities"
   ],
-  "Lost Ruins of Arnak": [],
+  "Lost Ruins of Arnak": ["https://boardgamearena.com/gamepanel?game=arnak"],
   "Lotus": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.lotus",
     "https://apps.apple.com/us/app/lotus-digital/id1270821305"
@@ -564,14 +565,14 @@
   "No Thanks!": ["https://boardgamearena.com/gamepanel?game=nothanks"],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
   "Notre Dame": [],
+  "Ogre": [
+    "https://play.google.com/store/apps/details?id=com.sjgames.ogrewarroom"
+  ],
   "On Mars": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1717537374"
   ],
   "On the Underground: London/Berlin": [
     "https://yucata.de/en/Invite/OnTheUnderground"
-  ],
-  "Ogre": [
-    "https://play.google.com/store/apps/details?id=com.sjgames.ogrewarroom"
   ],
   "One Deck Dungeon": [
     "https://play.google.com/store/apps/details?id=com.handelabra.OneDeckDungeon",
