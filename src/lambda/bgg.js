@@ -15,7 +15,19 @@ exports.handler = async ({ queryStringParameters: { token } }) => {
     };
   }
 
-  const data = await updateGames(process.cwd(), true);
+  let data;
+
+  try {
+    data = JSON.parse(await updateGames(process.cwd(), true));
+  } catch (error) {
+    return {
+      statusCode: 500,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        result: 'unexpected error getting games',
+      }),
+    };
+  }
 
   return {
     statusCode: 200,

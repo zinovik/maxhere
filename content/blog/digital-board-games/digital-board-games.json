@@ -763,6 +763,7 @@
   "Shogun": [],
   "Sid Meier's Civilization: The Board Game": [],
   "Signorie": ["https://boardgamearena.com/gamepanel?game=signorie"],
+  "Skull": ["https://boardgamearena.com/gamepanel?game=skull"],
   "Small World": [
     "https://play.google.com/store/apps/details?id=com.daysofwonder.smallworld2",
     "https://apps.apple.com/us/app/small-world-the-board-game/id364165557",
@@ -802,7 +803,11 @@
   ],
   "Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set": [],
   "Star Wars: X-Wing Miniatures Game": [],
-  "Steam": [],
+  "Steam": [
+    "https://play.google.com/store/apps/details?id=com.acram.steam",
+    "https://apps.apple.com/us/app/steam-rails-to-riches/id1016459121",
+    "https://store.steampowered.com/app/595930/Steam_Rails_to_Riches"
+  ],
   "Steampunk Rally": [
     "https://tabletopia.com/games/steampunk-rally",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=604552940"
@@ -850,6 +855,7 @@
   "Tash-Kalar: Arena of Legends": [
     "https://boardgamearena.com/gamepanel?game=tashkalar"
   ],
+  "Tekhenu: Obelisk of the Sun": [],
   "Telestrations": [],
   "Teotihuacan: City of Gods": [
     "https://boardgamearena.com/gamepanel?game=teotihuacan",

@@ -13,7 +13,7 @@ export const gamesByRankSortFunction = (
   }
 
   if (!rank2) {
-    return 0;
+    return -1;
   }
 
   return rank1 - rank2;
