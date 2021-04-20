@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, createContext } from 'react';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Img from 'gatsby-image';
@@ -15,6 +15,9 @@ import ImageDescription from '../components/image-description';
 
 import { rhythm } from '../utils/typography';
 import { BlogPostTemplateQuery } from '../../gatsby-graphql';
+
+import bgg from '../../content/bgg.json';
+import { BggGames } from '../types/BggGames';
 
 interface Context {
   frontmatter: {
@@ -37,6 +40,11 @@ interface BlogPostTemplateProps {
   };
 }
 
+export const BggGamesContext = createContext({
+  bggGames: ({} as unknown) as BggGames,
+  setBggGames: () => null,
+});
+
 const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   data,
   pageContext,
@@ -45,6 +53,8 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   if (!data.mdx?.frontmatter || !data.mdx?.fields?.slug || !data.mdx?.body) {
     return null;
   }
+
+  const [bggGames, setBggGames] = useState(bgg);
 
   const siteTitle = data.site?.siteMetadata?.title ?? '';
   const allTags = data.allMdx.group;
@@ -63,74 +73,77 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   );
 
   return (
-    <Layout location={location} title={siteTitle} tags={allTags}>
-      <SEO
-        title={frontmatter.title}
-        description={frontmatter.description || data.mdx.excerpt}
-        image={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
-      />
-      <article>
-        <header>
-          <Date date={frontmatter.date} />
-          {/* <ParallaxImage
+    <BggGamesContext.Provider value={{ bggGames, setBggGames }}>
+      <Layout location={location} title={siteTitle} tags={allTags}>
+        <SEO
+          title={frontmatter.title}
+          description={frontmatter.description || data.mdx.excerpt}
+          image={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
+        />
+        <article>
+          <header>
+            <Date date={frontmatter.date} />
+            {/* <ParallaxImage
             imageSrc={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
           /> */}
-          <Img fluid={frontmatter?.featuredImage?.childImageSharp?.fluid} />
-          <ImageDescription description={frontmatter.imageDescription} />
-          <h1
+            <Img fluid={frontmatter?.featuredImage?.childImageSharp?.fluid} />
+            <ImageDescription description={frontmatter.imageDescription} />
+            <h1
+              style={{
+                marginTop: rhythm(1),
+              }}
+            >
+              {frontmatter.title}
+            </h1>
+            <p>{frontmatter.description}</p>
+            <Tags /> |{' '}
+            <a href="#comments">
+              ⬇️{' '}
+              <CommentsCount slug={slug} title={title} shortname={shortname} />
+            </a>
+          </header>
+
+          <br />
+          <hr />
+          <MDXRenderer>{body}</MDXRenderer>
+          <hr />
+
+          <footer>
+            <Bio />
+            <a name="comments"></a>
+            <Comments slug={slug} title={title} shortname={shortname} />
+          </footer>
+        </article>
+
+        <nav>
+          <ul
             style={{
-              marginTop: rhythm(1),
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
             }}
           >
-            {frontmatter.title}
-          </h1>
-          <p>{frontmatter.description}</p>
-          <Tags /> |{' '}
-          <a href="#comments">
-            ⬇️ <CommentsCount slug={slug} title={title} shortname={shortname} />
-          </a>
-        </header>
-
-        <br />
-        <hr />
-        <MDXRenderer>{body}</MDXRenderer>
-        <hr />
-
-        <footer>
-          <Bio />
-          <a name="comments"></a>
-          <Comments slug={slug} title={title} shortname={shortname} />
-        </footer>
-      </article>
-
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
-      <BackToTop />
-    </Layout>
+            <li>
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+        </nav>
+        <BackToTop />
+      </Layout>
+    </BggGamesContext.Provider>
   );
 };
 

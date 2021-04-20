@@ -1,3 +1,8 @@
+const dotenv = require('dotenv');
 const { updateGames } = require('./src/lambda/scripts/update-games');
 
-updateGames('content');
+dotenv.config();
+
+if (process.env.ALLOW_UPDATES) {
+  updateGames('content');
+}

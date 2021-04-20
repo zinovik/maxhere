@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import Game, { getGameRank } from '../game';
+import React, { useState, useEffect, useContext } from 'react';
+import Game from '../game';
 import { sitesConfig } from './sites-config';
 import { Header } from './components/header';
 import { Filter, WITHOUT_IMPLEMENTATION } from './components/filter';
@@ -14,9 +14,17 @@ import { getGamesReducerFunction } from './games-list-helpers/get-games-reducer-
 import { gamesByRankSortFunction } from './games-list-helpers/games-by-rank-sort-function';
 import { GameIconLink } from './components/game-icon-link';
 import { GameInterface } from './interfaces/game-interface';
+import { BggGamesContext } from '../../templates/blog-post';
+import { BggGames } from '../../types/BggGames';
 
-const STORAGE_NAME = 'digital-board-games:sites-filter';
-const WITHOUT_IMPLEMENTATION_DEFAULT_VALUE = false;
+const STORAGE_NAME: string = 'digital-board-games:sites-filter';
+const WITHOUT_IMPLEMENTATION_DEFAULT_VALUE: boolean = false;
+
+export const getGameRank = (bggGames: BggGames, gameName: string) => {
+  const game = bggGames.games.find(({ name }) => name === gameName);
+
+  return game && game.rank;
+};
 
 const getFilterFromLocationSearch = (search: string) => {
   const params = new URLSearchParams(search);
@@ -53,6 +61,8 @@ interface GamesListProps {
 const GamesList: React.FC<GamesListProps> = ({ games }) => {
   const [sitesFilter, setSitesFilter] = useState({});
   const [isWithoutImplementation, setIsWithoutImplementation] = useState(false);
+
+  const { bggGames } = useContext(BggGamesContext);
 
   useEffect(() => {
     const searchFilter = getFilterFromLocationSearch(window.location.search);
@@ -115,7 +125,7 @@ const GamesList: React.FC<GamesListProps> = ({ games }) => {
   const gamesSorted: GameInterface[] = Object.keys(games)
     .map(name => ({
       name,
-      rank: getGameRank(name),
+      rank: getGameRank(bggGames, name),
       urls: [...games[name]],
     }))
     .reduce(

@@ -319,6 +319,7 @@
   ],
   "Five Tribes": [],
   "Flamme Rouge": ["https://teleflammerouge.netsons.org/en"],
+  "Flash Point: Fire Rescue": [],
   "Fleet": ["https://boardgamearena.com/gamepanel?game=fleet"],
   "Food Chain Magnate": ["http://play.boardgamecore.net"],
   "For Sale": ["https://boardgamearena.com/gamepanel?game=forsale"],
@@ -342,6 +343,7 @@
   ],
   "Ghost Stories": [],
   "Ginkgopolis": ["http://boiteajeux.net"],
+  "Gizmos": [],
   "Glass Road": [],
   "Glen More II: Chronicles": [],
   "Glen More": ["https://yucata.de/en/Invite/GlenMore"],
@@ -451,6 +453,7 @@
   ],
   "Kingdom Death: Monster": [],
   "Kingdomino": ["https://boardgamearena.com/gamepanel?game=kingdomino"],
+  "Kraftwagen": ["https://yucata.de/en/Invite/Kraftwagen"],
   "König von Siam": ["https://yucata.de/en/Invite/KingOfSiam"],
   "La Granja": [
     "https://boardgamearena.com/gamepanel?game=lagranja",
@@ -458,6 +461,7 @@
   ],
   "La Granja: No Siesta": ["https://yucata.de/en/Invite/LaGranjaNoSiesta"],
   "La Isla": ["https://yucata.de/en/Invite/LaIsla"],
+  "Lancaster": [],
   "Lanterns: The Harvest Festival": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.lanterns",
     "https://apps.apple.com/us/app/lanterns-the-harvest-festival/id1155269699"
@@ -529,6 +533,7 @@
   "Medina": ["https://boardgamearena.com/gamepanel?game=medina"],
   "Memoir '44": ["https://store.steampowered.com/app/108210/Memoir_44_Online"],
   "Merchants & Marauders": [],
+  "Mice and Mystics": [],
   "Mint Works": [
     "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks",
     "https://apps.apple.com/us/app/mint-works/id1527301930"
@@ -560,11 +565,13 @@
     "https://play.google.com/store/apps/details?id=com.bdc.nh",
     "https://apps.apple.com/us/app/neuroshima-hex/id391297152"
   ],
+  "Newton": [],
   "Nidavellir": ["https://boardgamearena.com/gamepanel?game=nidavellir"],
   "Nippon": ["https://boardgamearena.com/gamepanel?game=nippon"],
   "No Thanks!": ["https://boardgamearena.com/gamepanel?game=nothanks"],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
   "Notre Dame": [],
+  "Nusfjord": [],
   "Ogre": [
     "https://play.google.com/store/apps/details?id=com.sjgames.ogrewarroom"
   ],
@@ -651,6 +658,7 @@
   ],
   "Pulsar 2849": [],
   "PÜNCT": ["http://boiteajeux.net"],
+  "Quadropolis": [],
   "R-Eco": ["https://yucata.de/en/Invite/REco"],
   "Ra": [],
   "Race for the Galaxy": [
@@ -666,6 +674,9 @@
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.raiders",
     "https://apps.apple.com/us/app/raiders-of-the-north-sea/id1439244088",
     "https://store.steampowered.com/app/965600/Raiders_of_the_North_Sea"
+  ],
+  "Railroad Ink: Deep Blue Edition": [
+    "https://boardgamearena.com/gamepanel?game=railroadink"
   ],
   "Railways of the World": [
     "https://tabletopia.com/games/railways-of-the-world"
@@ -795,6 +806,7 @@
     "https://store.steampowered.com/app/438140/Star_Realms"
   ],
   "Star Realms: Colony Wars": [],
+  "Star Realms: Frontiers": [],
   "Star Wars: Armada": [],
   "Star Wars: Imperial Assault": [],
   "Star Wars: Outer Rim": [],
@@ -834,6 +846,7 @@
   "Survive: Escape from Atlantis!": [],
   "Sushi Go Party!": [],
   "Sushi Go!": ["https://boardgamearena.com/gamepanel?game=sushigo"],
+  "Sword & Sorcery": [],
   "T.I.M.E Stories": [],
   "TZAAR": ["http://boiteajeux.net"],
   "Tainted Grail: The Fall of Avalon": [],
@@ -973,6 +986,7 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=940113435",
     "https://boardgamegeek.com/thread/1823301/download-too-many-bones-windows-now-available-free"
   ],
+  "Too Many Bones: Undertow": [],
   "Torres": ["https://yucata.de/en/Invite/Torres", "http://boiteajeux.net"],
   "Trajan": ["http://boiteajeux.net"],
   "Transatlantic": ["https://yucata.de/en/Invite/Transatlantic"],
