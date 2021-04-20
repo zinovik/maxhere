@@ -41,7 +41,7 @@ interface BlogPostTemplateProps {
 }
 
 export const BggGamesContext = createContext({
-  bggGames: ({} as unknown) as BggGames,
+  bggGames: bgg,
   setBggGames: () => null,
 });
 
