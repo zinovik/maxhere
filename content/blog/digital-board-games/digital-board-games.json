@@ -62,6 +62,8 @@
   ],
   "Alien Frontiers": [],
   "Altiplano": ["https://tabletopia.com/games/altiplano"],
+  "Amerigo": [],
+  "Amun-Re": [],
   "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": ["https://jinteki.net"],
@@ -78,7 +80,11 @@
   "Assyria": ["https://boardgamearena.com/gamepanel?game=assyria"],
   "At the Gates of Loyang": ["https://yucata.de/en/Invite/Loyang"],
   "Attika": ["https://yucata.de/en/Invite/Attika"],
-  "Automobiles": ["https://yucata.de/en/Invite/Automobiles"],
+  "Automobiles": [
+    "https://boardgamearena.com/gamepanel?game=automobiles",
+    "https://yucata.de/en/Invite/Automobiles"
+  ],
+  "Awkward Guests": [],
   "Azul": [
     "https://azee.mattle.online",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2143374769",
@@ -101,6 +107,7 @@
     "https://store.steampowered.com/app/1158500/Between_Two_Castles__Digital_Edition"
   ],
   "Beyond the Sun": ["https://boardgamearena.com/gamepanel?game=beyondthesun"],
+  "Biblios": [],
   "Blood Bowl: Team Manager – The Card Game": [],
   "Blood Rage": [
     "https://store.steampowered.com/app/610700/Tabletop_Simulator__Blood_Rage",
@@ -191,6 +198,7 @@
     "https://apps.apple.com/us/app/charterstone-digital-edition/id1457338857",
     "https://store.steampowered.com/app/1046660/Charterstone_Digital_Edition"
   ],
+  "Chinatown": [],
   "Chronicles of Crime": [],
   "Circle the Wagons": [
     "https://happymeeple.com/en/board-games/circle-the-wagons/overview"
@@ -313,6 +321,7 @@
   ],
   "Fields of Arle": [],
   "Finca": ["https://yucata.de/en/Invite/Finca"],
+  "Firefly: The Game": [],
   "Firenze": ["https://yucata.de/en/Invite/Firenze"],
   "First Class: All Aboard the Orient Express!": [
     "https://yucata.de/en/Invite/FirstClass"
@@ -389,6 +398,7 @@
   "Helios": ["https://yucata.de/en/Invite/Fish"],
   "Here I Stand": [],
   "Hero Realms": ["https://tabletopia.com/games/ww-hero-realms"],
+  "Heroscape Master Set: Rise of the Valkyrie": [],
   "Hey, That's My Fish!": ["https://yucata.de/en/Invite/Helios"],
   "Hive": [
     "https://boardgamearena.com/gamepanel?game=hive",
@@ -453,6 +463,7 @@
   ],
   "Kingdom Death: Monster": [],
   "Kingdomino": ["https://boardgamearena.com/gamepanel?game=kingdomino"],
+  "Kingsburg": [],
   "Kraftwagen": ["https://yucata.de/en/Invite/Kraftwagen"],
   "König von Siam": ["https://yucata.de/en/Invite/KingOfSiam"],
   "La Granja": [
@@ -541,6 +552,7 @@
   "Mission: Red Planet (Second Edition)": [],
   "Modern Art": [],
   "Mombasa": [],
+  "Monikers": [],
   "Mr. Jack": ["https://boardgamearena.com/gamepanel?game=mrjack"],
   "Mykerinos": ["http://boiteajeux.net"],
   "Myrmes": ["http://boiteajeux.net"],
@@ -640,6 +652,8 @@
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.perudoofficial",
     "https://apps.apple.com/us/app/perudo-the-pirate-board-game/id1199019940"
   ],
+  "PitchCar": [],
+  "Point Salad": [],
   "Polis: Fight for the Hegemony": ["https://yucata.de/en/Invite/Polis"],
   "Port Royal": ["https://yucata.de/en/Invite/PortRoyal"],
   "Potion Explosion": [
@@ -686,6 +700,7 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1414991432"
   ],
   "Rallyman": ["http://boiteajeux.net"],
+  "Raptor": [],
   "Rattus": ["https://yucata.de/en/Invite/Rattus"],
   "Red7": [
     "https://boardgamearena.com/gamepanel?game=redsevengame",
@@ -769,6 +784,7 @@
     "https://apps.apple.com/us/app/sentinels-of-the-multiverse/id923772792",
     "https://store.steampowered.com/app/337150/Sentinels_of_the_Multiverse"
   ],
+  "Sheriff of Nottingham": [],
   "Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures": [],
   "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases": [],
   "Shogun": [],
@@ -993,6 +1009,7 @@
   "Trickerion: Legends of Illusion": [],
   "Troyes": [],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
+  "Twice as Clever!": [],
   "Twilight Imperium: Fourth Edition": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1288687076"
   ],

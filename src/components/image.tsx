@@ -68,7 +68,7 @@ const Image: React.FC<ImageProps> = ({ link, alt }) => {
         style={{ cursor: 'pointer' }}
       />
 
-      {dateTime && <ImageDescription description={`${alt} ${dateTime}`} />}
+      {dateTime && <ImageDescription description={`${alt && `${alt}, `} ${dateTime}`} />}
 
       {isBigImage && (
         <BigImageContainer onClick={handleImageClick}>
