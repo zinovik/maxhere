@@ -27,7 +27,8 @@ const Designer: React.FC<DesignerProps> = ({
       href={`https://boardgamegeek.com/boardgamedesigner/${designer.link}${
         isGames ? '/linkeditems/boardgamedesigner?pageid=1&sort=rank' : ''
       }`}
-      name={name}
+      className="anchor"
+      id={name}
       target="_blank"
     >
       {isGames ? SOME_HIGH_RATED_GAMES : designer.text}

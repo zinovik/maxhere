@@ -41,8 +41,8 @@ interface BlogPostTemplateProps {
 }
 
 export const BggGamesContext = createContext({
-  bggGames: bgg,
-  setBggGames: () => null,
+  bggGames: bgg as BggGames,
+  setBggGames: (bgg: BggGames) => null,
 });
 
 const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
@@ -110,7 +110,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
 
           <footer>
             <Bio />
-            <a name="comments"></a>
+            <a className="anchor" id="comments"></a>
             <Comments slug={slug} title={title} shortname={shortname} />
           </footer>
         </article>

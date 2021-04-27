@@ -7,7 +7,9 @@ imageDescription: telegram channel, photo 08.10.2020 13:37
 tags: ['board games', 'software development']
 ---
 
-### Agenda<a name="agenda" />
+import A from '../../../src/components/a';
+
+### Agenda<A id="agenda" />
 
 - [Part I. For gamers](#part-i-for-gamers)
 - [Part II. For developers](#part-ii-for-developers)
@@ -17,7 +19,7 @@ tags: ['board games', 'software development']
     - [Entrypoint](#entrypoint)
     - [Services](#services)
 
-### Part I. For gamers<a name="part-i-for-gamers" /> [⬆️](#agenda)
+### Part I. For gamers<A id="part-i-for-gamers" /> [⬆️](#agenda)
 
 If you use <a href="https://telegram.org" target="_blank">Telegram messenger</a> and like 🎲 board games, I have great news for you! You can get <a href="https://boardgamegeek.com/browse/boardgame" target="_blank">BoardGameGeek Top 100 List</a> with changes highlighted 📨 posted weekly!
 
@@ -34,13 +36,13 @@ Feel free to subscribe to get these updates every Saturday at 9:00 AM UTC ;)
 
 You can check the channel preview <a href="https://t.me/s/bggtop100" target="_blank">here</a> even without Telegram.
 
-### Part II. For developers<a name="part-ii-for-developers" /> [⬆️](#agenda)
+### Part II. For developers<A id="part-ii-for-developers" /> [⬆️](#agenda)
 
 How does it work?
 
 ![Diagram.png](diagram.png)
 
-#### Tools<a name="tools" /> [⬆️](#agenda)
+#### Tools<A id="tools" /> [⬆️](#agenda)
 
 The bot was created with <a href="https://nodejs.org" target="_blank">Node.js</a> and <a href="https://typescriptlang.org" target="_blank">TypeScript</a>.
 
@@ -48,9 +50,9 @@ It works as a serverless function on the <a href="https://vercel.com" target="_b
 
 The previous week's game list stored in the <a href="https://redislabs.com" target="_blank">Redis Labs</a> service <a href="https://redis.io" target="_blank">Redis</a> database.
 
-#### Code<a name="code" /> [⬆️](#agenda)
+#### Code<A id="code" /> [⬆️](#agenda)
 
-##### Main<a name="main" /> [⬆️](#agenda)
+##### Main<A id="main" /> [⬆️](#agenda)
 
 There is only one function in the **Main** class:
 
@@ -108,7 +110,7 @@ I've added the **isDevMode** configuration option to have the possibility to che
 }
 ```
 
-##### Entrypoint<a name="entrypoint" /> [⬆️](#agenda)
+##### Entrypoint<A id="entrypoint" /> [⬆️](#agenda)
 
 We use the **Main** class here, but there is some work we have to do before that.
 
@@ -192,7 +194,7 @@ That's it - we answer to the Posthook service request.
 };
 ```
 
-##### Services<a name="services" /> [⬆️](#agenda)
+##### Services<A id="services" /> [⬆️](#agenda)
 
 There are 4 services in the application:
 

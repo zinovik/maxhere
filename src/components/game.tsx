@@ -62,11 +62,12 @@ const Game: React.FC<GameProps> = ({
     return (
       <>
         {new Date(bggGames.date).toLocaleDateString()}
-        <div>
+        <br />
+        <>
           <button onClick={updateBgg} disabled={isButtonDisabled}>
             {buttonLabel}
           </button>
-        </div>
+        </>
       </>
     );
   }
@@ -74,7 +75,7 @@ const Game: React.FC<GameProps> = ({
   const game = bggGames.games.find(({ name }) => name === gameName);
 
   if (!game) {
-    return isSkipRank ? gameName : `2000+. ${gameName}`;
+    return <>{isSkipRank ? gameName : `2000+. ${gameName}`}</>;
   }
 
   return isText ? (

@@ -15,6 +15,9 @@ Wordpress2016.overrideThemeStyles = () => {
     'a>p': {
       marginBottom: 0,
     },
+    'a.anchor': {
+      scrollMarginTop: '100px',
+    },
   };
 };
 
