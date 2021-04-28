@@ -14,7 +14,11 @@ export const GameIconLink: React.FC<GameIconLinkProps> = ({
   const site: SiteConfigInterface = getSiteForUrl(sitesConfig, url);
 
   return (
-    <a href={url} target="_blank">
+    <a
+      href={url}
+      target="_blank"
+      style={{ display: 'flex', alignItems: 'center' }}
+    >
       {site.icon}
     </a>
   );

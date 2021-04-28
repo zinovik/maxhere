@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
+  &:nth-child(2n) {
+    background-color: rgb(240, 240, 240);
+  }
 `;
 
 export const HeaderRow = styled(Row)`

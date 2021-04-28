@@ -55,7 +55,7 @@ const Nav: React.FC<NavProps> = ({ tags }) => {
     <>
       <NavContainer
         style={{
-          backgroundColor: isTopPage ? 'transparent' : 'white',
+          backgroundColor: isTopPage ? 'transparent' : 'rgba(255, 255, 255, 0.9)',
           boxShadow: isTopPage ? 'none' : '0px 1px 1px lightgrey',
           transition: isTopPage ? '0s' : '2.5s',
         }}
