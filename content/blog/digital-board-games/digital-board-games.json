@@ -386,6 +386,8 @@
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
   "Hanabi": [
     "https://boardgamearena.com/gamepanel?game=hanabi",
+    "https://play.google.com/store/apps/details?id=com.ordonteam.hanabi",
+    "https://hanabi.cards",
     "https://hanab.live"
   ],
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
@@ -425,12 +427,13 @@
     "https://store.steampowered.com/app/943410/Istanbul_Digital_Edition"
   ],
   "It's a Wonderful World": ["https://game-park.com/"],
+  "Iwari": ["https://boardgamearena.com/gamepanel?game=iwari"],
   "Jaipur": [
     "https://boardgamearena.com/gamepanel?game=jaipur",
     "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur",
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
   ],
-  "Just One": ["https://justone-the-game.com"],
+  "Just One": ["https://justone-the-game.com", "https://justone.duckdns.org"],
   "K2": [
     "https://boardgamearena.com/gamepanel?game=k2",
     "https://tabletopia.com/games/k2"
@@ -906,6 +909,7 @@
     "https://store.steampowered.com/app/800270/Terraforming_Mars",
     "https://terraforming-mars.herokuapp.com"
   ],
+  "That's Life!": ["https://boardgamearena.com/gamepanel?game=thatslife"],
   "That's Pretty Clever!": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.ganzschoenclever",
     "https://apps.apple.com/us/app/thats-pretty-clever/id1411348057",
