@@ -263,7 +263,10 @@
     "http://coup.thebrown.net"
   ],
   "Cribbage": ["https://boardgamearena.com/gamepanel?game=cribbage"],
-  "Crokinole": [],
+  "Crokinole": [
+    "https://play.google.com/store/apps/details?id=com.folkloregames.Crokinole",
+    "https://butchersworkshop.com/crokinole"
+  ],
   "Cryptid": ["https://ospreypublishing.com/playcryptid"],
   "Cthulhu Realms": [
     "https://play.google.com/store/apps/details?id=com.whitewizardgames.cthulhurealms",
