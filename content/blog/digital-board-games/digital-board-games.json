@@ -1045,7 +1045,9 @@
     "https://apps.apple.com/us/app/through-the-ages/id966245474",
     "https://store.steampowered.com/app/758370/Through_the_Ages"
   ],
-  "Through the Ages: A Story of Civilization": [],
+  "Through the Ages: A Story of Civilization": [
+    "https://boardgamearena.com/gamepanel?game=throughtheages"
+  ],
   "Thunderstone": ["https://yucata.de/en/Invite/Thunderstone"],
   "Thurn and Taxis": [
     "https://boardgamearena.com/gamepanel?game=thurnandtaxis",

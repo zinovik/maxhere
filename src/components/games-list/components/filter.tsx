@@ -69,7 +69,7 @@ export const Filter: React.FC<FilterProps> = ({
         type="checkbox"
         id={ALL}
         onChange={handleAllChange}
-        checked={!isAllUnchecked}
+        checked={isAllChecked}
       />
       <Label htmlFor={ALL}>{ALL}</Label>
       {sitesConfig.map(({ title, icon, siteUrl }) => (
