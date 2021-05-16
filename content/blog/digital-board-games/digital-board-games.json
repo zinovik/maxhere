@@ -328,7 +328,9 @@
   "Eminent Domain": ["https://boardgamearena.com/gamepanel?game=eminentdomain"],
   "Endeavor": [],
   "Endeavor: Age of Sail": [],
-  "Ethnos": [],
+  "Ethnos": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=935245345"
+  ],
   "Everdell": ["https://tabletopia.com/games/everdell"],
   "Evolution: Climate": [],
   "Exit: The Game – The Abandoned Cabin": [],
@@ -404,7 +406,7 @@
   ],
   "Guildhall": ["https://yucata.de/en/Invite/Guildhall"],
   "Gùgōng": [],
-  "Hacienda": ["https://yucata.de/en/Invite/Hazienda"],
+  "Hacienda": ["https://yucata.de/en/Invite/Hazienda", "http://spielbyweb.com"],
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
   "Haggis": ["https://boardgamearena.com/gamepanel?game=haggis"],
   "Hanabi": [
@@ -1069,7 +1071,7 @@
   "Tigris & Euphrates": [
     "https://apps.apple.com/us/app/reiner-knizia-tigris-euphrates/id471458190"
   ],
-  "Tikal": [],
+  "Tikal": ["http://spielbyweb.com"],
   "Tiny Epic Galaxies": [],
   "Tiny Towns": [],
   "To Court the King": ["https://yucata.de/en/Invite/ToCourtTheKing"],
