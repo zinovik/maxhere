@@ -34,6 +34,7 @@
   "Above and Below": [],
   "Abyss": ["https://boardgamearena.com/gamepanel?game=abyss"],
   "Acquire": [],
+  "Advanced Squad Leader": [],
   "Aeon's End": [
     "https://play.google.com/store/apps/details?id=com.handelabra.AeonsEnd",
     "https://apps.apple.com/us/app/aeons-end/id1476090287",
@@ -77,6 +78,10 @@
   "Arkadia": ["https://yucata.de/en/Invite/Arkadia"],
   "Arkham Horror (Third Edition)": [],
   "Arkham Horror: The Card Game": ["https://playarkham.azurewebsites.net"],
+  "Ascension: Deckbuilding Game": [
+    "https://play.google.com/store/apps/details?id=com.playdekgames.android.Ascension",
+    "https://apps.apple.com/us/app/ascension-deckbuilding-game/id441838733"
+  ],
   "Assyria": ["https://boardgamearena.com/gamepanel?game=assyria"],
   "At the Gates of Loyang": ["https://yucata.de/en/Invite/Loyang"],
   "Attika": ["https://yucata.de/en/Invite/Attika"],
@@ -225,6 +230,10 @@
   ],
   "Clash of Cultures": [],
   "Claustrophobia": [],
+  "Clever Cubed": [
+    "https://play.google.com/store/apps/details?id=de.brettspielwelt.cleverhochdrei",
+    "https://apps.apple.com/us/app/clever-cubed/id1513812015"
+  ],
   "Codenames": [
     "https://codenames.game",
     "https://codenames.cards",
@@ -256,6 +265,10 @@
     "https://boardgamearena.com/gamepanel?game=conspiracy"
   ],
   "Cosmic Encounter": [],
+  "Cottage Garden": [
+    "https://play.google.com/store/apps/details?id=com.digidiced.cxgrelease",
+    "https://apps.apple.com/us/app/cottage-garden/id1267856477"
+  ],
   "Coup": [
     "https://boardgamearena.com/gamepanel?game=coupcitystate",
     "https://play.google.com/store/apps/details?id=com.bananaandco.coup",
@@ -317,10 +330,12 @@
     "https://boardgamearena.com/gamepanel?game=dungeontwister",
     "http://boiteajeux.net"
   ],
-  "Eclipse": [
+  "Eclipse": [],
+  "Eclipse: Second Dawn for the Galaxy": [
+    "https://play.google.com/store/apps/details?id=air.de.brettspielwelt.eclipseapp",
+    "https://apps.apple.com/us/app/eclipse-boardgame/id620439479",
     "https://store.steampowered.com/app/522030/Eclipse_New_Dawn_for_the_Galaxy"
   ],
-  "Eclipse: Second Dawn for the Galaxy": [],
   "Egizia": ["https://yucata.de/en/Invite/Egizia"],
   "El Grande": ["https://yucata.de/en/Invite/ElGrande"],
   "Eldritch Horror": [],
@@ -361,6 +376,7 @@
   "Forbidden Stars": [],
   "Forum Trajanum": ["https://yucata.de/en/Invite/Trajanum"],
   "Founding Fathers": ["https://yucata.de/en/Invite/FoundingFathers"],
+  "Fresco": [],
   "Friday": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.freitag",
     "https://apps.apple.com/us/app/friday-by-friedemann-friese/id1222916942"
@@ -369,7 +385,10 @@
     "https://store.steampowered.com/app/958530/Fury_of_Dracula_Digital_Edition"
   ],
   "GIPF": ["http://boiteajeux.net"],
-  "Gaia Project": ["https://www.boardgamers.space"],
+  "Gaia Project": [
+    "https://store.steampowered.com/app/1516400/Gaia_Project",
+    "https://boardgamers.space"
+  ],
   "Galaxy Trucker": [],
   "Gang of Four": [
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.gangoffour"
@@ -475,6 +494,7 @@
     "https://apps.apple.com/us/app/kahuna/id774875399"
   ],
   "Kamisado": ["https://yucata.de/en/Invite/Kamisado"],
+  "Kanban EV": [],
   "Kanban: Driver's Edition": ["http://boiteajeux.net"],
   "Kashgar: Merchants of the Silk Road": [
     "https://yucata.de/en/Invite/Kashgar"
@@ -532,6 +552,7 @@
   ],
   "Libertalia": ["https://boardgamearena.com/gamepanel?game=libertalia"],
   "Lisboa": ["https://tabletopia.com/games/lisboa"],
+  "Lord of the Rings: The Confrontation": [],
   "Lords of Hellas": [],
   "Lords of Waterdeep": [
     "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
@@ -570,10 +591,14 @@
   "Mage Wars Arena": [],
   "Magic: The Gathering": [],
   "Mansions of Madness: Second Edition": [],
+  "Maquis": [
+    "https://play.google.com/store/apps/details?id=org.boardnaut.studios.maquis.android"
+  ],
   "Maracaibo": [],
   "Marco Polo II: In the Service of the Khan": [
     "https://boardgamearena.com/gamepanel?game=marcopolotwo"
   ],
+  "Maria": [],
   "Marrakech": ["https://boardgamearena.com/gamepanel?game=marrakech"],
   "Marvel Champions: The Card Game": [],
   "Masons": ["https://yucata.de/en/Invite/Mauerbauer"],
@@ -670,6 +695,7 @@
     "https://apps.apple.com/us/app/pandemic-the-board-game/id700793523",
     "https://store.steampowered.com/app/622440/Pandemic_The_Board_Game"
   ],
+  "Pandemic: Fall of Rome": [],
   "Pandemic: Iberia": [],
   "Paperback": [
     "https://play.google.com/store/apps/details?id=net.fowers.paperback",
@@ -712,6 +738,7 @@
     "http://brettspielwelt.de/Spiele/Funkenschlag",
     "https://sparkcities.io"
   ],
+  "Praga Caput Regni": [],
   "Puerto Rico": [
     "https://boardgamearena.com/gamepanel?game=puertorico",
     "http://brettspielwelt.de/Spiele/PuertoRico",
@@ -814,6 +841,7 @@
     "https://play.google.com/store/apps/details?id=com.ravensburgerdigital.sanjuan",
     "https://apps.apple.com/us/app/san-juan/id513228980"
   ],
+  "Santa Maria": [],
   "Santiago de Cuba": ["https://yucata.de/en/Invite/SdeCuba"],
   "Santorini": [
     "https://boardgamearena.com/gamepanel?game=santorini",
@@ -1006,6 +1034,7 @@
   ],
   "The Downfall of Pompeii": ["https://yucata.de/en/Invite/Pompeji"],
   "The Gallerist": ["https://tabletopia.com/games/the-gallerist"],
+  "The Godfather: Corleone's Empire": [],
   "The Great Zimbabwe": ["http://play.boardgamecore.net"],
   "The Hanging Gardens": ["https://yucata.de/en/Invite/HangingGardens"],
   "The Isle of Cats": ["https://tabletopia.com/games/the-isle-of-cats"],
@@ -1015,7 +1044,12 @@
   "The King's Guild": ["https://boardgamearena.com/gamepanel?game=kingsguild"],
   "The Lord of the Rings: Journeys in Middle-Earth": [],
   "The Lord of the Rings: The Card Game": [],
+  "The Manhattan Project": [],
   "The Manhattan Project: Energy Empire": [],
+  "The Mind": [
+    "https://play.google.com/store/apps/details?id=de.brettspielwelt.themind",
+    "https://apps.apple.com/us/app/the-mind/id1436132672"
+  ],
   "The Oracle of Delphi": ["https://yucata.de/en/Invite/Delphi"],
   "The Palaces of Carrara": [
     "https://boardgamearena.com/gamepanel?game=carrara",
@@ -1097,7 +1131,10 @@
   "Trickerion: Legends of Illusion": [],
   "Troyes": ["https://boardgamearena.com/gamepanel?game=troyes"],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
-  "Twice as Clever!": [],
+  "Twice as Clever!": [
+    "https://play.google.com/store/apps/details?id=de.brettspielwelt.doppeltsoclever",
+    "https://apps.apple.com/us/app/twice-as-clever/id1448698380"
+  ],
   "Twilight Imperium: Fourth Edition": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1288687076"
   ],
