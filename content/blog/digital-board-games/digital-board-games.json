@@ -146,7 +146,10 @@
     "https://boardgamearena.com/gamepanel?game=cacao",
     "https://yucata.de/en/Invite/Cacao"
   ],
-  "Calico": ["https://tabletopia.com/games/calico"],
+  "Calico": [
+    "https://tabletopia.com/games/calico",
+    "https://myautoma.github.io/games/calico/index.html"
+  ],
   "Campaign Manager 2008": ["https://yucata.de/en/Invite/CampaignManager"],
   "Can't Stop": ["https://boardgamearena.com/gamepanel?game=cantstop"],
   "Captain Sonar": [
@@ -315,7 +318,10 @@
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
   "Draftosaurus": ["https://boardgamearena.com/gamepanel?game=draftosaurus"],
   "Dragon Castle": ["https://boardgamearena.com/gamepanel?game=dragoncastle"],
-  "Dragonheart": ["https://yucata.de/en/Invite/Dragonheart"],
+  "Dragonheart": [
+    "https://boardgamearena.com/gamepanel?game=dragonheart",
+    "https://yucata.de/en/Invite/Dragonheart"
+  ],
   "Dragonwood": ["https://boardgamearena.com/gamepanel?game=dragonwood"],
   "Drako: Dragon & Dwarves": ["https://yucata.de/en/Invite/Drako"],
   "Dream Home": ["https://store.steampowered.com/app/951680/Dream_Home"],
@@ -416,6 +422,7 @@
     "https://online-go.com"
   ],
   "Goa": [],
+  "Gold West": ["https://boardgamearena.com/gamepanel?game=goldwest"],
   "Grand Austria Hotel": [
     "https://yucata.de/en/Invite/GrandAustria",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1312754315"
@@ -436,7 +443,10 @@
   ],
   "Hanamikoji": ["https://happymeeple.com/en/board-games/hanamikoji/overview"],
   "Hannibal: Rome vs. Carthage": [],
-  "Hansa Teutonica": ["https://tabletopia.com/games/hansa-teutonica"],
+  "Hansa Teutonica": [
+    "https://tabletopia.com/games/hansa-teutonica",
+    "https://gameparlor.online"
+  ],
   "Hardback": ["https://boardgamearena.com/gamepanel?game=hardback"],
   "Harry Potter: Hogwarts Battle": [],
   "Hawaii": [
