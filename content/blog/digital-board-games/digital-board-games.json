@@ -61,7 +61,7 @@
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.alhambra",
     "https://apps.apple.com/us/app/alhambra-game/id724408296"
   ],
-  "Alien Frontiers": [],
+  "Alien Frontiers": ["https://tabletopia.com/games/alien-frontiers"],
   "Altiplano": ["https://tabletopia.com/games/altiplano"],
   "Amerigo": [],
   "Amun-Re": [],
@@ -303,7 +303,9 @@
     "https://netgames.io/games/enigma"
   ],
   "Descent: Journeys in the Dark (Second Edition)": [],
-  "Detective: A Modern Crime Board Game": [],
+  "Detective: A Modern Crime Board Game": [
+    "https://tabletopia.com/games/detective-a-modern-crime-board-game"
+  ],
   "Deus": ["http://boiteajeux.net"],
   "Diamant": [],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
@@ -330,7 +332,8 @@
   "Dungeon Lords": ["http://boiteajeux.net"],
   "Dungeon Petz": [
     "https://boardgamearena.com/gamepanel?game=dungeonpetz",
-    "http://boiteajeux.net"
+    "http://boiteajeux.net",
+    "https://tabletopia.com/games/dungeon-petz-by-vlaada-chvatil"
   ],
   "Dungeon Twister": [
     "https://boardgamearena.com/gamepanel?game=dungeontwister",
@@ -403,7 +406,9 @@
   "Ginkgopolis": ["http://boiteajeux.net"],
   "Gizmos": [],
   "Glass Road": [],
-  "Glen More II: Chronicles": [],
+  "Glen More II: Chronicles": [
+    "https://tabletopia.com/games/glen-more-ii-chronicles"
+  ],
   "Glen More": ["https://yucata.de/en/Invite/GlenMore"],
   "Gloom": [
     "https://play.google.com/store/apps/details?id=com.skyshipstudios.gloomdigital",
@@ -470,7 +475,7 @@
   "Imhotep": ["https://yucata.de/en/Invite/Imhotep"],
   "Imhotep: The Duel": ["https://yucata.de/en/Invite/ImhotepDuell"],
   "Imperial 2030": [],
-  "Imperial Settlers": [],
+  "Imperial Settlers": ["https://tabletopia.com/games/imperial-settlers"],
   "Imperial": [],
   "In the Year of the Dragon": [
     "https://boardgamearena.com/gamepanel?game=intheyearofthedragon"
@@ -558,7 +563,8 @@
   ],
   "Letters from Whitechapel": [],
   "Lewis & Clark: The Expedition": [
-    "https://boardgamearena.com/gamepanel?game=lewisclark"
+    "https://boardgamearena.com/gamepanel?game=lewisclark",
+    "https://tabletopia.com/games/lewis-clark"
   ],
   "Libertalia": ["https://boardgamearena.com/gamepanel?game=libertalia"],
   "Lisboa": ["https://tabletopia.com/games/lisboa"],
@@ -612,6 +618,7 @@
   "Marrakech": ["https://boardgamearena.com/gamepanel?game=marrakech"],
   "Marvel Champions: The Card Game": [],
   "Masons": ["https://yucata.de/en/Invite/Mauerbauer"],
+  "Meadow": ["https://boardgamearena.com/gamepanel?game=meadow"],
   "Mechs vs. Minions": [],
   "Medina (Second Edition)": [
     "https://boardgamearena.com/gamepanel?game=medina"
@@ -646,7 +653,7 @@
   ],
   "Nauticus": ["https://yucata.de/en/Invite/Nauticus"],
   "Navegador": ["https://yucata.de/en/Invite/Navegador"],
-  "Near and Far": [],
+  "Near and Far": ["https://tabletopia.com/games/near-and-far"],
   "Nemesis": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1265009992"
   ],
@@ -1075,7 +1082,9 @@
   "The Resistance: Avalon": [],
   "The Rose King": ["https://yucata.de/en/Invite/Rosenkoenig2"],
   "The Speicherstadt": ["https://yucata.de/en/Invite/Speicherstadt"],
-  "The Taverns of Tiefenthal": [],
+  "The Taverns of Tiefenthal": [
+    "https://tabletopia.com/games/the-taverns-of-tiefenthal"
+  ],
   "The Voyages of Marco Polo": [
     "https://boardgamearena.com/gamepanel?game=marcopolo",
     "https://yucata.de/en/Invite/MarcoPolo",
@@ -1138,7 +1147,9 @@
   "Trekking the World": [
     "https://boardgamearena.com/gamepanel?game=trekkingtheworld"
   ],
-  "Trickerion: Legends of Illusion": [],
+  "Trickerion: Legends of Illusion": [
+    "https://tabletopia.com/games/trickerion-legends-of-illusion"
+  ],
   "Troyes": ["https://boardgamearena.com/gamepanel?game=troyes"],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
   "Twice as Clever!": [
@@ -1171,7 +1182,7 @@
   "Village": ["https://tabletopia.com/games/village"],
   "Vinci": ["https://yucata.de/en/Invite/Vinci"],
   "Vindication": [],
-  "Vinhos Deluxe Edition": [],
+  "Vinhos Deluxe Edition": ["https://tabletopia.com/games/vinhos-deluxe"],
   "Viscounts of the West Kingdom": [
     "https://tabletopia.com/games/viscounts-of-the-west-kingdom",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2019629680"
