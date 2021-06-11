@@ -15,7 +15,9 @@ const gameLinksXPath = `//div[starts-with(@id,'results_objectname')]//a/@href`;
 
 const getPage = async pageNumber => {
   console.log(`Getting games from ${URL}${pageNumber}...`);
-  const { statusCode, body } = await rp(`${URL}${pageNumber}`);
+  const { statusCode, body } = await rp(
+    `${URL}${pageNumber}?timestamp=${new Date().getTime()}`,
+  );
   console.log(`Page ${pageNumber} status code: ${statusCode}`);
 
   return body;
