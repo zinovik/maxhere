@@ -395,6 +395,7 @@
   ],
   "GIPF": ["http://boiteajeux.net"],
   "Gaia Project": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1218649750",
     "https://store.steampowered.com/app/1516400/Gaia_Project",
     "https://boardgamers.space"
   ],
@@ -419,7 +420,9 @@
     "https://store.steampowered.com/app/780290/Gloomhaven",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1301493206"
   ],
-  "Gloomhaven: Jaws of the Lion": [],
+  "Gloomhaven: Jaws of the Lion": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2142755012"
+  ],
   "Glory to Rome": [],
   "Go": [
     "https://boardgamearena.com/gamepanel?game=classicgo",
@@ -636,6 +639,7 @@
   "Mombasa": [],
   "Monikers": [],
   "Mr. Jack": ["https://boardgamearena.com/gamepanel?game=mrjack"],
+  "Murano": ["https://yucata.de/en/Invite/Murano"],
   "Mykerinos": ["http://boiteajeux.net"],
   "Myrmes": ["http://boiteajeux.net"],
   "Mysterium": [
@@ -705,7 +709,9 @@
   "Pandemic Legacy: Season 0": [
     "https://tabletopia.com/games/pandemic-legacy-season-0"
   ],
-  "Pandemic Legacy: Season 1": [],
+  "Pandemic Legacy: Season 1": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2076753312"
+  ],
   "Pandemic Legacy: Season 2": [],
   "Pandemic": [
     "https://play.google.com/store/apps/details?id=com.f2zentertainment.pandemic",
@@ -1012,6 +1018,7 @@
     "https://terra.snellman.net"
   ],
   "Terraforming Mars": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2104525488",
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.terraformingmars",
     "https://apps.apple.com/us/app/terraforming-mars/id1353471030",
     "https://store.steampowered.com/app/800270/Terraforming_Mars",
@@ -1188,6 +1195,7 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2019629680"
   ],
   "Viticulture Essential Edition": [
+    "https://boardgamearena.com/gamepanel?game=viticulture",
     "https://tabletopia.com/games/viticulture-essential-edition",
     "https://store.steampowered.com/app/468733/Tabletop_Simulator__Viticulture",
     "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease",
