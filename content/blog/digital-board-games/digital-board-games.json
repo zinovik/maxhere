@@ -702,7 +702,7 @@
   "Oriflamme": ["https://boardgamearena.com/gamepanel?game=oriflamme"],
   "Orléans": ["https://tabletopia.com/games/orleans"],
   "P.I.": ["https://boardgamearena.com/gamepanel?game=pi"],
-  "Parks": ["https://tabletopia.com/games/parks"],
+  "PARKS": ["https://tabletopia.com/games/parks"],
   "Paladins of the West Kingdom": [
     "https://tabletopia.com/games/paladins-of-the-west-kingdom"
   ],
@@ -714,6 +714,7 @@
   ],
   "Pandemic Legacy: Season 2": [],
   "Pandemic": [
+    "https://boardgamearena.com/gamepanel?game=pandemic",
     "https://play.google.com/store/apps/details?id=com.f2zentertainment.pandemic",
     "https://apps.apple.com/us/app/pandemic-the-board-game/id700793523",
     "https://store.steampowered.com/app/622440/Pandemic_The_Board_Game"
