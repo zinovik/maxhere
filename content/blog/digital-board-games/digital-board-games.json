@@ -31,6 +31,9 @@
     "http://www.lantsev1981.pro"
   ],
   "Abalone Classic": ["https://boardgamearena.com/gamepanel?game=abalone"],
+  "Abandon All Artichokes": [
+    "https://boardgamearena.com/gamepanel?game=abandonallartichokes"
+  ],
   "Above and Below": [],
   "Abyss": ["https://boardgamearena.com/gamepanel?game=abyss"],
   "Acquire": [],
@@ -309,6 +312,7 @@
   "Deus": ["http://boiteajeux.net"],
   "Diamant": [],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
+  "Dice Hospital": ["https://boardgamearena.com/gamepanel?game=dicehospital"],
   "Die Macher": [],
   "Dinosaur Island": [],
   "Dixit": ["http://boiteajeux.net"],
@@ -455,6 +459,7 @@
     "https://tabletopia.com/games/hansa-teutonica",
     "https://gameparlor.online"
   ],
+  "Harbour": ["https://boardgamearena.com/gamepanel?game=harbour"],
   "Hardback": ["https://boardgamearena.com/gamepanel?game=hardback"],
   "Harry Potter: Hogwarts Battle": [],
   "Hawaii": [
@@ -1188,6 +1193,7 @@
   "Vanuatu": ["http://boiteajeux.net"],
   "Vikings": ["https://yucata.de/en/Invite/Vikings"],
   "Village": ["https://tabletopia.com/games/village"],
+  "Villagers": ["https://yucata.de/en/Invite/Villagers"],
   "Vinci": ["https://yucata.de/en/Invite/Vinci"],
   "Vindication": [],
   "Vinhos Deluxe Edition": ["https://tabletopia.com/games/vinhos-deluxe"],
