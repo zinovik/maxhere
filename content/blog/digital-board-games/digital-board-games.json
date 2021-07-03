@@ -131,7 +131,10 @@
     "https://apps.apple.com/us/app/bottom-of-the-9th/id1205620577",
     "https://store.steampowered.com/app/705020/Bottom_of_the_9th"
   ],
-  "Brass: Birmingham": ["https://tabletopia.com/games/brass-birmingham"],
+  "Brass: Birmingham": [
+    "https://tabletopia.com/games/brass-birmingham",
+    "https://store.steampowered.com/app/1287920/Brass_Birmingham"
+  ],
   "Brass: Lancashire": [
     "https://play.google.com/store/apps/details?id=com.cublo.brass",
     "https://apps.apple.com/us/app/brass/id933026434",
@@ -1046,6 +1049,7 @@
     "https://boardgamearena.com/gamepanel?game=thebuilders"
   ],
   "The Castles of Burgundy": [
+    "https://boardgamearena.com/gamepanel?game=castlesofburgundy",
     "https://yucata.de/en/Invite/CastlesOfBurgundy",
     "http://boiteajeux.net",
     "https://play.google.com/store/apps/details?id=com.digidiced.bvbrelease",
