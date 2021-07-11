@@ -771,7 +771,7 @@
     "http://brettspielwelt.de/Spiele/Funkenschlag",
     "https://sparkcities.io"
   ],
-  "Praga Caput Regni": [],
+  "Praga Caput Regni": ["https://yucata.de/en/Invite/PragaCaputRegni"],
   "Puerto Rico": [
     "https://boardgamearena.com/gamepanel?game=puertorico",
     "http://brettspielwelt.de/Spiele/PuertoRico",
@@ -1111,7 +1111,11 @@
   "The Werewolves of Miller's Hollow": [
     "https://boardgamearena.com/gamepanel?game=werewolves"
   ],
-  "This War of Mine: The Board Game": [],
+  "This War of Mine: The Board Game": [
+    "https://play.google.com/store/apps/details?id=com.elevenbitstudios.twommobile",
+    "https://apps.apple.com/us/app/this-war-of-mine/id982175678",
+    "https://store.steampowered.com/app/282070/This_War_of_Mine/"
+  ],
   "Through the Ages: A New Story of Civilization": [
     "https://boardgamearena.com/gamepanel?game=throughtheagesnewstory",
     "https://play.google.com/store/apps/details?id=com.czechgames.tta",
