@@ -48,6 +48,7 @@
   "Age of Empires III: The Age of Discovery": [],
   "Age of Steam": [],
   "Agricola (Revised Edition)": [
+    "https://boardgamearena.com/gamepanel?game=agricola",
     "https://play.google.com/store/apps/details?id=com.playdekgames.agricola_rev",
     "https://apps.apple.com/us/app/agricola-revised-edition/id1478250785",
     "https://store.steampowered.com/app/1005580/Agricola_Revised_Edition"
@@ -547,6 +548,7 @@
     "https://boardgamearena.com/gamepanel?game=krosmasterarena"
   ],
   "König von Siam": ["https://yucata.de/en/Invite/KingOfSiam"],
+  "L.L.A.M.A.": ["https://boardgamearena.com/gamepanel?game=lama"],
   "La Granja": [
     "https://boardgamearena.com/gamepanel?game=lagranja",
     "https://yucata.de/en/Invite/LaGranja"
@@ -1173,6 +1175,7 @@
     "https://tabletopia.com/games/trickerion-legends-of-illusion"
   ],
   "Troyes": ["https://boardgamearena.com/gamepanel?game=troyes"],
+  "Troyes Dice": ["https://boardgamearena.com/gamepanel?game=troyesdice"],
   "Turn the Tide": ["https://boardgamearena.com/gamepanel?game=turnthetide"],
   "Twice as Clever!": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.doppeltsoclever",
@@ -1198,6 +1201,10 @@
   ],
   "Undaunted: Normandy": [],
   "Underwater Cities": ["https://yucata.de/en/Invite/UnderwaterCities"],
+  "Unmatched: Battle of Legends, Volume One": [
+    "https://store.steampowered.com/app/1677980/Unmatched_Digital_Edition",
+    "https://unbrewed.xyz"
+  ],
   "Valletta": ["https://yucata.de/en/Invite/Valletta"],
   "Vanuatu": ["http://boiteajeux.net"],
   "Vikings": ["https://yucata.de/en/Invite/Vikings"],
