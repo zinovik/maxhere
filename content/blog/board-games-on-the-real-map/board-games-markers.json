@@ -276,6 +276,12 @@
     "links": ["https://en.wikipedia.org/wiki/Florence"]
   },
   {
+    "lat": 48.2973,
+    "long": 4.0744,
+    "game": "Troyes",
+    "links": ["https://en.wikipedia.org/wiki/Troyes"]
+  },
+  {
     "lat": 51.7921,
     "long": 11.1414,
     "game": "The Quacks of Quedlinburg",
