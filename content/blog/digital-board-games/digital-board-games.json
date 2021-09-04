@@ -550,7 +550,7 @@
     "https://boardgamearena.com/gamepanel?game=keyflower",
     "https://tabletopia.com/games/keyflower"
   ],
-  "King of Tokyo": [],
+  "King of Tokyo": ["https://boardgamearena.com/gamepanel?game=kingoftokyo"],
   "Kingdom Builder": [
     "https://boardgamearena.com/gamepanel?game=kingdombuilder",
     "http://brettspielwelt.de/Spiele/KingdomBuilder",
@@ -615,7 +615,10 @@
     "https://happymeeple.com/en/board-games/lost-cities/overview",
     "https://yourturnmyturn.com/game.php?gametype=lost+cities"
   ],
-  "Lost Ruins of Arnak": ["https://boardgamearena.com/gamepanel?game=arnak"],
+  "Lost Ruins of Arnak": [
+    "https://boardgamearena.com/gamepanel?game=arnak",
+    "https://yucata.de/en/Invite/Arnak"
+  ],
   "Lotus": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.lotus",
     "https://apps.apple.com/us/app/lotus-digital/id1270821305"
