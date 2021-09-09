@@ -31,7 +31,7 @@ const Video: React.FC<VideoProps> = ({ link, alt }) => {
   const getWidth = () =>
     Math.min(document.body.offsetWidth - DEFAULT_BORDER, DEFAULT_WIDTH);
 
-  const [videoWidth, setVideoWidth] = useState(getWidth());
+  const [videoWidth, setVideoWidth] = useState(DEFAULT_WIDTH);
 
   useEffect(() => {
     const resizeListener = () => {
