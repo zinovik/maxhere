@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import ImageDescription from './image-description';
 
@@ -8,6 +8,8 @@ interface VideoProps {
 }
 
 const CLOUDINARY_LINK = 'https://res.cloudinary.com/zinovik/video/upload/';
+const DEFAULT_WIDTH = 658;
+const DEFAULT_BORDER = 16;
 
 const getDateTimeFromFilename = (filename = '') => {
   const dateTimeParsed = filename.match(
@@ -26,8 +28,23 @@ const getDateTimeFromFilename = (filename = '') => {
 const Video: React.FC<VideoProps> = ({ link, alt }) => {
   const dateTime = getDateTimeFromFilename(link);
 
-  const pageWidth = document.body.offsetWidth;
-  const videoWidth = Math.min(pageWidth - 16, 658);
+  const getWidth = () =>
+    Math.min(document.body.offsetWidth - DEFAULT_BORDER, DEFAULT_WIDTH);
+
+  const [videoWidth, setVideoWidth] = useState(getWidth());
+
+  useEffect(() => {
+    const resizeListener = () => {
+      const pageWidth = document.body.offsetWidth;
+      setVideoWidth(getWidth());
+    };
+
+    window.addEventListener('resize', resizeListener);
+
+    return () => {
+      window.removeEventListener('resize', resizeListener);
+    };
+  }, []);
 
   return (
     <>
