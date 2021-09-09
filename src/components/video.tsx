@@ -39,6 +39,7 @@ const Video: React.FC<VideoProps> = ({ link, alt }) => {
     };
 
     window.addEventListener('resize', resizeListener);
+    setVideoWidth(getWidth());
 
     return () => {
       window.removeEventListener('resize', resizeListener);
