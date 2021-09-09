@@ -35,7 +35,6 @@ const Video: React.FC<VideoProps> = ({ link, alt }) => {
 
   useEffect(() => {
     const resizeListener = () => {
-      const pageWidth = document.body.offsetWidth;
       setVideoWidth(getWidth());
     };
 
