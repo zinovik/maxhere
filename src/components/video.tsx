@@ -26,9 +26,12 @@ const getDateTimeFromFilename = (filename = '') => {
 const Video: React.FC<VideoProps> = ({ link, alt }) => {
   const dateTime = getDateTimeFromFilename(link);
 
+  const pageWidth = document.body.offsetWidth;
+  const videoWidth = Math.min(pageWidth - 16, 658);
+
   return (
     <>
-      <video width="658" height="450" controls>
+      <video width={videoWidth} controls>
         <source src={`${CLOUDINARY_LINK}${link}`} type="video/mp4" />
       </video>
 
