@@ -35,12 +35,12 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
 
   const posts = data.allMdx.edges;
-  const allTags = data.allMdx.group;
+  const allCategories = data.allMdx.group;
 
   const shortname = process.env.GATSBY_DISQUS_NAME || 'maxhere';
 
   return (
-    <Layout location={location} title={siteTitle} tags={allTags}>
+    <Layout location={location} title={siteTitle} categories={allCategories}>
       <SEO title="All posts" />
 
       {posts.map(({ node }) => {
@@ -120,7 +120,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___categories) {
         fieldValue
         totalCount
       }

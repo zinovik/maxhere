@@ -13,11 +13,16 @@ interface LayoutProps {
     pathname: string;
   };
   title: string;
-  tags?: { fieldValue: string; totalCount: number }[];
+  categories?: { fieldValue: string; totalCount: number }[];
   children: any;
 }
 
-const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
+const Layout: React.FC<LayoutProps> = ({
+  location,
+  title,
+  categories,
+  children,
+}) => {
   const rootPath = `${__PATH_PREFIX__}/`;
 
   const Logo = () =>
@@ -64,7 +69,7 @@ const Layout: React.FC<LayoutProps> = ({ location, title, tags, children }) => {
       }}
     >
       <header>
-        {tags && <Nav tags={tags} />}
+        {categories && <Nav links={categories} />}
 
         <Logo />
       </header>

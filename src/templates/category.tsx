@@ -3,40 +3,40 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-import { TagTemplateQuery } from '../../gatsby-graphql';
+import { CategoryTemplateQuery } from '../../gatsby-graphql';
 
 interface Context {
-  tag: string;
+  category: string;
 }
 
-interface TagTemplateProps {
-  data: TagTemplateQuery;
+interface CategoryTemplateProps {
+  data: CategoryTemplateQuery;
   pageContext: Context;
   location: {
     pathname: string;
   };
 }
 
-const TagTemplate: React.FC<TagTemplateProps> = ({
+const CategoryTemplate: React.FC<CategoryTemplateProps> = ({
   pageContext,
   data,
   location,
 }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
 
-  const { tag } = pageContext;
+  const { category } = pageContext;
   const { edges, totalCount } = data.allMdx;
 
   const allCategories = data.categories.group;
 
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? '' : 's'
-  } tagged with "${tag}"`;
+  const categoryHeader = `${totalCount} post${
+    totalCount === 1 ? ' is' : 's are'
+  } in "${category}" category`;
 
   return (
     <Layout location={location} title={siteTitle} categories={allCategories}>
       <div>
-        <h1>{tagHeader}</h1>
+        <h1>{categoryHeader}</h1>
 
         <ul>
           {edges.map(edge => {
@@ -54,10 +54,10 @@ const TagTemplate: React.FC<TagTemplateProps> = ({
   );
 };
 
-export default TagTemplate;
+export default CategoryTemplate;
 
 export const pageQuery = graphql`
-  query TagTemplate($tag: String) {
+  query CategoryTemplate($category: String) {
     site {
       siteMetadata {
         title
@@ -65,7 +65,7 @@ export const pageQuery = graphql`
     }
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
       totalCount
       edges {

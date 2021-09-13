@@ -6,7 +6,7 @@ import Img from 'gatsby-image';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import TagsList from '../components/tags-list';
+import LinksList from '../components/links-list';
 import BackToTop from '../components/back-to-top';
 import Date from '../components/date';
 import { Comments, CommentsCount } from '../components/disqus';
@@ -57,7 +57,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
   const [bggGames, setBggGames] = useState(bgg);
 
   const siteTitle = data.site?.siteMetadata?.title ?? '';
-  const allTags = data.allMdx.group;
+  const allCategories = data.allMdx.group;
 
   const { frontmatter, body } = data.mdx;
   const { previous, next } = pageContext;
@@ -68,13 +68,13 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
 
   const Tags = () => (
     <>
-      tags: <TagsList tags={frontmatter.tags} />
+      tags: <LinksList links={frontmatter.tags} areTags />
     </>
   );
 
   return (
     <BggGamesContext.Provider value={{ bggGames, setBggGames }}>
-      <Layout location={location} title={siteTitle} tags={allTags}>
+      <Layout location={location} title={siteTitle} categories={allCategories}>
         <SEO
           title={frontmatter.title}
           description={frontmatter.description || data.mdx.excerpt}
@@ -165,6 +165,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         imageDescription
+        categories
         tags
         featuredImage {
           childImageSharp {
@@ -179,7 +180,7 @@ export const pageQuery = graphql`
       }
     }
     allMdx {
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___categories) {
         fieldValue
         totalCount
       }

@@ -15,10 +15,10 @@ interface NotFoundPageProps {
 
 const NotFoundPage: React.FC<NotFoundPageProps> = ({ data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title ?? '';
-  const allTags = data.allMdx.group;
+  const allCategories = data.allMdx.group;
 
   return (
-    <Layout location={location} title={siteTitle} tags={allTags}>
+    <Layout location={location} title={siteTitle} categories={allCategories}>
       <SEO title="404: Not Found" />
       <h1>Not Found</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
@@ -36,7 +36,7 @@ export const pageQuery = graphql`
       }
     }
     allMdx {
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___categories) {
         fieldValue
         totalCount
       }

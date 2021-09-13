@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-import TagsList from './tags-list';
+import LinksList from './links-list';
 
 const NavContainer = styled.div`
   position: fixed;
@@ -27,10 +27,11 @@ const Space = styled.div`
 `;
 
 interface NavProps {
-  tags: { fieldValue: string; totalCount: number }[];
+  links: { fieldValue: string; totalCount: number }[];
+  areTags?: boolean;
 }
 
-const Nav: React.FC<NavProps> = ({ tags }) => {
+const Nav: React.FC<NavProps> = ({ links, areTags }) => {
   const [isTopPage, setIsTopPage] = useState(true);
 
   const handleScroll = () =>
@@ -46,25 +47,27 @@ const Nav: React.FC<NavProps> = ({ tags }) => {
     };
   });
 
-  const tagsSorted = tags
+  const linksSorted = links
     .slice()
     .reverse()
-    .sort((t1, t2) => t2.totalCount - t1.totalCount);
+    .sort((l1, l2) => l2.totalCount - l1.totalCount);
 
   return (
     <>
       <NavContainer
         style={{
-          backgroundColor: isTopPage ? 'transparent' : 'rgba(255, 255, 255, 0.9)',
+          backgroundColor: isTopPage
+            ? 'transparent'
+            : 'rgba(255, 255, 255, 0.9)',
           boxShadow: isTopPage ? 'none' : '0px 1px 1px lightgrey',
           transition: isTopPage ? '0s' : '2.5s',
         }}
       >
-        <TagsList tags={tagsSorted} />
+        <LinksList links={linksSorted} areTags={areTags} />
       </NavContainer>
 
       <Space>
-        <TagsList tags={tagsSorted} />
+        <LinksList links={linksSorted} />
       </Space>
     </>
   );

@@ -11,6 +11,10 @@ export const designersConfig: {
     text: `${flags.US} Ananda Gupta`,
     link: '3876/ananda-gupta',
   },
+  'andrea-chiarvesio': {
+    text: `${flags.IT} Andrea Chiarvesio`,
+    link: '6838/andrea-chiarvesio',
+  },
   'andreas-seyfarth': {
     text: `${flags.DE} Andreas Seyfarth`,
     link: '117/andreas-seyfarth',
