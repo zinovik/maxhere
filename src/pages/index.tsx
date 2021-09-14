@@ -16,7 +16,7 @@ const Title = styled.h3`
   margin: 10px 0;
 `;
 
-const Article = styled.article`
+const Post = styled.article`
   margin-bottom: 40px;
 `;
 
@@ -47,7 +47,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
         const title = node.frontmatter.title || node.fields.slug;
 
         return (
-          <Article key={node.fields.slug}>
+          <Post key={node.fields.slug}>
             <header>
               <Date date={node.frontmatter.date} />
               <Link to={node.fields.slug}>
@@ -81,7 +81,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                 />
               </Link>
             </section>
-          </Article>
+          </Post>
         );
       })}
       <BackToTop />
