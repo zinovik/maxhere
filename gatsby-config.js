@@ -14,12 +14,12 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-graphql-codegen`,
-      options: {
-        fileName: `./gatsby-graphql.ts`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-graphql-codegen`,
+    //   options: {
+    //     fileName: `./gatsby-graphql.ts`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
