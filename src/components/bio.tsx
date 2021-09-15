@@ -2,7 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-import { BioQuery } from '../../gatsby-graphql';
 
 import { rhythm } from '../utils/typography';
 
@@ -13,7 +12,7 @@ const BioContainer = styled.div`
 `;
 
 const Bio = () => {
-  const data: BioQuery = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query Bio {
       avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
         childImageSharp {

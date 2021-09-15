@@ -3,6 +3,8 @@ import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 const emojiFontName = 'Noto Color Emoji';
 
+// const isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
 Wordpress2016.overrideThemeStyles = () => {
   return {
     a: {

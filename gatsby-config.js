@@ -14,12 +14,6 @@ module.exports = {
     },
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-plugin-graphql-codegen`,
-    //   options: {
-    //     fileName: `./gatsby-graphql.ts`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -106,12 +100,5 @@ module.exports = {
         color: `DarkCyan`,
       },
     },
-    // {
-    //   resolve: `gatsby-theme-blog`,
-    //   options: {
-    //     basePath: `/`,
-    //   },
-    // },
-    // `gatsby-plugin-offline`,
   ],
 };

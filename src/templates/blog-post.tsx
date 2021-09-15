@@ -14,7 +14,6 @@ import { Comments, CommentsCount } from '../components/disqus';
 import ImageDescription from '../components/image-description';
 
 import { rhythm } from '../utils/typography';
-import { BlogPostTemplateQuery } from '../../gatsby-graphql';
 
 import bgg from '../../content/bgg.json';
 import { BggGames } from '../types/BggGames';
@@ -30,7 +29,7 @@ interface Context {
 }
 
 interface BlogPostTemplateProps {
-  data: BlogPostTemplateQuery;
+  data: unknown;
   pageContext: {
     previous: Context;
     next: Context;

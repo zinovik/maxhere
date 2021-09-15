@@ -3,14 +3,12 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-import { TagTemplateQuery } from '../../gatsby-graphql';
-
 interface Context {
   tag: string;
 }
 
 interface TagTemplateProps {
-  data: TagTemplateQuery;
+  data: unknown;
   pageContext: Context;
   location: {
     pathname: string;

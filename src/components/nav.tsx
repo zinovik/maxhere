@@ -35,9 +35,7 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
   const [isTopPage, setIsTopPage] = useState(true);
 
   const handleScroll = () =>
-    setIsTopPage(
-      (document.body.scrollTop || document.documentElement.scrollTop) === 0,
-    );
+    setIsTopPage(document.documentElement.scrollTop < 5);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);

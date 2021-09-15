@@ -3,14 +3,13 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-import { CategoryTemplateQuery } from '../../gatsby-graphql';
 
 interface Context {
   category: string;
 }
 
 interface CategoryTemplateProps {
-  data: CategoryTemplateQuery;
+  data: unknown;
   pageContext: Context;
   location: {
     pathname: string;

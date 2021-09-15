@@ -10,8 +10,6 @@ import Date from '../components/date';
 import { CommentsCount } from '../components/disqus';
 import ImageDescription from '../components/image-description';
 
-import { BlogIndexQuery } from '../../gatsby-graphql';
-
 const Title = styled.h3`
   margin: 10px 0;
 `;
@@ -25,7 +23,7 @@ const PostImg = styled(Img)`
 `;
 
 interface BlogIndexProps {
-  data: BlogIndexQuery;
+  data: unknown;
   location: {
     pathname: string;
   };
