@@ -5,15 +5,16 @@ import { Link } from 'gatsby';
 
 import Nav from '../components/nav';
 import Footer from '../components/footer';
+import { ThemeProvider } from '../theme/theme-context';
 
-import { rhythm, scale } from '../utils/typography';
+import { rhythm, scale } from '../theme/typographies';
 
 interface LayoutProps {
   location: {
     pathname: string;
   };
   title: string;
-  categories?: { fieldValue: string; totalCount: number }[];
+  categories: { fieldValue: string; totalCount: number }[];
   children: any;
 }
 
@@ -60,24 +61,26 @@ const Layout: React.FC<LayoutProps> = ({
     );
 
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: rhythm(1 / 4),
-      }}
-    >
-      <header>
-        {categories && <Nav links={categories} />}
+    <ThemeProvider>
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: rhythm(1 / 4),
+        }}
+      >
+        <header>
+          {categories && <Nav links={categories} />}
 
-        <Logo />
-      </header>
+          <Logo />
+        </header>
 
-      <main>{children}</main>
+        <main>{children}</main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 };
 

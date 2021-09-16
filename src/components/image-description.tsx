@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
+
+import { ThemeContext } from '../theme/theme-context';
+import { themes, ThemesNames } from '../theme/themes';
 
 const Description = styled.p`
   text-align: center;
-  color: darkgray;
+  color: ${({ color }) => color};
 `;
 
 interface DateProps {
@@ -11,8 +14,12 @@ interface DateProps {
 }
 
 const ImageDescription: React.FC<DateProps> = ({ description }) => {
+  const {
+    state: { theme },
+  } = useContext(ThemeContext);
+
   return (
-    <Description>
+    <Description color={themes[theme].imageDescription}>
       <small>{description}</small>
     </Description>
   );

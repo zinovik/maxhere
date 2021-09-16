@@ -16,6 +16,8 @@ import { GameIconLink } from './components/game-icon-link';
 import { GameInterface } from './interfaces/game-interface';
 import { BggGamesContext } from '../../templates/blog-post';
 import { BggGames } from '../../types/BggGames';
+import { ThemeContext } from '../../theme/theme-context';
+import { themes } from '../../theme/themes';
 
 const STORAGE_NAME: string = 'digital-board-games:sites-filter';
 const WITHOUT_IMPLEMENTATION_DEFAULT_VALUE: boolean = false;
@@ -63,6 +65,9 @@ const GamesList: React.FC<GamesListProps> = ({ games }) => {
   const [isWithoutImplementation, setIsWithoutImplementation] = useState(false);
 
   const { bggGames } = useContext(BggGamesContext);
+  const {
+    state: { theme },
+  } = useContext(ThemeContext);
 
   useEffect(() => {
     const searchFilter = getFilterFromLocationSearch(window.location.search);
@@ -104,10 +109,8 @@ const GamesList: React.FC<GamesListProps> = ({ games }) => {
       .toLowerCase()
       .replace(/ /gm, '-');
 
-    const withoutImplementationString = WITHOUT_IMPLEMENTATION.toLowerCase().replace(
-      / /gm,
-      '-',
-    );
+    const withoutImplementationString =
+      WITHOUT_IMPLEMENTATION.toLowerCase().replace(/ /gm, '-');
 
     const filterString = isWithoutImplementation
       ? sitesString
@@ -151,7 +154,7 @@ const GamesList: React.FC<GamesListProps> = ({ games }) => {
       <br />
       <Header />
       {gamesSorted.map((game: GameInterface) => (
-        <Row key={game.name}>
+        <Row key={game.name} color={themes[theme].secondRow}>
           <CellRank>{game.rank || '2000+'}</CellRank>
           <CellGame>
             <Game gameName={game.name} isSkipRank />

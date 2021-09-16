@@ -13,7 +13,7 @@ import { Comments, CommentsCount } from '../components/disqus';
 // import ParallaxImage from '../components/parallax-image';
 import ImageDescription from '../components/image-description';
 
-import { rhythm } from '../utils/typography';
+import { rhythm } from '../theme/typographies';
 
 import bgg from '../../content/bgg.json';
 import { BggGames } from '../types/BggGames';
