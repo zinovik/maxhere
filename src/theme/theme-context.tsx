@@ -39,6 +39,8 @@ const getCurrentTheme = () => {
     if (theme !== null) return theme;
   }
 
+  return ThemesNames.DefaultLight;
+
   return getDefaultThemeBasedOnSystemTheme();
 };
 
