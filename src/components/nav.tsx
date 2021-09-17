@@ -77,9 +77,10 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
         <span
           onClick={handleButtonClick}
           style={{
+            borderRadius: '50%',
             width: 16,
             height: 16,
-            backgroundColor: themes[theme].backgroundColor,
+            backgroundColor: `${themes[theme].backgroundColor}aa`,
             filter: 'invert(1)',
             cursor: 'pointer',
             marginTop: 'auto',

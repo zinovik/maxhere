@@ -11,21 +11,36 @@ interface Action {
   type: ThemesNames;
 }
 
+const STORAGE_NAME = 'theme';
+
 export const themeReducer = (state: State, action: Action) => {
   typographies[action.type].injectStyles();
+
+  if (typeof localStorage !== 'undefined') {
+    localStorage.setItem(STORAGE_NAME, String(action.type));
+  }
 
   return {
     theme: action.type,
     areStylesInjected: true,
   };
-
-  return state;
 };
 
-const getIsSystemDarkTheme = () => false;
-  // typeof window === 'undefined'
-  //   ? false
-  //   : window.matchMedia('(prefers-color-scheme: dark)').matches;
+const getDefaultThemeBasedOnSystemTheme = () =>
+  typeof window !== 'undefined' &&
+  window.matchMedia('(prefers-color-scheme: dark)').matches
+    ? ThemesNames.DefaultDark
+    : ThemesNames.DefaultLight;
+
+const getCurrentTheme = () => {
+  if (typeof localStorage !== 'undefined') {
+    const theme = localStorage.getItem(STORAGE_NAME);
+
+    if (theme !== null) return theme;
+  }
+
+  return getDefaultThemeBasedOnSystemTheme();
+};
 
 export const ThemeContext = createContext({
   state: { theme: ThemesNames.DefaultLight },
@@ -33,9 +48,7 @@ export const ThemeContext = createContext({
 });
 
 export const ThemeProvider = (props: any) => {
-  const theme = getIsSystemDarkTheme()
-    ? ThemesNames.DefaultDark
-    : ThemesNames.DefaultLight;
+  const theme = getCurrentTheme();
 
   const [state, dispatch] = useReducer(themeReducer, {
     theme,

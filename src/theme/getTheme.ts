@@ -17,14 +17,14 @@ export default ({ backgroundColor, color }: ThemeParameters) => {
       color: 'DarkCyan',
       boxShadow: 'none',
     },
-    'body,h3': {
+    'body,h2,h3,h4,h5,ul': {
       fontFamily: ['Montserrat', 'sans-serif', emojiFontName].join(','),
       backgroundColor,
       color,
     },
     blockquote: {
       color,
-      borderLeft: `0.32813rem solid ${color}7e`,
+      borderLeft: `5px solid ${color}e7`,
     },
     'a>p': {
       marginBottom: 0,
@@ -33,11 +33,6 @@ export default ({ backgroundColor, color }: ThemeParameters) => {
       scrollMarginTop: '100px',
     },
   });
-
-  Wordpress2016Copy.headerFontFamily.push(emojiFontName);
-  Wordpress2016Copy.bodyFontFamily.push(emojiFontName);
-
-  delete Wordpress2016Copy.googleFonts;
 
   return Wordpress2016Copy;
 };

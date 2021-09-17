@@ -82,6 +82,12 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/theme/typographies`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-react-leaflet',
       options: {
         linkStyles: true,

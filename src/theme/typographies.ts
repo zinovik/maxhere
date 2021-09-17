@@ -1,22 +1,16 @@
 import Typography from 'typography';
 
 import getTheme from './getTheme';
-import { themes, ThemesNames } from './themes';
+import { themes } from './themes';
 
 export const typographies = Object.values(themes).map(
   theme => new Typography(getTheme(theme)),
 );
 
-export const typographyLight = new Typography(
-  getTheme(themes[ThemesNames.DefaultLight]),
-);
+const [defaultTypography] = typographies;
 
-export const typographyDark = new Typography(
-  getTheme(themes[ThemesNames.DefaultDark]),
-);
+export default defaultTypography;
 
-typographyLight.injectStyles();
+export const rhythm = defaultTypography.rhythm;
 
-export const rhythm = typographyLight.rhythm;
-
-export const scale = typographyLight.scale;
+export const scale = defaultTypography.scale;
