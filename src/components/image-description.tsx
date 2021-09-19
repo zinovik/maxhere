@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 
 import { ThemeContext } from '../theme/theme-context';
-import { themes, ThemesNames } from '../theme/themes';
+import { themes } from '../theme/themes';
 
 const Description = styled.p`
   text-align: center;
