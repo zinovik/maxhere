@@ -53,9 +53,11 @@ export const ThemeProvider = (props: any) => {
   const [state, dispatch] = useReducer(themeReducer, initialState);
 
   useEffect(() => {
+    if (state.areStylesInjected) return;
+
     const theme = getSavedTheme();
 
-    if (!state.areStylesInjected && theme !== undefined) {
+    if (theme !== undefined) {
       dispatch({
         type: theme,
       });
