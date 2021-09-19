@@ -1,4 +1,4 @@
-import React, { createContext, useReducer, Dispatch } from 'react';
+import React, { createContext, useReducer, useEffect, Dispatch } from 'react';
 import { typographies } from './typographies';
 import { ThemesNames } from './themes';
 
@@ -54,11 +54,13 @@ export const ThemeProvider = (props: any) => {
 
   const [state, dispatch] = useReducer(themeReducer, initialState);
 
-  if (!state.areStylesInjected && theme !== undefined) {
-    dispatch({
-      type: theme,
-    });
-  }
+  useEffect(() => {
+    if (!state.areStylesInjected && theme !== undefined) {
+      dispatch({
+        type: theme,
+      });
+    }
+  }, localStorage);
 
   return (
     <ThemeContext.Provider value={{ state, dispatch }}>
