@@ -28,6 +28,17 @@ const Space = styled.div`
   flex-wrap: wrap;
 `;
 
+const ThemeSwitcher = styled.span`
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: ${({ color }) => color}e7;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+`;
+
 interface NavProps {
   links: { fieldValue: string; totalCount: number }[];
   areTags?: boolean;
@@ -74,19 +85,7 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
         }}
       >
         <LinksList links={linksSorted} areTags={areTags} />
-        <span
-          onClick={handleButtonClick}
-          style={{
-            borderRadius: '50%',
-            width: 16,
-            height: 16,
-            backgroundColor: `${themes[theme].text}`,
-            cursor: 'pointer',
-            marginTop: 'auto',
-            marginBottom: 'auto',
-            marginLeft: 10,
-          }}
-        />
+        <ThemeSwitcher onClick={handleButtonClick} color={themes[theme].text} />
       </NavContainer>
 
       <Space>
