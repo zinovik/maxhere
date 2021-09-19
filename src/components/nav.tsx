@@ -80,7 +80,7 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
             borderRadius: '50%',
             width: 16,
             height: 16,
-            backgroundColor: `${themes[theme].color}aa`,
+            backgroundColor: `${themes[theme].text}`,
             cursor: 'pointer',
             marginTop: 'auto',
             marginBottom: 'auto',

@@ -4,13 +4,13 @@ const emojiFontName = 'Noto Color Emoji';
 
 export interface ThemeParameters {
   background: string;
-  color: string;
+  text: string;
   shadow: string;
   imageDescription: string;
   imageBackground: string;
   secondRow: string;
 }
-export default ({ background, color }: ThemeParameters) => {
+export default ({ background, text }: ThemeParameters) => {
   const Wordpress2016Copy = { ...Wordpress2016 };
 
   Wordpress2016Copy.overrideThemeStyles = () => ({
@@ -23,11 +23,11 @@ export default ({ background, color }: ThemeParameters) => {
       backgroundColor: background,
     },
     'body,h2,h4,h5,ul': {
-      color,
+      color: text,
     },
     blockquote: {
-      color,
-      borderLeft: `5px solid ${color}e7`,
+      color: text,
+      borderLeft: `5px solid ${text}e7`,
     },
     'a>p': {
       marginBottom: 0,
