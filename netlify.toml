@@ -2,3 +2,42 @@
   Command = "npm run build"
   Functions = "lambda"
   Publish = "public"
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    cache-control = '''
+    public
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+  for = "/page-data/*"
+  [headers.values]
+    cache-control = '''
+    public
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+  for = "/app-data.json"
+  [headers.values]
+    cache-control = '''
+    public
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+  for = "/sw.js"
+  [headers.values]
+    cache-control = '''
+    public
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+  for = "/static/*"
+  [headers.values]
+    cache-control = '''
+    public
+    max-age=31536000,
+    immutable'''
