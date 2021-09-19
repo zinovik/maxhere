@@ -11,6 +11,7 @@
     no-cache,
     no-store,
     must-revalidate'''
+[[headers]]
   for = "/page-data/*"
   [headers.values]
     cache-control = '''
@@ -19,6 +20,7 @@
     no-cache,
     no-store,
     must-revalidate'''
+[[headers]]
   for = "/app-data.json"
   [headers.values]
     cache-control = '''
@@ -27,6 +29,7 @@
     no-cache,
     no-store,
     must-revalidate'''
+[[headers]]
   for = "/sw.js"
   [headers.values]
     cache-control = '''
@@ -36,6 +39,7 @@
     no-store,
     must-revalidate'''
   for = "/static/*"
+[[headers]]
   [headers.values]
     cache-control = '''
     public
