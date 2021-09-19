@@ -20,6 +20,8 @@ export default ({ backgroundColor, color }: ThemeParameters) => {
     'body,h2,h3,h4,h5,ul': {
       fontFamily: ['Montserrat', 'sans-serif', emojiFontName].join(','),
       backgroundColor,
+    },
+    'body,h2,h4,h5,ul': {
       color,
     },
     blockquote: {
