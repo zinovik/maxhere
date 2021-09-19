@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import styled from 'styled-components';
 
 import ImageDescription from './image-description';
+import { ThemeContext } from '../theme/theme-context';
+import { themes } from '../theme/themes';
 
 const BigImageContainer = styled.div`
   position: fixed;
@@ -14,7 +16,7 @@ const BigImageContainer = styled.div`
   bottom: 0;
   padding: 0;
   z-index: 10;
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: ${({ color }) => color};
   cursor: pointer;
 `;
 
@@ -52,6 +54,10 @@ const getDateTimeFromFilename = (filename = '') => {
 
 const Image: React.FC<ImageProps> = ({ link, alt }) => {
   const [isBigImage, setIsBigImage] = useState(false);
+  const [isTopPage, setIsTopPage] = useState(true);
+  const {
+    state: { theme },
+  } = useContext(ThemeContext);
 
   const handleImageClick = () => {
     setIsBigImage(!isBigImage);
@@ -68,10 +74,15 @@ const Image: React.FC<ImageProps> = ({ link, alt }) => {
         style={{ cursor: 'pointer' }}
       />
 
-      {dateTime && <ImageDescription description={`${alt && `${alt}, `} ${dateTime}`} />}
+      {dateTime && (
+        <ImageDescription description={`${alt && `${alt}, `} ${dateTime}`} />
+      )}
 
       {isBigImage && (
-        <BigImageContainer onClick={handleImageClick}>
+        <BigImageContainer
+          onClick={handleImageClick}
+          color={themes[theme].imageBackground}
+        >
           <BigImage src={`${CLOUDINARY_LINK}${link}`} alt={alt} />
         </BigImageContainer>
       )}

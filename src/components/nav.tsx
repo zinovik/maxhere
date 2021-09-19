@@ -68,7 +68,7 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
         style={{
           backgroundColor: isTopPage
             ? 'transparent'
-            : `${themes[theme].backgroundColor}e7`,
+            : `${themes[theme].background}`,
           boxShadow: isTopPage ? 'none' : `0px 1px 1px ${themes[theme].shadow}`,
           transition: isTopPage ? '0s' : '2.5s',
         }}
@@ -80,7 +80,7 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
             borderRadius: '50%',
             width: 16,
             height: 16,
-            backgroundColor: `${themes[theme].backgroundColor}aa`,
+            backgroundColor: `${themes[theme].background}aa`,
             filter: 'invert(1)',
             cursor: 'pointer',
             marginTop: 'auto',

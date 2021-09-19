@@ -3,13 +3,14 @@ import Wordpress2016 from 'typography-theme-wordpress-2016';
 const emojiFontName = 'Noto Color Emoji';
 
 export interface ThemeParameters {
-  backgroundColor: string;
+  background: string;
   color: string;
   shadow: string;
   imageDescription: string;
+  imageBackground: string;
   secondRow: string;
 }
-export default ({ backgroundColor, color }: ThemeParameters) => {
+export default ({ background, color }: ThemeParameters) => {
   const Wordpress2016Copy = { ...Wordpress2016 };
 
   Wordpress2016Copy.overrideThemeStyles = () => ({
@@ -19,7 +20,7 @@ export default ({ backgroundColor, color }: ThemeParameters) => {
     },
     'body,h2,h3,h4,h5,ul': {
       fontFamily: ['Montserrat', 'sans-serif', emojiFontName].join(','),
-      backgroundColor,
+      backgroundColor: background,
     },
     'body,h2,h4,h5,ul': {
       color,
