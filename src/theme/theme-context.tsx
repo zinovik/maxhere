@@ -50,17 +50,17 @@ export const ThemeContext = createContext({
 });
 
 export const ThemeProvider = (props: any) => {
-  const theme = getSavedTheme();
-
   const [state, dispatch] = useReducer(themeReducer, initialState);
 
   useEffect(() => {
+    const theme = getSavedTheme();
+
     if (!state.areStylesInjected && theme !== undefined) {
       dispatch({
         type: theme,
       });
     }
-  }, localStorage);
+  });
 
   return (
     <ThemeContext.Provider value={{ state, dispatch }}>
