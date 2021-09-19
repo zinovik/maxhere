@@ -42,17 +42,17 @@ const getSavedTheme = () => {
   return getDefaultThemeBasedOnSystemTheme();
 };
 
+const initialState = { theme: ThemesNames.DefaultLight };
+
 export const ThemeContext = createContext({
-  state: { theme: ThemesNames.DefaultLight },
+  state: initialState,
   dispatch: (() => null) as Dispatch<Action>,
 });
 
 export const ThemeProvider = (props: any) => {
   const theme = getSavedTheme();
 
-  const [state, dispatch] = useReducer(themeReducer, {
-    theme,
-  });
+  const [state, dispatch] = useReducer(themeReducer, initialState);
 
   if (!state.areStylesInjected && theme !== undefined) {
     dispatch({
