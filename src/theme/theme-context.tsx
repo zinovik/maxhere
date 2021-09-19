@@ -13,7 +13,7 @@ interface Action {
 
 const STORAGE_NAME = 'theme';
 
-export const themeReducer = (state: State, action: Action) => {
+export const themeReducer = (_state: State, action: Action) => {
   typographies[action.type].injectStyles();
 
   if (typeof localStorage !== 'undefined') {
@@ -32,14 +32,12 @@ const getDefaultThemeBasedOnSystemTheme = () =>
     ? ThemesNames.DefaultDark
     : ThemesNames.DefaultLight;
 
-const getCurrentTheme = () => {
-  if (typeof localStorage !== 'undefined') {
-    const theme = localStorage.getItem(STORAGE_NAME);
+const getSavedTheme = () => {
+  if (typeof localStorage === 'undefined') return;
 
-    if (theme !== null) return theme;
-  }
+  const theme = localStorage.getItem(STORAGE_NAME);
 
-  return ThemesNames.DefaultLight;
+  return theme === null ? ThemesNames.DefaultLight : theme;
 
   return getDefaultThemeBasedOnSystemTheme();
 };
@@ -50,13 +48,13 @@ export const ThemeContext = createContext({
 });
 
 export const ThemeProvider = (props: any) => {
-  const theme = getCurrentTheme();
+  const theme = getSavedTheme();
 
   const [state, dispatch] = useReducer(themeReducer, {
     theme,
   });
 
-  if (!state.areStylesInjected) {
+  if (!state.areStylesInjected && theme !== undefined) {
     dispatch({
       type: theme,
     });
