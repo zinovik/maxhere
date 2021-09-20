@@ -30,7 +30,8 @@
   "A Game of Thrones: The Board Game (Second Edition)": [
     "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition",
     "https://thronemaster.net",
-    "http://www.lantsev1981.pro"
+    "http://www.lantsev1981.pro",
+    "https://swordsandravens.net"
   ],
   "Abalone": ["https://boardgamearena.com/gamepanel?game=abalone"],
   "Abandon All Artichokes": [
@@ -107,7 +108,7 @@
     "https://azee.mattle.online",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2143374769",
     "https://play.google.com/store/apps/details?id=es.pozoesteban.alberto.mvcrystals",
-    "http://boardwebgames.com/rojo"
+    "https://boardwebgames.com/rojo"
   ],
   "Azul: Stained Glass of Sintra": [],
   "Azul: Summer Pavilion": [],
@@ -301,6 +302,7 @@
   "Conspiracy: Abyss Universe": [
     "https://boardgamearena.com/gamepanel?game=conspiracy"
   ],
+  "Container": ["https://boardspace.net"],
   "Cosmic Encounter": [],
   "Cottage Garden": [
     "https://play.google.com/store/apps/details?id=com.digidiced.cxgrelease",
@@ -398,10 +400,10 @@
   "Ethnos": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=935245345"
   ],
-  "Euphoria: Build a Better Dystopia": [],
+  "Euphoria: Build a Better Dystopia": ["https://boardspace.net"],
   "Everdell": ["https://tabletopia.com/games/everdell"],
-  "Evolution: Climate": [],
   "Evolution": [],
+  "Evolution: Climate": [],
   "Exit: The Game – Dead Man on the Orient Express": [],
   "Exit: The Game – The Abandoned Cabin": [],
   "Expedition: Northwest Passage": [
@@ -421,7 +423,7 @@
   "First Class: All Aboard the Orient Express!": [
     "https://yucata.de/en/Invite/FirstClass"
   ],
-  "Five Tribes": [],
+  "Five Tribes": ["https://boardwebgames.com/five"],
   "Flamme Rouge": ["https://teleflammerouge.netsons.org/en"],
   "Flash Point: Fire Rescue": [],
   "Fleet": ["https://boardgamearena.com/gamepanel?game=fleet"],
@@ -525,7 +527,8 @@
   "Hive": [
     "https://boardgamearena.com/gamepanel?game=hive",
     "https://play.google.com/store/apps/details?id=com.jb.hive.android",
-    "https://store.steampowered.com/app/251210/Hive"
+    "https://store.steampowered.com/app/251210/Hive",
+    "https://boardspace.net"
   ],
   "Homesteaders": ["https://boardgamearena.com/gamepanel?game=homesteaders"],
   "Horrified": [],
@@ -591,7 +594,10 @@
     "https://apps.apple.com/us/app/kingdom-builder/id581197776"
   ],
   "Kingdom Death: Monster": [],
-  "Kingdomino": ["https://boardgamearena.com/gamepanel?game=kingdomino"],
+  "Kingdomino": [
+    "https://boardgamearena.com/gamepanel?game=kingdomino",
+    "https://play.google.com/store/apps/details?id=net.bravender.tilerealm"
+  ],
   "Kingsburg": [],
   "Kraftwagen": ["https://yucata.de/en/Invite/Kraftwagen"],
   "Krosmaster: Arena": [
@@ -678,7 +684,9 @@
   "Mage Wars Arena": [],
   "Magic: The Gathering": [],
   "Mansions of Madness": [],
-  "Mansions of Madness: Second Edition": [],
+  "Mansions of Madness: Second Edition": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=803492730"
+  ],
   "Maquis": [
     "https://play.google.com/store/apps/details?id=org.boardnaut.studios.maquis.android"
   ],
@@ -687,7 +695,10 @@
     "https://boardgamearena.com/gamepanel?game=marcopolotwo"
   ],
   "Maria": [],
-  "Marrakech": ["https://boardgamearena.com/gamepanel?game=marrakech"],
+  "Marrakech": [
+    "https://boardgamearena.com/gamepanel?game=marrakech",
+    "https://tabletopia.com/games/marrakech"
+  ],
   "Marvel Champions: The Card Game": [],
   "Marvel United": [],
   "Masons": ["https://yucata.de/en/Invite/Mauerbauer"],
@@ -945,7 +956,8 @@
   "Sagrada": [
     "https://play.google.com/store/apps/details?id=com.direwolfdigital.sagrada",
     "https://apps.apple.com/us/app/sagrada/id1439244077",
-    "https://store.steampowered.com/app/965590/Sagrada"
+    "https://store.steampowered.com/app/965590/Sagrada",
+    "https://boardwebgames.com/notre_dame"
   ],
   "Saint Petersburg": [
     "https://boardgamearena.com/gamepanel?game=saintpetersburg",
@@ -1102,6 +1114,7 @@
     "https://store.steampowered.com/app/247000/Talisman_Digital_Edition"
   ],
   "Taluva": ["https://boardgamearena.com/gamepanel?game=taluva"],
+  "Tammany Hall": ["https://boardspace.net"],
   "Tang Garden": ["https://tabletopia.com/games/tang-garden"],
   "Tapestry": ["https://tabletopia.com/games/tapestry"],
   "Targi": [
@@ -1330,7 +1343,8 @@
     "https://store.steampowered.com/app/468733/Tabletop_Simulator__Viticulture",
     "https://play.google.com/store/apps/details?id=com.digidiced.vxcrelease",
     "https://apps.apple.com/us/app/viticulture/id1467248737",
-    "https://store.steampowered.com/app/1325800/Viticulture_Essential_Edition"
+    "https://store.steampowered.com/app/1325800/Viticulture_Essential_Edition",
+    "https://boardspace.net"
   ],
   "Viticulture": [],
   "War Chest": [

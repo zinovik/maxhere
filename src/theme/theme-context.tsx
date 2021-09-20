@@ -35,7 +35,7 @@ const getDefaultThemeBasedOnSystemTheme = () =>
 const getSavedTheme = () => {
   if (typeof localStorage === 'undefined') return;
 
-  const theme = localStorage.getItem(STORAGE_NAME);
+  const theme = Number(localStorage.getItem(STORAGE_NAME));
 
   return theme === null ? ThemesNames.DefaultLight : theme;
 
