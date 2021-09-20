@@ -53,9 +53,9 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
 
   const handleScroll = () => setIsTopPage(window.scrollY < 5);
 
-  const handleButtonClick = () =>
+  const handleButtonClick = (currentTheme: ThemesNames): void =>
     dispatch(
-      theme === ThemesNames.DefaultDark
+      currentTheme === ThemesNames.DefaultDark
         ? { type: ThemesNames.DefaultLight }
         : { type: ThemesNames.DefaultDark },
     );
@@ -85,7 +85,10 @@ const Nav: React.FC<NavProps> = ({ links, areTags }) => {
         }}
       >
         <LinksList links={linksSorted} areTags={areTags} />
-        <ThemeSwitcher onClick={handleButtonClick} color={themes[theme].text} />
+        <ThemeSwitcher
+          onClick={() => handleButtonClick(theme)}
+          color={themes[theme].text}
+        />
       </NavContainer>
 
       <Space>
