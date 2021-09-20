@@ -100,5 +100,6 @@ module.exports = {
         color: `DarkCyan`,
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
   ],
 };
