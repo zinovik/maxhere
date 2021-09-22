@@ -11,7 +11,7 @@ import BackToTop from '../components/back-to-top';
 import Date from '../components/date';
 import { Comments, CommentsCount } from '../components/disqus';
 // import ParallaxImage from '../components/parallax-image';
-import ImageDescription from '../components/image-description';
+import MediaDescription from '../components/media-description';
 
 import { rhythm } from '../theme/typographies';
 
@@ -86,7 +86,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
             imageSrc={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
           /> */}
             <Img fluid={frontmatter?.featuredImage?.childImageSharp?.fluid} />
-            <ImageDescription description={frontmatter.imageDescription} />
+            <MediaDescription description={frontmatter.imageDescription} />
             <h1
               style={{
                 marginTop: rhythm(1),

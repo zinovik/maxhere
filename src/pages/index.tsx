@@ -8,7 +8,7 @@ import SEO from '../components/seo';
 import BackToTop from '../components/back-to-top';
 import Date from '../components/date';
 import { CommentsCount } from '../components/disqus';
-import ImageDescription from '../components/image-description';
+import MediaDescription from '../components/media-description';
 
 const Title = styled.h3`
   margin: 10px 0;
@@ -57,7 +57,7 @@ const BlogIndex: React.FC<BlogIndexProps> = ({ data, location }) => {
                       }
                       imgStyle={{ objectFit: 'contain' }}
                     />
-                    <ImageDescription
+                    <MediaDescription
                       description={node.frontmatter.imageDescription}
                     />
                   </>

@@ -9,11 +9,11 @@ const Description = styled.p`
   color: ${({ color }) => color};
 `;
 
-interface DateProps {
+interface MediaDescriptionProps {
   description: string;
 }
 
-const ImageDescription: React.FC<DateProps> = ({ description }) => {
+const MediaDescription: React.FC<MediaDescriptionProps> = ({ description }) => {
   const {
     state: { theme },
   } = useContext(ThemeContext);
@@ -25,4 +25,4 @@ const ImageDescription: React.FC<DateProps> = ({ description }) => {
   );
 };
 
-export default ImageDescription;
+export default MediaDescription;

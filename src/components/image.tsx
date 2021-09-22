@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import styled from 'styled-components';
 
-import ImageDescription from './image-description';
+import MediaDescription from './media-description';
 import { ThemeContext } from '../theme/theme-context';
 import { themes } from '../theme/themes';
 
@@ -21,7 +21,10 @@ const BigImageContainer = styled.div`
 `;
 
 const SmallImage = styled.img`
+  display: block;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 const BigImage = styled.img`
@@ -31,30 +34,19 @@ const BigImage = styled.img`
 `;
 
 interface ImageProps {
-  link: string;
-  alt: string;
+  bigImageLink?: string;
+  smallImageLink: string;
+  alt?: string;
+  dateTime?: string;
 }
 
-const CLOUDINARY_LINK = 'https://res.cloudinary.com/zinovik/image/upload/';
-const TRANSFORM_LINK = 'c_scale,h_0.25,w_0.25/';
-
-const getDateTimeFromFilename = (filename = '') => {
-  const dateTimeParsed = filename.match(
-    new RegExp('([\\d]{4})([\\d]{2})([\\d]{2})_([\\d]{2})([\\d]{2})'),
-  );
-
-  if (!Array.isArray(dateTimeParsed)) {
-    return '';
-  }
-
-  const [_, year, month, date, hour, minute] = dateTimeParsed;
-
-  return `${date}.${month}.${year} ${hour}:${minute}`;
-};
-
-const Image: React.FC<ImageProps> = ({ link, alt }) => {
+const Image: React.FC<ImageProps> = ({
+  bigImageLink,
+  smallImageLink,
+  alt,
+  dateTime,
+}) => {
   const [isBigImage, setIsBigImage] = useState(false);
-  const [isTopPage, setIsTopPage] = useState(true);
   const {
     state: { theme },
   } = useContext(ThemeContext);
@@ -63,27 +55,26 @@ const Image: React.FC<ImageProps> = ({ link, alt }) => {
     setIsBigImage(!isBigImage);
   };
 
-  const dateTime = getDateTimeFromFilename(link);
+  const description =
+    alt && dateTime ? `${alt}, ${dateTime}` : alt || dateTime || '';
 
   return (
     <>
       <SmallImage
-        src={`${CLOUDINARY_LINK}${TRANSFORM_LINK}${link}`}
+        src={smallImageLink}
         alt={alt}
         onClick={handleImageClick}
         style={{ cursor: 'pointer' }}
       />
 
-      {dateTime && (
-        <ImageDescription description={`${alt && `${alt}, `} ${dateTime}`} />
-      )}
+      {description && <MediaDescription description={description} />}
 
       {isBigImage && (
         <BigImageContainer
           onClick={handleImageClick}
           color={themes[theme].imageBackground}
         >
-          <BigImage src={`${CLOUDINARY_LINK}${link}`} alt={alt} />
+          <BigImage src={bigImageLink || smallImageLink} alt={alt} />
         </BigImageContainer>
       )}
     </>

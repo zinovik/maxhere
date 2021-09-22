@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import ImageDescription from './image-description';
+import MediaDescription from './media-description';
 
-interface VideoProps {
+interface CloudinaryVideoProps {
   link: string;
   alt: string;
 }
@@ -25,7 +25,7 @@ const getDateTimeFromFilename = (filename = '') => {
   return `${date}.${month}.${year} ${hour}:${minute}`;
 };
 
-const Video: React.FC<VideoProps> = ({ link, alt }) => {
+const CloudinaryVideo: React.FC<CloudinaryVideoProps> = ({ link, alt }) => {
   const dateTime = getDateTimeFromFilename(link);
 
   const getWidth = () =>
@@ -53,10 +53,10 @@ const Video: React.FC<VideoProps> = ({ link, alt }) => {
       </video>
 
       {dateTime && (
-        <ImageDescription description={`${alt && `${alt}, `} ${dateTime}`} />
+        <MediaDescription description={`${alt && `${alt}, `} ${dateTime}`} />
       )}
     </>
   );
 };
 
-export default Video;
+export default CloudinaryVideo;
