@@ -793,7 +793,10 @@
   "Oriflamme": ["https://boardgamearena.com/gamepanel?game=oriflamme"],
   "Orléans": ["https://tabletopia.com/games/orleans"],
   "P.I.": ["https://boardgamearena.com/gamepanel?game=pi"],
-  "PARKS": ["https://tabletopia.com/games/parks"],
+  "PARKS": [
+    "https://boardgamearena.com/gamepanel?game=parks",
+    "https://tabletopia.com/games/parks"
+  ],
   "Paladins of the West Kingdom": [
     "https://tabletopia.com/games/paladins-of-the-west-kingdom"
   ],
@@ -1008,6 +1011,7 @@
   "Sid Meier's Civilization: The Board Game": [],
   "Sidereal Confluence": [],
   "Signorie": ["https://boardgamearena.com/gamepanel?game=signorie"],
+  "Similo": ["https://boardgamearena.com/gamepanel?game=similo"],
   "Skat": ["https://boardgamearena.com/gamepanel?game=skat"],
   "Skull": ["https://boardgamearena.com/gamepanel?game=skull"],
   "Sleeping Gods": [],
