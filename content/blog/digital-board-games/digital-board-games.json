@@ -415,7 +415,7 @@
     "https://yucata.de/en/Invite/Floors",
     "http://boiteajeux.net"
   ],
-  "Fields of Arle": [],
+  "Fields of Arle": ["https://yucata.de/en/Invite/FieldsOfArle"],
   "Finca": ["https://yucata.de/en/Invite/Finca"],
   "Fire in the Lake": [],
   "Firefly: The Game": [],
