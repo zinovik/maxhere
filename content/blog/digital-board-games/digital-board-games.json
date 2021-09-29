@@ -28,6 +28,8 @@
   ],
   "A Few Acres of Snow": ["https://yucata.de/en/Invite/FewAcresOfSnow"],
   "A Game of Thrones: The Board Game (Second Edition)": [
+    "https://play.google.com/store/apps/details?id=com.direwolfdigital.iron",
+    "https://apps.apple.com/us/app/a-game-of-thrones-board-game/id1483771411",
     "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition",
     "https://thronemaster.net",
     "http://www.lantsev1981.pro",
@@ -297,6 +299,8 @@
   "Concordia Venus": [],
   "Concordia": [
     "http://boiteajeux.net",
+    "https://play.google.com/store/apps/details?id=com.acram.Concordia",
+    "https://apps.apple.com/us/app/concordia-digital-edition/id1536417255",
     "https://store.steampowered.com/app/1450330/Concordia_Digital_Edition"
   ],
   "Conspiracy: Abyss Universe": [
@@ -346,7 +350,11 @@
   "Deus": ["http://boiteajeux.net"],
   "Diamant": [],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
-  "Dice Hospital": ["https://boardgamearena.com/gamepanel?game=dicehospital"],
+  "Dice Hospital": [
+    "https://boardgamearena.com/gamepanel?game=dicehospital",
+    "https://play.google.com/store/apps/details?id=com.GrumpyOwlGames.DiceHospitalDigital",
+    "https://apps.apple.com/us/app/dice-hospital/id1540124162"
+  ],
   "Dice Throne: Season Two – Battle Chest": [],
   "Die Macher": [],
   "Dinosaur Island": [],
@@ -382,10 +390,11 @@
     "http://boiteajeux.net"
   ],
   "Dwellings of Eldervale": [],
-  "Eclipse": [],
-  "Eclipse: Second Dawn for the Galaxy": [
+  "Eclipse": [
     "https://play.google.com/store/apps/details?id=air.de.brettspielwelt.eclipseapp",
-    "https://apps.apple.com/us/app/eclipse-boardgame/id620439479",
+    "https://apps.apple.com/us/app/eclipse-boardgame/id620439479"
+  ],
+  "Eclipse: Second Dawn for the Galaxy": [
     "https://store.steampowered.com/app/522030/Eclipse_New_Dawn_for_the_Galaxy"
   ],
   "Egizia": ["https://yucata.de/en/Invite/Egizia"],
@@ -402,7 +411,11 @@
   ],
   "Euphoria: Build a Better Dystopia": ["https://boardspace.net"],
   "Everdell": ["https://tabletopia.com/games/everdell"],
-  "Evolution": [],
+  "Evolution": [
+    "https://play.google.com/store/apps/details?id=com.northstargames.evolutiongame",
+    "https://apps.apple.com/us/app/evolution-board-game/id1112610493",
+    "https://store.steampowered.com/app/469800/Evolution_Board_Game"
+  ],
   "Evolution: Climate": [],
   "Exit: The Game – Dead Man on the Orient Express": [],
   "Exit: The Game – The Abandoned Cabin": [],
@@ -444,6 +457,8 @@
     "https://apps.apple.com/us/app/friday-by-friedemann-friese/id1222916942"
   ],
   "Fury of Dracula (Third/Fourth Edition)": [
+    "https://play.google.com/store/apps/details?id=com.nomadgames.furyofdracula",
+    "https://apps.apple.com/us/app/fury-of-dracula/id1499802612",
     "https://store.steampowered.com/app/958530/Fury_of_Dracula_Digital_Edition"
   ],
   "GIPF": ["http://boiteajeux.net"],
@@ -452,7 +467,11 @@
     "https://store.steampowered.com/app/1516400/Gaia_Project",
     "https://boardgamers.space"
   ],
-  "Galaxy Trucker": [],
+  "Galaxy Trucker": [
+    "https://play.google.com/store/apps/details?id=com.czechgames.galaxytrucker",
+    "https://apps.apple.com/us/app/galaxy-trucker/id904013027",
+    "https://store.steampowered.com/app/870690/Galaxy_Trucker_Extended_Edition"
+  ],
   "Gang of Four": [
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.gangoffour"
   ],
@@ -715,7 +734,8 @@
   "Millennium Blades": [],
   "Mint Works": [
     "https://play.google.com/store/apps/details?id=games.unboxed.demomintworks",
-    "https://apps.apple.com/us/app/mint-works/id1527301930"
+    "https://apps.apple.com/us/app/mint-works/id1527301930",
+    "https://store.steampowered.com/app/1400000/Mint_Works"
   ],
   "Mission: Red Planet (Second Edition)": [],
   "Modern Art": [],
@@ -732,7 +752,9 @@
   ],
   "Mystic Vale": [
     "https://yucata.de/en/Invite/MysticVale",
-    "https://store.steampowered.com/app/908070/Mystic_Vale/"
+    "https://play.google.com/store/apps/details?id=com.nomadgames.mysticvale",
+    "https://apps.apple.com/us/app/mystic-vale/id1456125882",
+    "https://store.steampowered.com/app/908070/Mystic_Vale"
   ],
   "Mythic Battles: Pantheon": [],
   "NMBR 9": ["https://boltkey.cz/number_stack"],
@@ -749,6 +771,7 @@
   ],
   "Nemo's War (Second Edition)": [],
   "Neuroshima Hex! 3.0": [
+    "https://tabletopia.com/games/neuroshima-hex-3-0",
     "https://play.google.com/store/apps/details?id=com.bdc.nh",
     "https://apps.apple.com/us/app/neuroshima-hex/id391297152"
   ],
@@ -895,7 +918,9 @@
     "https://store.steampowered.com/app/965600/Raiders_of_the_North_Sea"
   ],
   "Railroad Ink: Deep Blue Edition": [
-    "https://boardgamearena.com/gamepanel?game=railroadink"
+    "https://boardgamearena.com/gamepanel?game=railroadink",
+    "https://play.google.com/store/apps/details?id=com.horriblegames.railroadink",
+    "https://apps.apple.com/us/app/railroad-ink-challenge/id1549914827"
   ],
   "Railways of the World": [
     "https://tabletopia.com/games/railways-of-the-world"
@@ -978,7 +1003,8 @@
   "Santorini": [
     "https://boardgamearena.com/gamepanel?game=santorini",
     "https://tabletopia.com/games/santorini",
-    "https://play.google.com/store/apps/details?id=com.Roxley.SantoriniGame"
+    "https://play.google.com/store/apps/details?id=com.Roxley.SantoriniGame",
+    "https://apps.apple.com/us/app/santorini-board-game/id1456647343"
   ],
   "Schotten Totten": [],
   "Scythe": [
@@ -1036,6 +1062,8 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=299910859"
   ],
   "Spirit Island": [
+    "https://play.google.com/store/apps/details?id=com.handelabra.SpiritIsland",
+    "https://apps.apple.com/us/app/spirit-island/id1501321205",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1396185597",
     "https://store.steampowered.com/app/1236720/Spirit_Island"
   ],
