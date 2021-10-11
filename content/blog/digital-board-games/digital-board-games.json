@@ -251,6 +251,9 @@
   "Chess": ["https://boardgamearena.com/gamepanel?game=chess"],
   "Chicago Express": [],
   "Chinatown": [],
+  "Chocolate Factory": [
+    "https://boardgamearena.com/gamepanel?game=chocolatefactory"
+  ],
   "Chronicles of Crime": [],
   "Circle the Wagons": [
     "https://happymeeple.com/en/board-games/circle-the-wagons/overview"
@@ -367,8 +370,16 @@
   "Dixit": ["http://boiteajeux.net", "https://play-dixit.online"],
   "Dixit: Odyssey": [],
   "Dominant Species": ["https://tabletopia.com/games/dominant-species"],
-  "Dominion (Second Edition)": ["https://dominion.games"],
-  "Dominion": ["https://dominion.games"],
+  "Dominion (Second Edition)": [
+    "https://play.google.com/store/apps/details?id=com.templegatesgames.DominionAndroid",
+    "https://store.steampowered.com/app/1131620/Dominion",
+    "https://dominion.games"
+  ],
+  "Dominion": [
+    "https://play.google.com/store/apps/details?id=com.templegatesgames.DominionAndroid",
+    "https://store.steampowered.com/app/1131620/Dominion",
+    "https://dominion.games"
+  ],
   "Dominion: Intrigue": ["https://dominion.games"],
   "Downforce": ["https://boardgamearena.com/gamepanel?game=downforce"],
   "Draftosaurus": ["https://boardgamearena.com/gamepanel?game=draftosaurus"],
@@ -556,7 +567,10 @@
   ],
   "Homesteaders": ["https://boardgamearena.com/gamepanel?game=homesteaders"],
   "Horrified": [],
-  "Imhotep": ["https://yucata.de/en/Invite/Imhotep"],
+  "Imhotep": [
+    "https://boardgamearena.com/gamepanel?game=imhotep",
+    "https://yucata.de/en/Invite/Imhotep"
+  ],
   "Imhotep: The Duel": ["https://yucata.de/en/Invite/ImhotepDuell"],
   "Imperial 2030": [],
   "Imperial Settlers": ["https://tabletopia.com/games/imperial-settlers"],
