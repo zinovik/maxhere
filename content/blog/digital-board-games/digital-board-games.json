@@ -24,6 +24,7 @@
     "https://apps.apple.com/us/app/7-wonders/id530090434"
   ],
   "A Feast for Odin": [
+    "https://boardgamearena.com/gamepanel?game=feastforodin",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=790490875"
   ],
   "A Few Acres of Snow": ["https://yucata.de/en/Invite/FewAcresOfSnow"],
@@ -107,6 +108,7 @@
   ],
   "Awkward Guests": [],
   "Azul": [
+    "https://boardgamearena.com/gamepanel?game=azul",
     "https://azee.mattle.online",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2143374769",
     "https://play.google.com/store/apps/details?id=es.pozoesteban.alberto.mvcrystals",
@@ -239,8 +241,14 @@
   ],
   "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Golem Edition": [],
-  "Century: Spice Road": ["https://spicee.mattle.online"],
-  "Champions of Midgard": ["https://tabletopia.com/games/champions-of-midgard"],
+  "Century: Spice Road": [
+    "https://boardgamearena.com/reviewer?game=century",
+    "https://spicee.mattle.online"
+  ],
+  "Champions of Midgard": [
+    "https://boardgamearena.com/reviewer?game=championsofmidgard",
+    "https://tabletopia.com/games/champions-of-midgard"
+  ],
   "Chaos in the Old World": [],
   "Charterstone": [
     "https://play.google.com/store/apps/details?id=com.acram.Charterstone",
@@ -355,7 +363,10 @@
   "Detective: A Modern Crime Board Game": [
     "https://tabletopia.com/games/detective-a-modern-crime-board-game"
   ],
-  "Deus": ["http://boiteajeux.net"],
+  "Deus": [
+    "https://boardgamearena.com/gamepanel?game=deus",
+    "http://boiteajeux.net"
+  ],
   "Diamant": [],
   "Dice Forge": ["https://boardgamearena.com/gamepanel?game=diceforge"],
   "Dice Hospital": [
@@ -414,7 +425,10 @@
     "https://store.steampowered.com/app/522030/Eclipse_New_Dawn_for_the_Galaxy"
   ],
   "Egizia": ["https://yucata.de/en/Invite/Egizia"],
-  "El Grande": ["https://yucata.de/en/Invite/ElGrande"],
+  "El Grande": [
+    "https://boardgamearena.com/reviewer?game=elgrande",
+    "https://yucata.de/en/Invite/ElGrande"
+  ],
   "Eldritch Horror": [],
   "Elfenland": ["https://boardgamearena.com/gamepanel?game=elfenland"],
   "Elysium": [],
@@ -479,6 +493,7 @@
   ],
   "GIPF": ["http://boiteajeux.net"],
   "Gaia Project": [
+    "https://boardgamearena.com/gamepanel?game=gaiaproject",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1218649750",
     "https://store.steampowered.com/app/1516400/Gaia_Project",
     "https://boardgamers.space"
@@ -721,6 +736,7 @@
   ],
   "Mage Wars Arena": [],
   "Magic: The Gathering": [],
+  "Magic Maze": ["https://boardgamearena.com/gamepanel?game=magicmaze"],
   "Mansions of Madness": [],
   "Mansions of Madness: Second Edition": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=803492730"
@@ -1074,7 +1090,7 @@
     "https://yucata.de/en/Invite/Sobek"
   ],
   "Space Alert": [],
-  "Space Base": [],
+  "Space Base": ["https://boardgamearena.com/reviewer?game=spacebase"],
   "Space Hulk (Third Edition)": [],
   "Spades": ["https://boardgamearena.com/gamepanel?game=spades"],
   "Spartacus: A Game of Blood and Treachery": [
@@ -1167,7 +1183,10 @@
   "Taluva": ["https://boardgamearena.com/gamepanel?game=taluva"],
   "Tammany Hall": ["https://boardspace.net"],
   "Tang Garden": ["https://tabletopia.com/games/tang-garden"],
-  "Tapestry": ["https://tabletopia.com/games/tapestry"],
+  "Tapestry": [
+    "https://boardgamearena.com/gamepanel?game=tapestry",
+    "https://tabletopia.com/games/tapestry"
+  ],
   "Targi": [
     "https://boardgamearena.com/gamepanel?game=targi",
     "https://yucata.de/en/Invite/Targi"
@@ -1241,7 +1260,10 @@
   "The Great Zimbabwe": ["http://play.boardgamecore.net"],
   "The Grizzled": [],
   "The Hanging Gardens": ["https://yucata.de/en/Invite/HangingGardens"],
-  "The Isle of Cats": ["https://tabletopia.com/games/the-isle-of-cats"],
+  "The Isle of Cats": [
+    "https://boardgamearena.com/gamepanel?game=theisleofcats",
+    "https://tabletopia.com/games/the-isle-of-cats"
+  ],
   "The King's Dilemma": [
     "https://tabletopia.com/games/the-king-s-dilemma-demo"
   ],
@@ -1411,7 +1433,10 @@
     "https://play.google.com/store/apps/details?id=com.perchang.silvertower",
     "https://apps.apple.com/us/app/warhammer-quest-silver-tower/id1517281011"
   ],
-  "Watergate": ["https://tabletopia.com/games/watergatede"],
+  "Watergate": [
+    "https://boardgamearena.com/gamepanel?game=watergate",
+    "https://tabletopia.com/games/watergatede"
+  ],
   "Wavelength": ["https://heretothere.app", "https://longwave.web.app"],
   "Welcome To...": [
     "https://boardgamearena.com/gamepanel?game=welcometo",
