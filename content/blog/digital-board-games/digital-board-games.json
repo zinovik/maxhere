@@ -266,7 +266,10 @@
   "Circle the Wagons": [
     "https://happymeeple.com/en/board-games/circle-the-wagons/overview"
   ],
-  "Citadels": ["https://citadelsgame.herokuapp.com"],
+  "Citadels": [
+    "https://boardgamearena.com/reviewer?game=citadels",
+    "https://citadelsgame.herokuapp.com"
+  ],
   "City of the Big Shoulders": [
     "https://boardgamearena.com/gamepanel?game=cityofthebigshoulders"
   ],
@@ -755,6 +758,7 @@
   ],
   "Marvel Champions: The Card Game": [],
   "Marvel United": [],
+  "Mascarade": ["https://boardgamearena.com/gamepanel?game=mascarade"],
   "Masons": ["https://yucata.de/en/Invite/Mauerbauer"],
   "Meadow": ["https://boardgamearena.com/gamepanel?game=meadow"],
   "Mechs vs. Minions": [],
