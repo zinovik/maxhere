@@ -701,6 +701,8 @@
   "Lords of Hellas": [],
   "Lords of Vegas": [],
   "Lords of Waterdeep": [
+    "https://play.google.com/store/apps/details?id=com.playdekgames.waterdeep",
+    "https://apps.apple.com/us/app/d-d-lords-of-waterdeep/id648019675",
     "https://store.steampowered.com/app/644390/DD_Lords_of_Waterdeep"
   ],
   "Lords of Xidit": ["https://boardgamearena.com/gamepanel?game=lox"],
@@ -1097,7 +1099,10 @@
     "https://yucata.de/en/Invite/Sobek"
   ],
   "Space Alert": [],
-  "Space Base": ["https://boardgamearena.com/reviewer?game=spacebase"],
+  "Space Base": [
+    "https://boardgamearena.com/reviewer?game=spacebase",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1426350359"
+  ],
   "Space Hulk (Third Edition)": [],
   "Spades": ["https://boardgamearena.com/gamepanel?game=spades"],
   "Spartacus: A Game of Blood and Treachery": [
@@ -1350,6 +1355,9 @@
   "Tikal": ["http://spielbyweb.com"],
   "Time's Up! Title Recall!": [],
   "Tiny Epic Galaxies": [],
+  "Tiny Epic Kingdoms": [
+    "https://store.steampowered.com/app/458910/Tabletop_Simulator__Tiny_Epic_Kingdoms__Heroes_Call"
+  ],
   "Tiny Towns": [],
   "To Court the King": ["https://yucata.de/en/Invite/ToCourtTheKing"],
   "Tobago": ["https://boardgamearena.com/gamepanel?game=tobago"],
