@@ -27,6 +27,10 @@ export const designersConfig: {
     text: `${flags.FR} → ${flags.CH} Bruno Cathala`,
     link: '1727/bruno-cathala',
   },
+  croc: {
+    text: `${flags.FR} Christophe Réaux`,
+    link: '4094/croc',
+  },
   'dan-cassar': {
     text: `${flags.US} Dan Cassar`,
     link: '53889/dan-cassar',
@@ -42,6 +46,10 @@ export const designersConfig: {
   'eric-m-lang': {
     text: `${flags.CA} Eric M. Lang`,
     link: '1533/eric-m-lang',
+  },
+  'frederic-henry': {
+    text: `${flags.FR} Frédéric Henry`,
+    link: '2617/frederic-henry',
   },
   'jamey-stegmaier': {
     text: `${flags.US} Jamey Stegmaier`,
@@ -59,9 +67,17 @@ export const designersConfig: {
     text: `${flags.JP} Kota Nakayama`,
     link: '74989/kota-nakayama',
   },
+  'laurent-pouchain': {
+    text: `${flags.FR} Laurent Pouchain`,
+    link: '8758/laurent-pouchain',
+  },
   'martin-wallace': {
     text: `${flags.GB} → ${flags.NZ} → ${flags.AU} Martin Wallace`,
     link: '6/martin-wallace',
+  },
+  'pascal-bernard': {
+    text: `${flags.FR} Pascal Bernard`,
+    link: '53/pascal-bernard',
   },
   'reiner-knizia': {
     text: `${flags.DE} → ${flags.GB} Reiner Knizia`,
