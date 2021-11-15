@@ -24,7 +24,7 @@ export const designersConfig: {
     link: '9714/antoine-bauza',
   },
   'bruno-cathala': {
-    text: `${flags.FR} → ${flags.CH} Bruno Cathala`,
+    text: `${flags.FR} Bruno Cathala`,
     link: '1727/bruno-cathala',
   },
   croc: {
@@ -72,7 +72,7 @@ export const designersConfig: {
     link: '8758/laurent-pouchain',
   },
   'martin-wallace': {
-    text: `${flags.GB} → ${flags.NZ} → ${flags.AU} Martin Wallace`,
+    text: `${flags.GB} Martin Wallace`,
     link: '6/martin-wallace',
   },
   'pascal-bernard': {
@@ -80,7 +80,7 @@ export const designersConfig: {
     link: '53/pascal-bernard',
   },
   'reiner-knizia': {
-    text: `${flags.DE} → ${flags.GB} Reiner Knizia`,
+    text: `${flags.DE} Reiner Knizia`,
     link: '2/reiner-knizia',
   },
   'rob-daviau': {
@@ -124,7 +124,7 @@ export const designersConfig: {
     link: '789/vlaada-chvatil',
   },
   'christian-t-petersen': {
-    text: `${flags.US} → ${flags.DK} → ${flags.US} Christian T. Petersen`,
+    text: `${flags.US} Christian T. Petersen`,
     link: '21/christian-t-petersen',
   },
   'cole-wehrle': { text: `${flags.US} Cole Wehrle`, link: '35585/cole-wehrle' },
@@ -133,7 +133,7 @@ export const designersConfig: {
     link: '6651/corey-konieczka',
   },
   'david-turczi': {
-    text: `${flags.HU} → ${flags.GB} → ${flags.NL} Dávid Turczi`,
+    text: `${flags.HU} Dávid Turczi`,
     link: '76227/david-turczi',
   },
   'friedemann-friese': {
