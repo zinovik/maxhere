@@ -1,7 +1,7 @@
 {
+  "1817": ["https://18xx.games"],
   "13 Days: The Cuban Missile Crisis": ["https://chantry-games.com"],
   "1775: Rebellion": [],
-  "1817": ["https://18xx.games"],
   "1830: Railways & Robber Barons": ["https://18xx.games"],
   "1846: The Race for the Midwest": ["https://18xx.games"],
   "1849: The Game of Sicilian Railways": ["https://18xx.games"],
@@ -12,8 +12,8 @@
     "https://18xx.games"
   ],
   "1889: History of Shikoku Railways": ["https://18xx.games"],
-  "18Chesapeake": ["https://18xx.games"],
   "18CZ": ["https://18xx.games"],
+  "18Chesapeake": ["https://18xx.games"],
   "1960: The Making of the President": [],
   "51st State: Master Set": [],
   "6 nimmt!": [
@@ -94,6 +94,7 @@
   "Antike Duellum": ["https://yucata.de/en/Invite/CasusBelli"],
   "Antiquity": ["http://play.boardgamecore.net"],
   "AquaSphere": [],
+  "Aquatica": ["https://tabletopia.com/games/aquatica"],
   "Arboretum": [],
   "Arcadia Quest": [],
   "Archipelago": [],
@@ -230,6 +231,7 @@
     "https://apps.apple.com/us/app/cartographers/id1515991485",
     "https://happymeeple.com/en/board-games/cartographers/overview"
   ],
+  "Cascadia": [],
   "Castles of Mad King Ludwig": [
     "https://tabletopia.com/games/castles-ludwig",
     "https://play.google.com/store/apps/details?id=com.mobilecastles.castles",
@@ -286,10 +288,10 @@
   ],
   "Civilization": [],
   "Clank! In! Space!: A Deck-Building Adventure": [],
-  "Clank! Legacy: Acquisitions Incorporated": [],
   "Clank!: A Deck-Building Adventure": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=912353521"
   ],
+  "Clank!: Legacy – Acquisitions Incorporated": [],
   "Clans of Caledonia": [
     "https://boardgamearena.com/gamepanel?game=clansofcaledonia",
     "https://tabletopia.com/games/clans-of-caledonia"
@@ -450,6 +452,9 @@
   "Endeavor": [],
   "Endeavor: Age of Sail": [],
   "Escape Plan": [],
+  "Escape: The Curse of the Temple": [
+    "https://boardgamearena.com/reviewer?game=escapethecurseofthetemple"
+  ],
   "Ethnos": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=935245345"
   ],
@@ -751,8 +756,8 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=839232603"
   ],
   "Mage Wars Arena": [],
-  "Magic: The Gathering": [],
   "Magic Maze": ["https://boardgamearena.com/gamepanel?game=magicmaze"],
+  "Magic: The Gathering": [],
   "Mansions of Madness": [],
   "Mansions of Madness: Second Edition": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=803492730"
@@ -1113,6 +1118,9 @@
   "Space Base": [
     "https://boardgamearena.com/reviewer?game=spacebase",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1426350359"
+  ],
+  "Space Empires: 4X": [
+    "https://boardgamearena.com/reviewer?game=spaceempires"
   ],
   "Space Hulk (Third Edition)": [],
   "Spades": ["https://boardgamearena.com/gamepanel?game=spades"],
