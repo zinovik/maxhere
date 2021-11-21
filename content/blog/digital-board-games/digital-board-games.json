@@ -231,7 +231,10 @@
     "https://apps.apple.com/us/app/cartographers/id1515991485",
     "https://happymeeple.com/en/board-games/cartographers/overview"
   ],
-  "Cascadia": [],
+  "Cascadia": [
+    "https://tabletopia.com/games/cascadia",
+    "https://cascadiagame.github.io"
+  ],
   "Castles of Mad King Ludwig": [
     "https://tabletopia.com/games/castles-ludwig",
     "https://play.google.com/store/apps/details?id=com.mobilecastles.castles",
