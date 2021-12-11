@@ -66,7 +66,6 @@ module.exports = {
         pageViews: 'all',
       },
     },
-    `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,

@@ -5,13 +5,12 @@
   "1830: Railways & Robber Barons": ["https://18xx.games"],
   "1846: The Race for the Midwest": ["https://18xx.games"],
   "1849: The Game of Sicilian Railways": ["https://18xx.games"],
-  "1856: Railroading in Upper Canada from": ["https://18xx.games"],
+  "1856: Railroading in Upper Canada from 1856": ["https://18xx.games"],
   "1860: Railways on the Isle of Wight": ["https://18xx.games"],
   "1862: Railway Mania in the Eastern Counties": ["https://18xx.games"],
   "1870: Railroading across the Trans Mississippi from 1870": [
     "https://18xx.games"
   ],
-  "1889: History of Shikoku Railways": ["https://18xx.games"],
   "18CZ": ["https://18xx.games"],
   "18Chesapeake": ["https://18xx.games"],
   "1960: The Making of the President": [],
@@ -91,6 +90,7 @@
   "Amyitis": ["https://boardgamearena.com/gamepanel?game=amyitis"],
   "Anachrony": ["https://tabletopia.com/games/anachrony"],
   "Android: Netrunner": ["https://jinteki.net"],
+  "Ankh: Gods of Egypt": [],
   "Antike Duellum": ["https://yucata.de/en/Invite/CasusBelli"],
   "Antiquity": ["http://play.boardgamecore.net"],
   "AquaSphere": [],
@@ -478,7 +478,6 @@
   "Expedition: Northwest Passage": [
     "https://boardgamearena.com/gamepanel?game=northwestpassage"
   ],
-  "Famiglia": ["https://yucata.de/en/Invite/Famiglia"],
   "Fantasy Realms": [],
   "Fearsome Floors": [
     "https://yucata.de/en/Invite/Floors",
@@ -765,6 +764,7 @@
   "Mage Wars Arena": [],
   "Magic Maze": ["https://boardgamearena.com/gamepanel?game=magicmaze"],
   "Magic: The Gathering": [],
+  "Mandala": [],
   "Mansions of Madness": [],
   "Mansions of Madness: Second Edition": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=803492730"
@@ -1101,6 +1101,7 @@
   "Sheriff of Nottingham": [],
   "Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures": [],
   "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases": [],
+  "Shikoku 1889": ["https://18xx.games"],
   "Shogun": [],
   "Sid Meier's Civilization: The Board Game": [],
   "Sidereal Confluence": [],
@@ -1255,6 +1256,7 @@
     "https://store.steampowered.com/app/800270/Terraforming_Mars",
     "https://terraforming-mars.herokuapp.com"
   ],
+  "Terraforming Mars: Ares Expedition": [],
   "That's Life!": ["https://boardgamearena.com/gamepanel?game=thatslife"],
   "That's Pretty Clever!": [
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.ganzschoenclever",
