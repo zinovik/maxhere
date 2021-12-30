@@ -12,7 +12,7 @@ const FooterContainer = styled.footer`
 const Footer: React.FC = () => {
   return (
     <FooterContainer style={{ textAlign: 'center' }}>
-      © 2020 - 2021, Built with 💚 and
+      © 2020 - 2022, Built with 💚 and
       <a href="https://gatsbyjs.org" target="_blank" style={{ paddingLeft: 5 }}>
         Gatsby
       </a>
