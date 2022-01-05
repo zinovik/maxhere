@@ -33,6 +33,10 @@
     "https://play.google.com/store/apps/details?id=com.rprod.sevenwonders",
     "https://apps.apple.com/us/app/7-wonders/id530090434"
   ],
+  "A Fake Artist Goes to New York": [
+    "https://el-artista.herokuapp.com",
+    "https://fake-artist.herokuapp.com"
+  ],
   "A Feast for Odin": [
     "https://boardgamearena.com/gamepanel?game=feastforodin",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=790490875"
@@ -383,6 +387,7 @@
   ],
   "Descent: Journeys in the Dark (Second Edition)": [],
   "Descent: Journeys in the Dark": [],
+  "Destinies": [],
   "Detective: A Modern Crime Board Game": [
     "https://tabletopia.com/games/detective-a-modern-crime-board-game"
   ],
@@ -853,6 +858,7 @@
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
   "Notre Dame": [],
   "Nusfjord": [],
+  "Oath: Chronicles of Empire and Exile": [],
   "Obsession": [],
   "Oceans": [],
   "Ogre": [
