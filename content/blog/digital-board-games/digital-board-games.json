@@ -355,6 +355,7 @@
     "https://boardgamearena.com/gamepanel?game=conspiracy"
   ],
   "Container": ["https://boardspace.net"],
+  "Copenhagen": ["https://boardgamearena.com/gamepanel?game=copenhagen"],
   "Cosmic Encounter": [],
   "Cottage Garden": [
     "https://play.google.com/store/apps/details?id=com.digidiced.cxgrelease",
@@ -378,7 +379,11 @@
   ],
   "Cthulhu Wars": [],
   "Cthulhu: Death May Die": [],
-  "CuBirds": ["https://boardgamearena.com/gamepanel?game=cubirds"],
+  "CuBirds": [
+    "https://boardgamearena.com/gamepanel?game=cubirds",
+    "https://yucata.de/en/Invite/CuBirds"
+  ],
+  "Cubitos": [],
   "Cyclades": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=734722020"
   ],
@@ -578,10 +583,15 @@
     "https://boardgamearena.com/gamepanel?game=greatwesterntrail",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1865841102"
   ],
+  "Great Western Trail (Second Edition)": [
+    "https://boardgamearena.com/gamepanel?game=greatwesterntrail",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=1865841102"
+  ],
   "Guildhall": ["https://yucata.de/en/Invite/Guildhall"],
   "Gùgōng": [],
   "Hacienda": ["https://yucata.de/en/Invite/Hazienda", "http://spielbyweb.com"],
   "Hadara": ["https://yucata.de/en/Invite/Hadara"],
+  "Hadrian's Wall": [],
   "Haggis": ["https://boardgamearena.com/gamepanel?game=haggis"],
   "Hallertau": [],
   "Hammer of the Scots": [],
@@ -634,7 +644,10 @@
   "Indonesia": [],
   "Ingenious": [],
   "Inis": [],
-  "Innovation": ["https://boardgamearena.com/gamepanel?game=innovation"],
+  "Innovation": [
+    "https://boardgamearena.com/gamepanel?game=innovation",
+    "https://yucata.de/en/Invite/Innovation"
+  ],
   "Isle of Skye: From Chieftain to King": [],
   "Istanbul": [
     "https://play.google.com/store/apps/details?id=com.acram.Istanbul",
@@ -991,6 +1004,8 @@
     "https://store.steampowered.com/app/579940/Race_for_the_Galaxy",
     "http://keldon.net/rftg"
   ],
+  "Radlands": [],
+  "Raiders of Scythia": [],
   "Raiders of the North Sea": [
     "https://tabletopia.com/games/raiders-of-the-north-sea",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=2032372054",
@@ -1124,6 +1139,7 @@
   "Similo": ["https://boardgamearena.com/gamepanel?game=similo"],
   "Skat": ["https://boardgamearena.com/gamepanel?game=skat"],
   "Skull": ["https://boardgamearena.com/gamepanel?game=skull"],
+  "Skull King": [],
   "Sleeping Gods": [],
   "Small World Underground": [],
   "Small World": [
@@ -1215,7 +1231,7 @@
     "https://boardgamearena.com/gamepanel?game=superfantasybrawl"
   ],
   "Survive: Escape from Atlantis!": [],
-  "Sushi Go Party!": [],
+  "Sushi Go Party!": ["https://boardgamearena.com/gamepanel?game=sushigoparty"],
   "Sushi Go!": ["https://boardgamearena.com/gamepanel?game=sushigo"],
   "Sword & Sorcery": [],
   "T.I.M.E Stories": [],
@@ -1323,6 +1339,7 @@
     "https://tabletopia.com/games/the-king-s-dilemma-demo"
   ],
   "The King's Guild": ["https://boardgamearena.com/gamepanel?game=kingsguild"],
+  "The King Is Dead: Second Edition": [],
   "The Lord of the Rings: Journeys in Middle-Earth": [],
   "The Lord of the Rings: The Card Game": [],
   "The Manhattan Project": [],
