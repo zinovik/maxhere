@@ -318,6 +318,7 @@
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.cleverhochdrei",
     "https://apps.apple.com/us/app/clever-cubed/id1513812015"
   ],
+  "Cloudspire": [],
   "Codenames": [
     "https://codenames.game",
     "https://codenames.cards",
@@ -526,6 +527,7 @@
     "https://play.google.com/store/apps/details?id=de.brettspielwelt.freitag",
     "https://apps.apple.com/us/app/friday-by-friedemann-friese/id1222916942"
   ],
+  "Furnace": [],
   "Fury of Dracula (Third/Fourth Edition)": [
     "https://play.google.com/store/apps/details?id=com.nomadgames.furyofdracula",
     "https://apps.apple.com/us/app/fury-of-dracula/id1499802612",
@@ -579,11 +581,11 @@
     "https://yucata.de/en/Invite/GrandAustria",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1312754315"
   ],
-  "Great Western Trail": [
+  "Great Western Trail (Second Edition)": [
     "https://boardgamearena.com/gamepanel?game=greatwesterntrail",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1865841102"
   ],
-  "Great Western Trail (Second Edition)": [
+  "Great Western Trail": [
     "https://boardgamearena.com/gamepanel?game=greatwesterntrail",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1865841102"
   ],
@@ -683,6 +685,7 @@
   ],
   "Keltis": ["https://happymeeple.com/en/board-games/keltis-card/overview"],
   "Kemet": ["https://steamcommunity.com/sharedfiles/filedetails/?id=712554439"],
+  "Kemet: Blood and Sand": [],
   "Key Harvest": ["https://yucata.de/en/Invite/KeyHarvest"],
   "KeyForge: Call of the Archons": [],
   "Keyflower": [
@@ -690,6 +693,7 @@
     "https://tabletopia.com/games/keyflower"
   ],
   "King of Tokyo": ["https://boardgamearena.com/gamepanel?game=kingoftokyo"],
+  "King of Tokyo: Dark Edition": [],
   "Kingdom Builder": [
     "https://boardgamearena.com/gamepanel?game=kingdombuilder",
     "http://brettspielwelt.de/Spiele/KingdomBuilder",
@@ -879,7 +883,10 @@
   "Nusfjord": [],
   "Oath: Chronicles of Empire and Exile": [],
   "Obsession": [],
-  "Oceans": [],
+  "Oceans": [
+    "https://play.google.com/store/apps/details?id=com.northstargames.oceans",
+    "https://apps.apple.com/us/app/oceans-board-game-lite/id1504190935"
+  ],
   "Ogre": [
     "https://play.google.com/store/apps/details?id=com.sjgames.ogrewarroom"
   ],
@@ -934,6 +941,10 @@
   "Pandemic: Iberia": [],
   "Pandemic: Reign of Cthulhu": [],
   "Pandemic: The Cure": [],
+  "Paper Tales": [
+    "https://play.google.com/store/apps/details?id=com.dtda.pt",
+    "https://apps.apple.com/us/app/paper-tales-catch-up-games/id1532072012"
+  ],
   "Paperback": [
     "https://play.google.com/store/apps/details?id=net.fowers.paperback",
     "https://apps.apple.com/us/app/paperback-the-game/id1131388981",
@@ -1138,8 +1149,8 @@
   "Signorie": ["https://boardgamearena.com/gamepanel?game=signorie"],
   "Similo": ["https://boardgamearena.com/gamepanel?game=similo"],
   "Skat": ["https://boardgamearena.com/gamepanel?game=skat"],
-  "Skull": ["https://boardgamearena.com/gamepanel?game=skull"],
   "Skull King": [],
+  "Skull": ["https://boardgamearena.com/gamepanel?game=skull"],
   "Sleeping Gods": [],
   "Small World Underground": [],
   "Small World": [
@@ -1220,6 +1231,10 @@
     "https://boardgamearena.com/gamepanel?game=stoneage",
     "https://yucata.de/en/Invite/StoneAge",
     "http://brettspielwelt.de/Spiele/StoneAge"
+  ],
+  "Street Masters": [
+    "https://play.google.com/store/apps/details?id=com.blacklistgamesllc.StreetMasters.pro",
+    "https://apps.apple.com/us/app/street-masters/id1522480305"
   ],
   "Stuffed Fables": [],
   "Suburbia": [
@@ -1335,11 +1350,11 @@
     "https://boardgamearena.com/gamepanel?game=theisleofcats",
     "https://tabletopia.com/games/the-isle-of-cats"
   ],
+  "The King Is Dead: Second Edition": [],
   "The King's Dilemma": [
     "https://tabletopia.com/games/the-king-s-dilemma-demo"
   ],
   "The King's Guild": ["https://boardgamearena.com/gamepanel?game=kingsguild"],
-  "The King Is Dead: Second Edition": [],
   "The Lord of the Rings: Journeys in Middle-Earth": [],
   "The Lord of the Rings: The Card Game": [],
   "The Manhattan Project": [],
