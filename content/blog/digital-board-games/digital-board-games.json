@@ -176,7 +176,7 @@
     "https://store.steampowered.com/app/610700/Tabletop_Simulator__Blood_Rage",
     "https://store.steampowered.com/app/1015930/Blood_Rage_Digital_Edition"
   ],
-  "Bohnanza": [],
+  "Bohnanza": ["https://boardgamearena.com/gamepanel?game=bohnanza"],
   "Bonfire": ["https://yucata.de/en/Invite/Bonfire"],
   "Bora Bora": [],
   "Bottom of the 9th": [
@@ -200,7 +200,7 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1940150124"
   ],
   "Burgle Bros.": [],
-  "Bärenpark": [],
+  "Bärenpark": ["https://boardgamearena.com/gamepanel?game=barenpark"],
   "Cacao": [
     "https://boardgamearena.com/gamepanel?game=cacao",
     "https://yucata.de/en/Invite/Cacao"
@@ -251,6 +251,7 @@
     "https://apps.apple.com/us/app/castles-of-mad-king-ludwig/id1100292960"
   ],
   "Catan": [
+    "https://boardgamearena.com/gamepanel?game=catan",
     "http://brettspielwelt.de/Spiele/Siedler",
     "https://play.google.com/store/apps/details?id=com.exozet.android.catan",
     "https://apps.apple.com/us/app/catan-classic/id335029050",
@@ -268,11 +269,11 @@
   "Celestia": ["https://boardgamearena.com/gamepanel?game=celestia"],
   "Century: Golem Edition": [],
   "Century: Spice Road": [
-    "https://boardgamearena.com/reviewer?game=century",
+    "https://boardgamearena.com/gamepanel?game=century",
     "https://spicee.mattle.online"
   ],
   "Champions of Midgard": [
-    "https://boardgamearena.com/reviewer?game=championsofmidgard",
+    "https://boardgamearena.com/gamepanel?game=championsofmidgard",
     "https://tabletopia.com/games/champions-of-midgard"
   ],
   "Chaos in the Old World": [],
@@ -296,7 +297,7 @@
     "https://happymeeple.com/en/board-games/circle-the-wagons/overview"
   ],
   "Citadels": [
-    "https://boardgamearena.com/reviewer?game=citadels",
+    "https://boardgamearena.com/gamepanel?game=citadels",
     "https://citadelsgame.herokuapp.com"
   ],
   "City of the Big Shoulders": [
@@ -465,7 +466,7 @@
   ],
   "Egizia": ["https://yucata.de/en/Invite/Egizia"],
   "El Grande": [
-    "https://boardgamearena.com/reviewer?game=elgrande",
+    "https://boardgamearena.com/gamepanel?game=elgrande",
     "https://yucata.de/en/Invite/ElGrande"
   ],
   "Eldritch Horror": [],
@@ -476,7 +477,7 @@
   "Endeavor: Age of Sail": [],
   "Escape Plan": [],
   "Escape: The Curse of the Temple": [
-    "https://boardgamearena.com/reviewer?game=escapethecurseofthetemple"
+    "https://boardgamearena.com/gamepanel?game=escapethecurseofthetemple"
   ],
   "Ethnos": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=935245345"
@@ -550,7 +551,10 @@
     "https://play.google.com/store/apps/details?id=com.asmodeedigital.gangoffour"
   ],
   "Ghost Stories": [],
-  "Ginkgopolis": ["http://boiteajeux.net"],
+  "Ginkgopolis": [
+    "https://boardgamearena.com/gamepanel?game=ginkgopolis",
+    "http://boiteajeux.net"
+  ],
   "Gizmos": [],
   "Glass Road": [],
   "Glen More II: Chronicles": [
@@ -977,7 +981,7 @@
   "Photosynthesis": [],
   "Pipeline": [],
   "PitchCar": [],
-  "Point Salad": [],
+  "Point Salad": ["https://boardgamearena.com/gamepanel?game=ginkgopolis"],
   "Polis: Fight for the Hegemony": [
     "https://boardgamearena.com/gamepanel?game=polis",
     "https://yucata.de/en/Invite/Polis"
@@ -1167,10 +1171,12 @@
   ],
   "Space Alert": [],
   "Space Base": [
-    "https://boardgamearena.com/reviewer?game=spacebase",
+    "https://boardgamearena.com/gamepanel?game=spacebase",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1426350359"
   ],
-  "Space Empires 4X": ["https://boardgamearena.com/reviewer?game=spaceempires"],
+  "Space Empires 4X": [
+    "https://boardgamearena.com/gamepanel?game=spaceempires"
+  ],
   "Space Hulk (Third Edition)": [],
   "Spades": ["https://boardgamearena.com/gamepanel?game=spades"],
   "Spartacus: A Game of Blood and Treachery": [
@@ -1426,6 +1432,7 @@
   "Ticket to Ride: Märklin": [],
   "Ticket to Ride: Nordic Countries": [],
   "Tigris & Euphrates": [
+    "https://boardgamearena.com/gamepanel?game=tigriseuphrates",
     "https://apps.apple.com/us/app/reiner-knizia-tigris-euphrates/id471458190"
   ],
   "Tikal": ["http://spielbyweb.com"],
