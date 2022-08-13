@@ -110,7 +110,9 @@
     "https://tabletopia.com/games/architects-of-the-west-kingdom"
   ],
   "Argent: The Consortium": [],
-  "Ark Nova": [],
+  "Ark Nova": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2630864749"
+  ],
   "Arkadia": ["https://yucata.de/en/Invite/Arkadia"],
   "Arkham Horror (Third Edition)": [],
   "Arkham Horror": [],
@@ -214,6 +216,7 @@
   "Camel Up": [],
   "Campaign Manager 2008": ["https://yucata.de/en/Invite/CampaignManager"],
   "Can't Stop": ["https://boardgamearena.com/gamepanel?game=cantstop"],
+  "Canvas": [],
   "Captain Sonar": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=750638132"
   ],
@@ -672,6 +675,7 @@
     "https://play.google.com/store/apps/details?id=com.meepletouch.jaipur",
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
   ],
+  "Jump Drive": ["https://boardgamearena.com/gamepanel?game=jumpdrive"],
   "Junk Art": [],
   "Just One": [
     "https://boardgamearena.com/gamepanel?game=justone",
@@ -1145,6 +1149,7 @@
     "https://secrethitler.io",
     "https://netgames.io/games/secret-hitler"
   ],
+  "Seikatsu": ["https://boardgamearena.com/gamepanel?game=seikatsu"],
   "Sekigahara: The Unification of Japan": [
     "https://yucata.de/en/Invite/Sekigahara"
   ],
@@ -1517,7 +1522,7 @@
   "Villagers": ["https://yucata.de/en/Invite/Villagers"],
   "Vinci": ["https://yucata.de/en/Invite/Vinci"],
   "Vindication": [],
-  "Vinhos Deluxe Edition": ["https://tabletopia.com/games/vinhos-deluxe"],
+  "Vinhos: Deluxe Edition": ["https://tabletopia.com/games/vinhos-deluxe"],
   "Vinhos": [],
   "Viscounts of the West Kingdom": [
     "https://tabletopia.com/games/viscounts-of-the-west-kingdom",
