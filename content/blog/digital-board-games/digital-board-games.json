@@ -141,6 +141,7 @@
   "Backgammon": ["https://boardgamearena.com/gamepanel?game=backgammon"],
   "Balloon Cup": ["https://yucata.de/en/Invite/BalloonCup"],
   "Barrage": [
+    "https://boardgamearena.com/gamepanel?game=barrage",
     "https://tabletopia.com/games/barrage_ks",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=1676875832"
   ],
@@ -300,6 +301,7 @@
     "https://boardgamearena.com/gamepanel?game=citadels",
     "https://citadelsgame.herokuapp.com"
   ],
+  "Citrus": ["https://yucata.de/en/Invite/Citrus"],
   "City of the Big Shoulders": [
     "https://boardgamearena.com/gamepanel?game=cityofthebigshoulders"
   ],
@@ -660,7 +662,10 @@
     "https://apps.apple.com/us/app/istanbul-digital-edition/id1296756606",
     "https://store.steampowered.com/app/943410/Istanbul_Digital_Edition"
   ],
-  "It's a Wonderful World": ["https://game-park.com/"],
+  "It's a Wonderful World": [
+    "https://boardgamearena.com/gamepanel?game=itsawonderfulworld",
+    "https://game-park.com"
+  ],
   "Iwari": ["https://boardgamearena.com/gamepanel?game=iwari"],
   "Jaipur": [
     "https://boardgamearena.com/gamepanel?game=jaipur",
@@ -668,7 +673,10 @@
     "https://apps.apple.com/us/app/jaipur-the-board-game/id1193262249"
   ],
   "Junk Art": [],
-  "Just One": ["https://justone.duckdns.org"],
+  "Just One": [
+    "https://boardgamearena.com/gamepanel?game=justone",
+    "https://justone.duckdns.org"
+  ],
   "K2": [
     "https://boardgamearena.com/gamepanel?game=k2",
     "https://tabletopia.com/games/k2"
@@ -887,6 +895,7 @@
   "No Thanks!": ["https://boardgamearena.com/gamepanel?game=nothanks"],
   "Not Alone": ["https://boardgamearena.com/gamepanel?game=notalone"],
   "Notre Dame": [],
+  "Nova Luna": ["https://boardgamearena.com/gamepanel?game=novaluna"],
   "Nusfjord": [],
   "Oath: Chronicles of Empire and Exile": [],
   "Obsession": [],
@@ -1545,6 +1554,7 @@
   ],
   "Western Legends": [],
   "Wingspan": [
+    "https://boardgamearena.com/gamepanel?game=wingspan",
     "https://tabletopia.com/games/wingspan",
     "https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan",
     "https://play.google.com/store/apps/details?id=com.MonsterCouch.Wingspan",
