@@ -49,11 +49,11 @@ const Game: React.FC<GameProps> = ({
         'https://bgg-games-ranks-zinovik.vercel.app/api/get-games?amount=2000&load',
       );
 
-      if (!response.data) {
+      if (!response) {
         throw new Error(ERROR_UPDATING_LABEL);
       }
 
-      setBggGames(response.data);
+      setBggGames(response);
       setTemporaryLabel(UPDATED_LABEL);
     } catch (error) {
       setTemporaryLabel(error.message);
