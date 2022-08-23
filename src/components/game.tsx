@@ -46,7 +46,7 @@ const Game: React.FC<GameProps> = ({
 
     try {
       const { data: response } = await axios.get(
-        'https://bgg-games-ranks-zinovik.vercel.app/api/get-games?amount=2000&load',
+        'https://bgg-games-ranks.vercel.app/api/get-games?amount=2000&load',
       );
 
       if (!response) {
