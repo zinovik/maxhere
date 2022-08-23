@@ -1,9 +1,9 @@
 export interface BggGames {
   date: string;
   games: Array<{
-    rank: string;
+    rank: number;
     name: string;
     year: string;
-    link: string;
+    id: string;
   }>;
 }

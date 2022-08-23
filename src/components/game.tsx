@@ -45,7 +45,9 @@ const Game: React.FC<GameProps> = ({
     setButtonLabel(UPDATING_LABEL);
 
     try {
-      const { data: response } = await axios.get('/.netlify/functions/bgg');
+      const { data: response } = await axios.get(
+        'https://bgg-games-ranks-zinovik.vercel.app/api/get-games?amount=2000&load',
+      );
 
       if (!response.data) {
         throw new Error(ERROR_UPDATING_LABEL);
@@ -84,7 +86,7 @@ const Game: React.FC<GameProps> = ({
     </>
   ) : (
     <a
-      href={`https://boardgamegeek.com/boardgame/${game.link}`}
+      href={`https://boardgamegeek.com/boardgame/${game.id}`}
       target="_blank"
     >
       {!isSkipRank && `${game.rank}. `}
