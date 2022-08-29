@@ -1,27 +1,6 @@
 [build]
   Command = "npm run build"
   Publish = "public"
-[[redirects]]
-  from = "https://maxhere.netlify.app/digital-board-games"
-  to = "https://zinovik.github.io/digital-board-games"
-[[redirects]]
-  from = "https://maxhere.netlify.app/bgg-top-100-telegram-channel-with-the-bot"
-  to = "https://github.com/zinovik/bgg-top100-bot#agenda"
-[[redirects]]
-  from = "https://maxhere.netlify.app/unguja-zanzibar-tanzania"
-  to = "https://zinovik.github.io/gallery/#/zanzibar"
-[[redirects]]
-  from = "https://maxhere.netlify.app/from-brest-to-naliboki-forest-and-back"
-  to = "https://zinovik.github.io/gallery/#/naliboki"
-[[redirects]]
-  from = "https://maxhere.netlify.app/gorgeous-and-tasty-sakartvelo-georgia"
-  to = "https://zinovik.github.io/gallery/#/sakartvelo"
-[[redirects]]
-  from = "https://maxhere.netlify.app/zalessie-owl-house-in-spring-and-autumn"
-  to = "https://zinovik.github.io/gallery/#/zalessie"
-[[redirects]]
-  from = "https://maxhere.netlify.app/all-around-sri-lanka"
-  to = "https://zinovik.github.io/gallery/#/sri-lanka"
 [[headers]]
   for = "/*.html"
     [headers.values]
