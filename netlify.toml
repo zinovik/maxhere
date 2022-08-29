@@ -44,3 +44,24 @@
       public
       max-age=31536000,
       immutable'''
+[[redirects]]
+  from = "/digital-board-games"
+  to = "https://zinovik.github.io/digital-board-games"
+[[redirects]]
+  from = "/bgg-top-100-telegram-channel-with-the-bot"
+  to = "https://github.com/zinovik/bgg-top100-bot#agenda"
+[[redirects]]
+  from = "/unguja-zanzibar-tanzania"
+  to = "https://zinovik.github.io/gallery/#/zanzibar"
+[[redirects]]
+  from = "/from-brest-to-naliboki-forest-and-back"
+  to = "https://zinovik.github.io/gallery/#/naliboki"
+[[redirects]]
+  from = "/gorgeous-and-tasty-sakartvelo-georgia"
+  to = "https://zinovik.github.io/gallery/#/sakartvelo"
+[[redirects]]
+  from = "/zalessie-owl-house-in-spring-and-autumn"
+  to = "https://zinovik.github.io/gallery/#/zalessie"
+[[redirects]]
+  from = "/all-around-sri-lanka"
+  to = "https://zinovik.github.io/gallery/#/sri-lanka"
