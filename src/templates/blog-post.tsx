@@ -1,4 +1,5 @@
-import React, { useState, createContext } from 'react';
+import React, { useState, createContext, useEffect } from 'react';
+import axios from 'axios';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Img from 'gatsby-image';
@@ -15,7 +16,6 @@ import MediaDescription from '../components/media-description';
 
 import { rhythm } from '../theme/typographies';
 
-import bgg from '../../content/bgg.json';
 import { BggGames } from '../types/BggGames';
 
 interface Context {
@@ -39,8 +39,10 @@ interface BlogPostTemplateProps {
   };
 }
 
+const EMPTY_BGG: BggGames = { date: '', games: [] };
+
 export const BggGamesContext = createContext({
-  bggGames: bgg as BggGames,
+  bggGames: EMPTY_BGG,
   setBggGames: (bgg: BggGames) => null,
 });
 
@@ -53,7 +55,7 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
     return null;
   }
 
-  const [bggGames, setBggGames] = useState(bgg);
+  const [bggGames, setBggGames] = useState(EMPTY_BGG);
 
   const siteTitle = data.site?.siteMetadata?.title ?? '';
   const allCategories = data.allMdx.group;

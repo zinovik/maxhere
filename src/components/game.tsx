@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useState, useContext } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { BggGamesContext } from '../templates/blog-post';
 
 type GameProps = {
@@ -15,6 +15,9 @@ const UPDATING_LABEL: string = 'updating...';
 const ERROR_UPDATING_LABEL: string = 'error updating!';
 const UPDATED_LABEL: string = 'updated!';
 
+const BGG_GAMES_RANKS =
+  'https://bgg-games-ranks.vercel.app/api/get-games?amount=2000';
+
 const Game: React.FC<GameProps> = ({
   isDateOnly,
   gameName,
@@ -26,6 +29,10 @@ const Game: React.FC<GameProps> = ({
   const [buttonLabel, setButtonLabel] = useState(DEFAULT_LABEL);
 
   const { bggGames, setBggGames } = useContext(BggGamesContext);
+
+  useEffect(() => {
+    axios.get(BGG_GAMES_RANKS).then(({ data }) => setBggGames(data));
+  }, []);
 
   const setTemporaryLabel = (label: string) => {
     setButtonLabel(label);
@@ -45,9 +52,7 @@ const Game: React.FC<GameProps> = ({
     setButtonLabel(UPDATING_LABEL);
 
     try {
-      const { data: response } = await axios.get(
-        'https://bgg-games-ranks.vercel.app/api/get-games?amount=2000&load',
-      );
+      const { data: response } = await axios.get(`${BGG_GAMES_RANKS}&load`);
 
       if (!response) {
         throw new Error(ERROR_UPDATING_LABEL);
@@ -85,10 +90,7 @@ const Game: React.FC<GameProps> = ({
       {game.rank}. {game.name} ({game.year})
     </>
   ) : (
-    <a
-      href={`https://boardgamegeek.com/boardgame/${game.id}`}
-      target="_blank"
-    >
+    <a href={`https://boardgamegeek.com/boardgame/${game.id}`} target="_blank">
       {!isSkipRank && `${game.rank}. `}
       {game.name}
       {!isSkipYear && ` (${game.year})`}
