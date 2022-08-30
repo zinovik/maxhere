@@ -1,6 +1,34 @@
 [build]
   Command = "npm run build"
   Publish = "public"
+[[redirects]]
+  from = "/digital-board-games"
+  to = "https://zinovik.github.io/digital-board-games"
+  force = true
+[[redirects]]
+  from = "/bgg-top-100-telegram-channel-with-the-bot"
+  to = "https://github.com/zinovik/bgg-top100-bot#agenda"
+  force = true
+[[redirects]]
+  from = "/unguja-zanzibar-tanzania"
+  to = "https://zinovik.github.io/gallery/#/zanzibar"
+  force = true
+[[redirects]]
+  from = "/from-brest-to-naliboki-forest-and-back"
+  to = "https://zinovik.github.io/gallery/#/naliboki"
+  force = true
+[[redirects]]
+  from = "/gorgeous-and-tasty-sakartvelo-georgia"
+  to = "https://zinovik.github.io/gallery/#/sakartvelo"
+  force = true
+[[redirects]]
+  from = "/zalessie-owl-house-in-spring-and-autumn"
+  to = "https://zinovik.github.io/gallery/#/zalessie"
+  force = true
+[[redirects]]
+  from = "/all-around-sri-lanka"
+  to = "https://zinovik.github.io/gallery/#/sri-lanka"
+  force = true
 [[headers]]
   for = "/*.html"
     [headers.values]
