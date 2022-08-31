@@ -1,5 +1,4 @@
-import React, { useState, createContext, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState, createContext } from 'react';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Img from 'gatsby-image';
@@ -11,7 +10,6 @@ import LinksList from '../components/links-list';
 import BackToTop from '../components/back-to-top';
 import Date from '../components/date';
 import { Comments, CommentsCount } from '../components/disqus';
-// import ParallaxImage from '../components/parallax-image';
 import MediaDescription from '../components/media-description';
 
 import { rhythm } from '../theme/typographies';
@@ -84,9 +82,6 @@ const BlogPostTemplate: React.FC<BlogPostTemplateProps> = ({
         <article>
           <header>
             <Date date={frontmatter.date} />
-            {/* <ParallaxImage
-            imageSrc={frontmatter?.featuredImage?.childImageSharp?.fluid?.src}
-          /> */}
             <Img fluid={frontmatter?.featuredImage?.childImageSharp?.fluid} />
             <MediaDescription description={frontmatter.imageDescription} />
             <h1

@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-
 interface Context {
   category: string;
 }
