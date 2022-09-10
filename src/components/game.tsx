@@ -15,7 +15,9 @@ const UPDATING_LABEL: string = 'updating...';
 const ERROR_UPDATING_LABEL: string = 'error updating!';
 const UPDATED_LABEL: string = 'updated!';
 
-const BGG_GAMES_RANKS =
+const BGG_GAMES_RANKS_STATIC =
+  'https://raw.githubusercontent.com/zinovik/bgg-games-ranks-data/main/bgg-games-ranks.json';
+const BGG_GAMES_RANKS_FUNCTION =
   'https://bgg-games-ranks.vercel.app/api/get-games?amount=2000';
 
 const Game: React.FC<GameProps> = ({
@@ -31,7 +33,7 @@ const Game: React.FC<GameProps> = ({
   const { bggGames, setBggGames } = useContext(BggGamesContext);
 
   useEffect(() => {
-    axios.get(BGG_GAMES_RANKS).then(({ data }) => setBggGames(data));
+    axios.get(BGG_GAMES_RANKS_STATIC).then(({ data }) => setBggGames(data));
   }, []);
 
   const setTemporaryLabel = (label: string) => {
@@ -52,7 +54,7 @@ const Game: React.FC<GameProps> = ({
     setButtonLabel(UPDATING_LABEL);
 
     try {
-      const { data: response } = await axios.get(`${BGG_GAMES_RANKS}&load`);
+      const { data: response } = await axios.get(BGG_GAMES_RANKS_FUNCTION);
 
       if (!response) {
         throw new Error(ERROR_UPDATING_LABEL);
