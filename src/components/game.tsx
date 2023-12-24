@@ -11,7 +11,7 @@ type GameProps = {
 };
 
 const BGG_GAMES_RANKS_STATIC =
-  'https://raw.githubusercontent.com/zinovik/bgg-games-ranks-data/main/bgg-games-ranks.json';
+  'https://storage.googleapis.com/boardgamegeek/top1000.json';
 
 const Game: React.FC<GameProps> = ({
   isDateOnly,
